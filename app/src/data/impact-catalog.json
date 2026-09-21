@@ -1,0 +1,633 @@
+{
+  "artifactId": "626a6a9f3152",
+  "labelKind": "synthetic_scenario",
+  "bbox": [
+    2.3,
+    49.4,
+    7.3,
+    53.7
+  ],
+  "countries": [
+    {
+      "id": "LU",
+      "bbox": [
+        5.7,
+        49.4,
+        6.55,
+        50.2
+      ]
+    },
+    {
+      "id": "BE",
+      "bbox": [
+        2.5,
+        49.45,
+        6.4,
+        51.51
+      ]
+    },
+    {
+      "id": "NL",
+      "bbox": [
+        3.3,
+        50.75,
+        7.23,
+        53.55
+      ]
+    }
+  ],
+  "projectTypes": [
+    {
+      "id": "wind",
+      "label": "Wind turbine",
+      "radiusM": 3500,
+      "cooling": false
+    },
+    {
+      "id": "solar",
+      "label": "Solar farm",
+      "radiusM": 2500,
+      "cooling": false
+    },
+    {
+      "id": "industrial",
+      "label": "Industrial plant",
+      "radiusM": 2500,
+      "cooling": true
+    },
+    {
+      "id": "highway",
+      "label": "Highway",
+      "radiusM": 2000,
+      "cooling": false
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "radiusM": 1500,
+      "cooling": false
+    },
+    {
+      "id": "dam",
+      "label": "Dam / hydropower",
+      "radiusM": 3000,
+      "cooling": false
+    },
+    {
+      "id": "powerline",
+      "label": "Power line",
+      "radiusM": 1500,
+      "cooling": false
+    },
+    {
+      "id": "datacentre",
+      "label": "Datacentre",
+      "radiusM": 2000,
+      "cooling": true
+    }
+  ],
+  "limits": {
+    "minYear": 2026,
+    "maxYear": 2040,
+    "minScale": 0.4,
+    "maxScale": 2,
+    "maxNearby": 3
+  },
+  "metrics": {
+    "n": 6000,
+    "heads": {
+      "habitatHa": {
+        "crossingBeforeSort": 0.06555555555555556,
+        "coverage80": 0.8033333333333333,
+        "meanWidth": 18.178900768005303,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.8378378378378378,
+            "mae": 3.6681134252821876,
+            "meanWidth": 18.475928619723238,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.7222222222222222,
+            "mae": 2.506829339131142,
+            "meanWidth": 12.863370524398649,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.7739130434782608,
+            "mae": 4.3671111287375695,
+            "meanWidth": 19.09533139245602,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.7889908256880734,
+            "mae": 6.259749771571634,
+            "meanWidth": 19.18201985402078,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.8214285714285714,
+            "mae": 3.2064287507982363,
+            "meanWidth": 15.933754500860788,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.8376068376068376,
+            "mae": 5.795813306321745,
+            "meanWidth": 27.131839780905835,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.7815126050420168,
+            "mae": 3.4249350368909455,
+            "meanWidth": 16.284864749876757,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.8623853211009175,
+            "mae": 2.1971866061354013,
+            "meanWidth": 15.937895962036759,
+            "flag": false
+          }
+        },
+        "p10": {
+          "mae": 11.341311038201106,
+          "pinball": 1.244682427130376
+        },
+        "p50": {
+          "mae": 3.9407993890293804,
+          "medianMae": 2.35355982142336,
+          "pinball": 1.9703996945146902
+        },
+        "p90": {
+          "mae": 8.075770402953571,
+          "pinball": 1.1922979862448417
+        }
+      },
+      "riverTempC": {
+        "crossingBeforeSort": 0.023333333333333334,
+        "coverage80": 0.7444444444444445,
+        "meanWidth": 0.22257569406419558,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.7387387387387387,
+            "mae": 0.034895505552985866,
+            "meanWidth": 0.12850870440016202,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.7685185185185185,
+            "mae": 0.03387705002278206,
+            "meanWidth": 0.1164417079399027,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.7565217391304347,
+            "mae": 0.08707926543834295,
+            "meanWidth": 0.29905310575703076,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.7339449541284404,
+            "mae": 0.04903625514901719,
+            "meanWidth": 0.1962034058196988,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.7678571428571429,
+            "mae": 0.051029749526371064,
+            "meanWidth": 0.18596620718415519,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.6666666666666666,
+            "mae": 0.14178585033974486,
+            "meanWidth": 0.4471539014998343,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.7394957983193278,
+            "mae": 0.02969393566283141,
+            "meanWidth": 0.1078410484437363,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.7889908256880734,
+            "mae": 0.08263046348453544,
+            "meanWidth": 0.2910309098213965,
+            "flag": false
+          }
+        },
+        "p10": {
+          "mae": 0.1313188228099373,
+          "pinball": 0.014877582194738382
+        },
+        "p50": {
+          "mae": 0.06415085017321025,
+          "medianMae": 0.03756786553925388,
+          "pinball": 0.032075425086605124
+        },
+        "p90": {
+          "mae": 0.11277656574745622,
+          "pinball": 0.018139834458280157
+        }
+      },
+      "vegStress": {
+        "crossingBeforeSort": 0.03666666666666667,
+        "coverage80": 0.77,
+        "meanWidth": 1.7954764596181516,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.8018018018018018,
+            "mae": 0.17378911779758813,
+            "meanWidth": 1.4510093839330156,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.8518518518518519,
+            "mae": 0.3481961460037991,
+            "meanWidth": 1.4112993069248716,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.6695652173913044,
+            "mae": 0.8736215674672905,
+            "meanWidth": 4.182343715857425,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.8348623853211009,
+            "mae": 0.29837179170629036,
+            "meanWidth": 1.3846382110856377,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.7946428571428571,
+            "mae": 0.36826386135722255,
+            "meanWidth": 1.5357772085756356,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.7094017094017094,
+            "mae": 0.36247534596966063,
+            "meanWidth": 1.4473655925003928,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.7058823529411765,
+            "mae": 0.1666093348382163,
+            "meanWidth": 1.5120058568477321,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.8073394495412844,
+            "mae": 0.30271679641575566,
+            "meanWidth": 1.3694847331380715,
+            "flag": false
+          }
+        },
+        "p10": {
+          "mae": 1.0448412384213814,
+          "pinball": 0.11680493555184085
+        },
+        "p50": {
+          "mae": 0.36262510111576773,
+          "medianMae": 0.2367471481451584,
+          "pinball": 0.18131255055788387
+        },
+        "p90": {
+          "mae": 0.8640017786699901,
+          "pinball": 0.11942598914658412
+        }
+      },
+      "energyIdx": {
+        "crossingBeforeSort": 0.014444444444444444,
+        "coverage80": 0.7811111111111111,
+        "meanWidth": 0.6930228703653135,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.8288288288288288,
+            "mae": 0.07276817440878063,
+            "meanWidth": 0.4577491565551504,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.8240740740740741,
+            "mae": 0.08143247277852537,
+            "meanWidth": 0.37985859825381224,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.7739130434782608,
+            "mae": 0.12695963384366932,
+            "meanWidth": 0.526699591196828,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.7798165137614679,
+            "mae": 0.12140127699350281,
+            "meanWidth": 0.4811161993937747,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.7946428571428571,
+            "mae": 0.1323487953563185,
+            "meanWidth": 0.5255488395635132,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.811965811965812,
+            "mae": 0.06701461977295672,
+            "meanWidth": 0.42675492897452977,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.7815126050420168,
+            "mae": 0.09840174876540755,
+            "meanWidth": 0.36816719372936285,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.6513761467889908,
+            "mae": 0.5147634926991743,
+            "meanWidth": 2.4428429985620594,
+            "flag": true
+          }
+        },
+        "p10": {
+          "mae": 0.412290815124223,
+          "pinball": 0.04754894655631067
+        },
+        "p50": {
+          "mae": 0.15020875100489586,
+          "medianMae": 0.09147671405000923,
+          "pinball": 0.07510437550244793
+        },
+        "p90": {
+          "mae": 0.3324665530377967,
+          "pinball": 0.04762058937857379
+        }
+      },
+      "jobsFte": {
+        "crossingBeforeSort": 0.03666666666666667,
+        "coverage80": 0.7933333333333333,
+        "meanWidth": 4.926042823456756,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.7837837837837838,
+            "mae": 0.7374180186961137,
+            "meanWidth": 3.5154806579327182,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.8703703703703703,
+            "mae": 0.7603432803090814,
+            "meanWidth": 3.760863703484972,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.7391304347826086,
+            "mae": 1.8855723590552629,
+            "meanWidth": 9.66343316180087,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.7798165137614679,
+            "mae": 0.3430648083745901,
+            "meanWidth": 2.392891093455563,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.7946428571428571,
+            "mae": 0.8382586515949499,
+            "meanWidth": 4.001205769641418,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.811965811965812,
+            "mae": 1.3331771785367519,
+            "meanWidth": 7.136053022890224,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.7815126050420168,
+            "mae": 0.406839182775103,
+            "meanWidth": 2.483417698677266,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.7889908256880734,
+            "mae": 1.1878362567741687,
+            "meanWidth": 6.296761553117662,
+            "flag": false
+          }
+        },
+        "p10": {
+          "mae": 3.4241715047952686,
+          "pinball": 0.37643428170443344
+        },
+        "p50": {
+          "mae": 0.9399556370654345,
+          "medianMae": 0.522296640206803,
+          "pinball": 0.46997781853271725
+        },
+        "p90": {
+          "mae": 1.8071789262825415,
+          "pinball": 0.268823804451769
+        }
+      },
+      "tco2e": {
+        "crossingBeforeSort": 0.04666666666666667,
+        "coverage80": 0.81,
+        "meanWidth": 313.1521303314245,
+        "byType": {
+          "wind": {
+            "n": 111,
+            "coverage80": 0.7837837837837838,
+            "mae": 41.09158561697432,
+            "meanWidth": 341.86527577932554,
+            "flag": false
+          },
+          "solar": {
+            "n": 108,
+            "coverage80": 0.7777777777777778,
+            "mae": 37.99622556138044,
+            "meanWidth": 338.2328221144376,
+            "flag": false
+          },
+          "industrial": {
+            "n": 115,
+            "coverage80": 0.8173913043478261,
+            "mae": 43.00704570662529,
+            "meanWidth": 367.85737231607266,
+            "flag": false
+          },
+          "highway": {
+            "n": 109,
+            "coverage80": 0.8348623853211009,
+            "mae": 21.16935538071232,
+            "meanWidth": 153.87047751964687,
+            "flag": false
+          },
+          "housing": {
+            "n": 112,
+            "coverage80": 0.7767857142857143,
+            "mae": 22.713440981245604,
+            "meanWidth": 137.9092179966321,
+            "flag": false
+          },
+          "dam": {
+            "n": 117,
+            "coverage80": 0.8974358974358975,
+            "mae": 27.52159933834678,
+            "meanWidth": 225.23698706464194,
+            "flag": false
+          },
+          "powerline": {
+            "n": 119,
+            "coverage80": 0.8067226890756303,
+            "mae": 12.127168118193925,
+            "meanWidth": 79.33392497271329,
+            "flag": false
+          },
+          "datacentre": {
+            "n": 109,
+            "coverage80": 0.7798165137614679,
+            "mae": 90.9959752229497,
+            "meanWidth": 890.3298170503577,
+            "flag": false
+          }
+        },
+        "p10": {
+          "mae": 186.85786097006292,
+          "pinball": 20.064059947271826
+        },
+        "p50": {
+          "mae": 36.71517241636162,
+          "medianMae": 22.414196490989468,
+          "pinball": 18.35758620818081
+        },
+        "p90": {
+          "mae": 136.58096825173203,
+          "pinball": 16.39450253105584
+        }
+      }
+    },
+    "fetch": {
+      "gbif": true,
+      "roadkill": true,
+      "protected_areas": true,
+      "water": true,
+      "osm_roads": true,
+      "open_meteo": true,
+      "news": false
+    },
+    "split": {
+      "train": 4199,
+      "val": 901,
+      "test": 900
+    },
+    "cartVsBoosterMae": 10.940648094094724,
+    "cartVsBoosterR2": 0.6946343591128166,
+    "cartMae": 12.300228529138185
+  },
+  "training": {
+    "n": 6000,
+    "split": {
+      "train": 4199,
+      "val": 901,
+      "test": 900
+    },
+    "sources": {
+      "gbif": {
+        "fileRecords": 907,
+        "kept": 907,
+        "droppedPoint": 0,
+        "droppedClip": 0,
+        "droppedLicense": 0,
+        "droppedTaxon": 0,
+        "available": true
+      },
+      "roadkill": {
+        "fileRecords": 212,
+        "kept": 212,
+        "droppedPoint": 0,
+        "droppedClip": 0,
+        "droppedTaxon": 0,
+        "available": true
+      },
+      "protected_areas": {
+        "kept": 400,
+        "available": true
+      },
+      "water": {
+        "kept": 34,
+        "available": true
+      },
+      "osm_roads": {
+        "kept": 50,
+        "available": true
+      },
+      "open_meteo": {
+        "kept": 5,
+        "available": true
+      },
+      "news": {
+        "kept": 0,
+        "available": false
+      }
+    },
+    "constantFeatures": [
+      "gbif_castor_fiber",
+      "gbif_alcedo_atthis",
+      "gbif_bombina_variegata",
+      "gbif_alauda_arvensis",
+      "gbif_podiceps_cristatus",
+      "gbif_acrocephalus_scirpaceus",
+      "gbif_lutra_lutra"
+    ],
+    "missingSources": [
+      "news"
+    ]
+  }
+}

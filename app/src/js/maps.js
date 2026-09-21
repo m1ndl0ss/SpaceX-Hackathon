@@ -20,9 +20,9 @@ import {
 } from "../data/energy.js";
 import { animalHabitatCollection, animalHabitatPoints } from "../data/habitats.js";
 import { $ } from "./dom.js";
-import { state, lastRun } from "./state.js";
+import { state } from "./state.js";
 import { svgEl } from "./svg.js";
-import { metrics } from "./model.js";
+import { simulation, projectType, withinRegion } from "./model.js";
 import { addMapIcons } from "./map-icons.js";
 import { workspace } from "./store.js";
 import { isReportOpen } from "./workflow.js";
@@ -33,7 +33,6 @@ const BENELUX_CENTER = [5.2, 51.38];
 const OVERVIEW_ZOOM = 5.45;
 const SIMULATION_ZOOM = 10.35;
 const INCIDENT = [4.69, 51.805];
-const PROPOSED = [4.72, 51.797];
 const MAP_STYLE = "mapbox://styles/mapbox/satellite-streets-v12";
 
 const maps = {};
@@ -59,13 +58,10 @@ function circleFeature(center, radiusKm, properties = {}) {
 }
 
 function impactCollection() {
-  if (state.view === "baseline") return { type: "FeatureCollection", features: [] };
-  const impact = metrics(lastRun, state.view === "mitigated");
-  const radiusKm = Math.max(0.9, Math.min(7.5, 3.6 * Math.sqrt((impact.temp / 1.8 + impact.habitat / 42) / 2)));
-  return {
-    type: "FeatureCollection",
-    features: [circleFeature(PROPOSED, radiusKm, { view: state.view })],
-  };
+  const input = simulation.draft;
+  const type = projectType(input.typeId);
+  if (!type || !withinRegion(input.center)) return { type: "FeatureCollection", features: [] };
+  return { type: "FeatureCollection", features: [circleFeature(input.center, type.radiusM / 1000, { radiusM: type.radiusM })] };
 }
 
 function escapeHtml(value) {
@@ -169,15 +165,15 @@ function describeFeature(layerId, props) {
       meta: props.load ? `Load: ${props.load}` : "",
       body:
         props.load === "proposed"
-          ? "Dordrecht East data centre — the simulated load. Power, cooling water, and a new feeder are what show up in the habitat model."
+          ? "Illustrative demand overlay from the regional map. The impact assessment uses the project you select in its parameter form; this overlay is not an additional model input."
           : "Existing industrial or logistics load on the regional grid. These sites already constrain spare capacity on the 150 kV ring.",
     };
   }
   if (layerId.startsWith("impact")) {
     return {
-      kicker: "Impact zone",
-      title: "Projected pressure",
-      body: "Illustrative thermal and habitat footprint of the proposed data centre under the current simulation settings. Switch baseline / proposed / mitigated to compare.",
+      kicker: "Screening area",
+      title: "Catalog search radius",
+      body: "Catalog screening radius used to find nearby habitat and water features. This circle is not a predicted damage boundary, plume, or downstream flow model.",
     };
   }
   return null;
@@ -218,6 +214,12 @@ function bindOverlayClicks(map) {
   const layers = () => INTERACTIVE_LAYERS.filter((id) => map.getLayer(id));
 
   map.on("click", (event) => {
+    if (map === maps.simulation && simulation.picking) {
+      simulation.picking = false;
+      map.getCanvas().style.cursor = "";
+      document.dispatchEvent(new CustomEvent("lm:project-location", { detail: [event.lngLat.lng, event.lngLat.lat] }));
+      return;
+    }
     const features = map.queryRenderedFeatures(event.point, { layers: layers() });
     if (!features.length) return;
     const feature = features[0];
@@ -227,6 +229,10 @@ function bindOverlayClicks(map) {
   });
 
   map.on("mousemove", (event) => {
+    if (map === maps.simulation && simulation.picking) {
+      map.getCanvas().style.cursor = "crosshair";
+      return;
+    }
     const hit = map.queryRenderedFeatures(event.point, { layers: layers() });
     map.getCanvas().style.cursor = hit.length ? "pointer" : "";
   });
@@ -640,13 +646,15 @@ function syncOverlays(mode) {
   applyOverlayVisibility(map);
   if (mode !== "simulation" || !map.getSource("impact")) return;
 
-  const mitigated = state.view === "mitigated";
+  const mitigated = simulation.view === "mitigated";
   map.getSource("impact").setData(impactCollection());
   map.setPaintProperty("impact-fill", "fill-color", mitigated ? "#007552" : "#edb77a");
-  map.setPaintProperty("impact-fill", "fill-opacity", state.view === "baseline" ? 0 : 0.22);
+  map.setPaintProperty("impact-fill", "fill-opacity", 0.12);
   map.setPaintProperty("impact-line", "line-color", mitigated ? "#007552" : "#edb77a");
   markers.simulation.forEach((marker) => {
-    marker.getElement().hidden = state.view === "baseline";
+    marker.getElement().hidden = !withinRegion(simulation.draft.center);
+    if (withinRegion(simulation.draft.center)) marker.setLngLat(simulation.draft.center);
+    marker.getElement().querySelector("span").textContent = projectType(simulation.draft.typeId)?.label || "Project";
   });
 }
 
@@ -681,13 +689,13 @@ function attachSimulationMarker(map) {
   element.className = "lm-proposed-site";
   element.innerHTML = "<i></i><span>Proposed site</span>";
   element.addEventListener("click", (event) => event.stopPropagation());
-  const marker = new mapboxgl.Marker({ element, anchor: "bottom" }).setLngLat(PROPOSED).addTo(map);
+  const marker = new mapboxgl.Marker({ element, anchor: "bottom" }).setLngLat(simulation.draft.center).addTo(map);
   marker.setPopup(
     markerPopup({
       kicker: "Proposed development",
-      title: "Dordrecht East data centre",
+      title: "Selected project location",
       meta: "Simulation site",
-      body: "Illustrative project location on the 150 kV ring. Click habitat and grid overlays to see which species areas and feeders sit downstream of this load.",
+      body: "The project coordinates are used by the impact model. The surrounding circle shows its catalog screening radius; it does not map predicted damage.",
     }),
   );
   markers.simulation.push(marker);
@@ -719,7 +727,7 @@ function ensureMap(mode) {
   const map = new mapboxgl.Map({
     container: holder,
     style: MAP_STYLE,
-    center: mode === "simulation" ? PROPOSED : BENELUX_CENTER,
+    center: mode === "simulation" ? simulation.draft.center : BENELUX_CENTER,
     zoom: mode === "simulation" ? SIMULATION_ZOOM : OVERVIEW_ZOOM,
     attributionControl: false,
     logoPosition: "bottom-left",
@@ -783,74 +791,47 @@ export function drawMap(mode) {
   ensureMap(mode);
 }
 
+export function focusSimulation(center) {
+  if (!withinRegion(center)) return;
+  maps.simulation?.flyTo({ center, zoom: 10.35, duration: 600 });
+  syncOverlays("simulation");
+}
+
+export function pickSimulationLocation() {
+  if (!maps.simulation) return false;
+  simulation.picking = true;
+  maps.simulation.getCanvas().style.cursor = "crosshair";
+  return true;
+}
+
 export function drawChart() {
   const svg = $("#lm-habitat-chart");
   if (!svg || svg.clientWidth === 0) return;
-
   const width = svg.clientWidth;
-  const height = 111;
+  const height = 160;
   svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
-  svg.innerHTML = "";
-
-  const proposed = metrics(lastRun);
-  const mitigated = metrics(lastRun, true);
-  const years = [2026, ...[2030, 2035, 2040].filter((year) => year <= lastRun.year)];
-  const values = years.map((year) => {
-    const progress = (year - 2026) / (lastRun.year - 2026);
-    return {
-      year,
-      p: 100 - (proposed.habitat / 210) * 100 * progress,
-      m: 100 - (mitigated.habitat / 210) * 100 * progress,
-    };
-  });
-
-  const low = Math.floor(Math.min(...values.map((value) => value.p)) / 10) * 10 - 5;
-  const x = d3.scaleLinear().domain([2026, lastRun.year]).range([29, width - 8]);
-  const y = d3.scaleLinear().domain([Math.min(low, 70), 103]).range([86, 11]);
-
-  [100, Math.round((100 + Math.min(low, 70)) / 2), Math.min(low, 70)].forEach((tick) => {
-    svgEl("line", { x1: 29, y1: y(tick), x2: width - 8, y2: y(tick), stroke: "rgba(0,117,82,0.16)", "stroke-width": 0.5 }, svg);
-    const label = svgEl("text", { x: 22, y: y(tick) + 3, fill: "#5a7a70", "font-size": 11, "text-anchor": "end", "font-family": "Michroma, sans-serif" }, svg);
-    label.textContent = tick;
-  });
-
-  [2026, Math.round((2026 + lastRun.year) / 2), lastRun.year].forEach((tick) => {
-    const anchor = tick === 2026 ? "start" : tick === lastRun.year ? "end" : "middle";
-    const label = svgEl("text", { x: x(tick), y: 104, fill: "#5a7a70", "font-size": 11, "text-anchor": anchor, "font-family": "Michroma, sans-serif" }, svg);
-    label.textContent = tick;
-  });
-
-  const line = (key) =>
-    d3
-      .line()
-      .x((d) => x(d.year))
-      .y((d) => y(d[key]))
-      .curve(d3.curveMonotoneX)(values);
-
-  svgEl(
-    "path",
-    {
-      d: `${line("p")}L${x(lastRun.year)},${y(Math.min(low, 70))}L${x(2026)},${y(Math.min(low, 70))}Z`,
-      fill: "rgba(201,132,42,0.08)",
-    },
-    svg,
-  );
-  svgEl("path", { d: line("p"), fill: "none", stroke: "#c9842a", "stroke-width": 1.8 }, svg);
-  svgEl("path", { d: line("m"), fill: "none", stroke: "#007552", "stroke-width": 1.8 }, svg);
-
-  for (const key of ["p", "m"]) {
-    const last = values.at(-1);
-    svgEl(
-      "circle",
-      {
-        cx: x(last.year),
-        cy: y(last[key]),
-        r: 2.5,
-        fill: key === "p" ? "#c9842a" : "#007552",
-      },
-      svg,
-    );
+  svg.replaceChildren();
+  const run = simulation.lastRun;
+  if (!run) return;
+  const values = [{ label: "No mitigation", q: run.proposed.outcomes.habitatHa, color: "#c9842a" }];
+  if (run.mitigated) values.push({ label: "With mitigation", q: run.mitigated.outcomes.habitatHa, color: "#007552" });
+  const left = Math.min(120, width * 0.33);
+  const max = Math.max(1, ...values.map(({ q }) => q.p90)) * 1.08;
+  const x = d3.scaleLinear().domain([0, max]).range([left, width - 20]);
+  for (const tick of x.ticks(3)) {
+    svgEl("line", { x1: x(tick), y1: 12, x2: x(tick), y2: 118, stroke: "rgba(0,117,82,0.12)" }, svg);
+    const label = svgEl("text", { x: x(tick), y: 140, fill: "#5a7a70", "font-size": 10, "text-anchor": "middle" }, svg);
+    label.textContent = `${new Intl.NumberFormat(undefined, { maximumFractionDigits: 1 }).format(tick)} ha`;
   }
+  values.forEach(({ label, q, color }, index) => {
+    const y = 35 + index * 60;
+    const text = svgEl("text", { x: 0, y: y + 4, fill: "#123d32", "font-size": 11 }, svg);
+    text.textContent = label;
+    svgEl("line", { x1: x(q.p10), y1: y, x2: x(q.p90), y2: y, stroke: color, "stroke-width": 5, "stroke-linecap": "round" }, svg);
+    svgEl("circle", { cx: x(q.p50), cy: y, r: 6, fill: color, stroke: "white", "stroke-width": 2 }, svg);
+    const value = svgEl("text", { x: x(q.p50), y: y + 22, fill: color, "font-size": 11, "text-anchor": "middle" }, svg);
+    value.textContent = `${q.p50.toFixed(1)} ha`;
+  });
 }
 
 export function drawAll() {

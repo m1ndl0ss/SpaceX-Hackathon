@@ -29,7 +29,7 @@ body {
   --lm-emerald: #2f9a74;
   --lm-amber: #c9842a;
   --lm-blue: #2a8f9a;
-  --lm-radius: 16px;
+  --lm-radius: 6px;
   --lm-sans: "Montserrat", sans-serif;
   --lm-display: "Michroma", sans-serif;
   --lm-mono: "Michroma", sans-serif;
@@ -177,6 +177,16 @@ body {
   flex: none;
 }
 
+#last-mile .lm-dot-live {
+  background: var(--lm-amber);
+  animation: lm-dot-blink 1.15s ease-in-out infinite;
+}
+
+@keyframes lm-dot-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.18; }
+}
+
 #last-mile .lm-tag {
   display: inline-flex;
   align-items: center;
@@ -185,7 +195,7 @@ body {
   line-height: 1;
   padding: 7px 9px;
   border: 1px solid var(--lm-line);
-  border-radius: 6px;
+  border-radius: 4px;
   color: var(--lm-muted);
   white-space: nowrap;
   background: var(--lm-white);
@@ -198,7 +208,7 @@ body {
   gap: 7px;
   padding: 9px 13px;
   border: 1px solid rgba(0, 117, 82, 0.2);
-  border-radius: 8px;
+  border-radius: 4px;
   background: var(--lm-white);
   color: var(--lm-brand);
   font-size: 12px;
@@ -250,7 +260,7 @@ body {
 }
 
 #last-mile .lm-pill {
-  border-radius: 99px;
+  border-radius: 4px;
   padding: 5px 9px;
   background: rgba(0, 117, 82, 0.1);
   color: var(--lm-brand);
@@ -318,7 +328,7 @@ body {
   width: min(520px, 100%);
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--lm-line);
-  border-radius: 20px;
+  border-radius: 6px;
   padding: 36px 32px 32px;
   box-shadow: 0 18px 50px rgba(0, 40, 28, 0.1);
   backdrop-filter: blur(18px);
@@ -377,14 +387,11 @@ body {
 
 #last-mile .lm-gate-choice {
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr);
-  grid-template-rows: auto auto;
-  column-gap: 14px;
-  row-gap: 3px;
+  gap: 3px;
   text-align: left;
   padding: 16px 18px;
   border: 1px solid var(--lm-line);
-  border-radius: 12px;
+  border-radius: 6px;
   background: var(--lm-white);
   color: var(--lm-text);
   font-weight: 400;
@@ -446,7 +453,7 @@ body {
   margin-top: 16px;
   padding: 12px 14px;
   background: var(--lm-panel2);
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 13px;
   color: var(--lm-text);
   line-height: 1.5;
@@ -551,7 +558,7 @@ body {
   padding: 4px;
   background: var(--lm-panel2);
   border: 1px solid var(--lm-line);
-  border-radius: 14px;
+  border-radius: 6px;
 }
 
 #last-mile .lm-screen-switch button {
@@ -561,7 +568,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   padding: 10px 28px;
-  border-radius: 10px;
+  border-radius: 4px;
   min-width: 148px;
 }
 
@@ -608,6 +615,14 @@ body {
 
 #last-mile .lm-titlebar .lm-eyebrow {
   margin-bottom: 8px;
+}
+
+#last-mile #lm-overview .lm-titlebar {
+  margin-bottom: 14px;
+}
+
+#last-mile #lm-overview .lm-titlebar .lm-eyebrow {
+  margin-bottom: 0;
 }
 
 #last-mile .lm-titlebar p {
@@ -885,7 +900,7 @@ body {
   max-width: min(280px, calc(100% - 70px));
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 12px 14px;
   box-shadow: 0 8px 24px rgba(0, 40, 28, 0.18);
 }
@@ -1120,7 +1135,7 @@ body {
   place-items: center;
   background: rgba(0, 117, 82, 0.1);
   border: 1px solid rgba(0, 117, 82, 0.16);
-  border-radius: 8px;
+  border-radius: 4px;
   color: var(--lm-brand);
 }
 
@@ -1185,7 +1200,7 @@ body {
 #last-mile .lm-input-project {
   margin: 18px 0 19px;
   border: 1px solid rgba(0, 117, 82, 0.16);
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 11px;
   background: #eef7f3;
   display: flex;
@@ -1258,7 +1273,7 @@ body {
   gap: 3px;
   padding: 3px;
   border: 1px solid var(--lm-line);
-  border-radius: 7px;
+  border-radius: 4px;
   background: #eef7f3;
 }
 
@@ -1430,7 +1445,7 @@ body {
 #last-mile .lm-result {
   background: var(--lm-panel);
   border: 1px solid var(--lm-line);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 12px 10px;
   min-width: 0;
   box-shadow: 0 10px 28px rgba(0, 40, 28, 0.06);
@@ -1614,7 +1629,7 @@ body {
 #last-mile .lm-drawer {
   background: rgba(255, 255, 255, 0.98);
   border: 1px solid var(--lm-line);
-  border-radius: 14px;
+  border-radius: 6px;
   padding: 24px;
   width: 360px;
   max-width: 100%;
@@ -1688,7 +1703,7 @@ body {
   padding: 12px 18px;
   background: var(--lm-white);
   color: var(--lm-brand);
-  border-radius: 8px;
+  border-radius: 4px;
   z-index: 25;
   box-shadow: 0 4px 24px rgba(0, 40, 28, 0.2);
   font-size: 12px;
@@ -1805,6 +1820,9 @@ body {
 
   #last-mile .lm-topbar-end {
     margin-left: auto;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 8px;
   }
 
   #last-mile .lm-topbar .lm-tag {
@@ -2139,7 +2157,7 @@ body {
   background: rgba(255, 255, 255, 0.94) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23007552' d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 10px center;
   color: var(--lm-brand);
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 7px;
+  border-radius: 4px;
   font: inherit;
   font-size: 12px;
   font-weight: 600;
@@ -2167,7 +2185,7 @@ body {
   padding: 10px;
   background: rgba(255, 255, 255, 0.98);
   border: 1px solid var(--lm-line);
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 0 10px 28px rgba(0, 40, 28, 0.18);
 }
 
@@ -2221,7 +2239,7 @@ body {
   background: rgba(255, 255, 255, 0.96);
   color: var(--lm-text);
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
+  border-radius: 6px;
   padding: 12px 14px 10px;
   box-shadow: 0 10px 28px rgba(0, 40, 28, 0.2);
   font-family: var(--lm-sans);
@@ -2435,7 +2453,7 @@ body {
 #last-mile .lm-report-form textarea {
   width: 100%;
   border: 1px solid var(--lm-line);
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 10px 12px;
   background: var(--lm-white);
   color: var(--lm-text);
@@ -2556,6 +2574,200 @@ body {
   align-items: stretch;
 }
 
+#last-mile #lm-people {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 16px;
+  padding-bottom: 12px;
+}
+
+#last-mile .lm-people-head {
+  flex: none;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.72fr) minmax(0, 1.28fr) auto;
+  gap: 12px 20px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+#last-mile #lm-people .lm-titlebar {
+  margin-bottom: 0;
+  display: block;
+}
+
+#last-mile #lm-people .lm-title-actions {
+  flex: none;
+}
+
+#last-mile #lm-people h1 {
+  font-size: 24px;
+  letter-spacing: -0.6px;
+}
+
+#last-mile #lm-people .lm-titlebar .lm-eyebrow {
+  margin-bottom: 4px;
+}
+
+#last-mile #lm-people .lm-titlebar p {
+  margin-top: 4px;
+}
+
+#last-mile #lm-people .lm-stat-row {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+#last-mile #lm-people .lm-stat {
+  padding: 0 14px;
+}
+
+#last-mile #lm-people .lm-stat-title {
+  margin-bottom: 2px;
+}
+
+#last-mile #lm-people .lm-stat-num {
+  font-size: 22px;
+}
+
+#last-mile #lm-people .lm-stat-note {
+  margin-top: 2px;
+}
+
+#last-mile .lm-people-board {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1.25fr) minmax(0, 0.95fr) minmax(0, 1.1fr);
+  grid-template-areas:
+    "calls actions"
+    "calls reports"
+    "calls activity";
+  gap: 12px;
+}
+
+#last-mile .lm-people-calls { grid-area: calls; }
+#last-mile .lm-people-actions { grid-area: actions; }
+#last-mile .lm-people-reports { grid-area: reports; }
+#last-mile .lm-people-activity { grid-area: activity; }
+
+#last-mile .lm-people-board > .lm-panel {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px;
+}
+
+#last-mile .lm-people-board .lm-row,
+#last-mile .lm-people-board .lm-panel-sub,
+#last-mile .lm-people-board .lm-filter-bar,
+#last-mile .lm-people-board .lm-activity-header {
+  flex: none;
+}
+
+#last-mile .lm-people-board .lm-panel-sub {
+  margin: 4px 0 8px;
+}
+
+#last-mile .lm-people-board .lm-filter-bar {
+  margin: 0 0 6px;
+}
+
+#last-mile .lm-people-board .lm-activity-header {
+  margin-bottom: 6px;
+}
+
+#last-mile .lm-people-board .lm-list,
+#last-mile .lm-people-board #lm-people-feed {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+#last-mile #lm-people .lm-record-row {
+  padding: 10px 0;
+}
+
+#last-mile #lm-people .lm-app-footer {
+  flex: none;
+  padding-top: 10px;
+}
+
+@media (max-height: 820px) {
+  #last-mile #lm-people {
+    padding-top: 14px;
+    padding-bottom: 10px;
+  }
+
+  #last-mile #lm-people .lm-titlebar p {
+    display: none;
+  }
+
+  #last-mile #lm-people .lm-stat-note {
+    display: none;
+  }
+
+  #last-mile .lm-people-board .lm-panel-sub {
+    display: none;
+  }
+}
+
+@media (max-width: 1100px) {
+  #last-mile .lm-people-head {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px 12px;
+  }
+
+  #last-mile #lm-people .lm-titlebar {
+    grid-column: 1;
+  }
+
+  #last-mile #lm-people .lm-title-actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #last-mile #lm-people .lm-stat-row {
+    grid-column: 1 / -1;
+    padding: 8px 0;
+    border-top: 1px solid var(--lm-line);
+    border-bottom: 1px solid var(--lm-line);
+  }
+}
+
+@media (max-width: 900px) {
+  #last-mile #lm-people {
+    overflow: auto;
+  }
+
+  #last-mile .lm-people-board {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    grid-template-areas: none;
+    flex: none;
+  }
+
+  #last-mile .lm-people-calls,
+  #last-mile .lm-people-actions,
+  #last-mile .lm-people-reports,
+  #last-mile .lm-people-activity {
+    grid-area: auto;
+  }
+
+  #last-mile .lm-people-board > .lm-panel {
+    min-height: 260px;
+  }
+
+  #last-mile .lm-people-calls {
+    min-height: 380px;
+  }
+}
+
 @media (max-width: 900px) {
   #last-mile .lm-list-row {
     grid-template-columns: minmax(0, 1fr) auto;
@@ -2582,18 +2794,25 @@ body.lm-modal-open { overflow: hidden; }
 #last-mile .lm-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 8px; }
 #last-mile .lm-filter-bar input { flex: 1 1 150px; min-width: 0; }
 #last-mile .lm-filter-bar select { flex: 1 1 130px; min-width: 0; }
-#last-mile .lm-filter-bar input, #last-mile .lm-filter-bar select, #last-mile .lm-workflow-form input, #last-mile .lm-workflow-form select, #last-mile .lm-workflow-form textarea { font: inherit; font-size: 12px; border: 1px solid var(--lm-line); border-radius: 8px; padding: 11px 12px; background: #fff; color: var(--lm-text); }
+#last-mile .lm-filter-bar input, #last-mile .lm-filter-bar select, #last-mile .lm-workflow-form input, #last-mile .lm-workflow-form select, #last-mile .lm-workflow-form textarea { font: inherit; font-size: 12px; border: 1px solid var(--lm-line); border-radius: 4px; padding: 11px 12px; background: #fff; color: var(--lm-text); }
 #last-mile .lm-workflow-form { display: grid; gap: 16px; margin-top: 20px; }
 #last-mile .lm-workflow-form .lm-field { margin: 0; min-width: 0; }
 #last-mile .lm-workflow-form .lm-field-head { display: block; margin-bottom: 7px; }
 #last-mile .lm-workflow-form input, #last-mile .lm-workflow-form select, #last-mile .lm-workflow-form textarea { width: 100%; box-sizing: border-box; }
+#last-mile .lm-workflow-form input[type="file"] { padding: 8px; }
 #last-mile .lm-workflow-form textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+#last-mile .lm-photo-preview { display: grid; gap: 8px; justify-items: start; }
+#last-mile .lm-photo-preview[hidden] { display: none; }
+#last-mile .lm-photo-preview img,
+#last-mile .lm-report-photo { max-width: 100%; max-height: 280px; object-fit: contain; border: 1px solid var(--lm-line); border-radius: 4px; background: var(--lm-panel2); }
+#last-mile .lm-report-photo-wrap { margin: 0 0 16px; }
+#last-mile .lm-photo-preview .lm-link { background: none; border: 0; padding: 0; font: inherit; cursor: pointer; }
 #last-mile .lm-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 #last-mile .lm-drawer .lm-workflow-form .lm-button { margin-top: 0; }
 #last-mile .lm-drawer .lm-list-row .lm-button { width: auto; margin-top: 0; }
-#last-mile .lm-form-error { color: #a52c22; background: #fff2ec; padding: 12px; border-radius: 8px; font-size: 12px; line-height: 1.6; }
+#last-mile .lm-form-error { color: #a52c22; background: #fff2ec; padding: 12px; border-radius: 4px; font-size: 12px; line-height: 1.6; }
 #last-mile .lm-storage-error { margin: 16px 24px; }
-#last-mile .lm-sync-note { background: #fff7e9; padding: 10px; border-radius: 8px; }
+#last-mile .lm-sync-note { background: #fff7e9; padding: 10px; border-radius: 4px; }
 #last-mile .lm-preserve-lines { white-space: pre-wrap; overflow-wrap: anywhere; }
 #last-mile .lm-detail-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 #last-mile .lm-detail-meta { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 10px; margin: 22px 0; font-size: 12px; line-height: 1.6; }
@@ -2602,7 +2821,7 @@ body.lm-modal-open { overflow: hidden; }
 #last-mile .lm-detail-heading { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--lm-line); font-size: 14px; }
 #last-mile .lm-timeline-item { margin-top: 14px; padding-left: 12px; border-left: 2px solid var(--lm-green); }
 #last-mile .lm-timeline-item p { margin: 6px 0 0; }
-#last-mile .lm-capacity { padding: 16px; border-radius: 10px; background: var(--lm-panel2); margin: 20px 0; font-size: 12px; }
+#last-mile .lm-capacity { padding: 16px; border-radius: 4px; background: var(--lm-panel2); margin: 20px 0; font-size: 12px; }
 #last-mile .lm-capacity progress { width: 100%; height: 8px; accent-color: var(--lm-green); margin-top: 12px; }
 #last-mile .lm-urgency { color: #a35d16; }
 #last-mile button:disabled { cursor: not-allowed; opacity: 0.55; }
@@ -2618,4 +2837,52 @@ body.lm-modal-open { overflow: hidden; }
   #last-mile .lm-record-row { grid-template-columns: minmax(0, 1fr) auto; }
   #last-mile .lm-record-row > .lm-button { grid-column: 1 / -1; justify-self: start; }
   #last-mile .lm-feed-time { font-size: 9px; }
+}
+
+/* Project assessment inputs and model evidence. */
+#last-mile .lm-assessment-form { display: flex; flex-direction: column; gap: 15px; }
+#last-mile .lm-assessment-form .lm-field { display: block; margin: 0; min-width: 0; }
+#last-mile .lm-assessment-form input:not([type="checkbox"]):not([type="range"]),
+#last-mile .lm-assessment-form select, #last-mile #lm-saved-scenarios { width: 100%; min-width: 0; border: 1px solid var(--lm-line); border-radius: 4px; padding: 10px; font: inherit; font-size: 12px; background: #fff; color: var(--lm-text); }
+#last-mile #lm-saved-scenarios { max-width: 230px; }
+#last-mile .lm-assessment-form .lm-form-grid { gap: 8px; }
+#last-mile .lm-field-help { font-size: 11px; color: var(--lm-muted); line-height: 1.65; }
+#last-mile .lm-assessment-form .lm-mitigation { margin: 0; }
+#last-mile .lm-assessment-form .lm-field-head { font-size: 12px; margin-bottom: 7px; }
+#last-mile .lm-assessment-form .lm-toggle { font-size: 12px; }
+#last-mile .lm-nearby summary, #last-mile .lm-model-evidence summary { cursor: pointer; font-weight: 600; }
+#last-mile .lm-nearby > p { margin: 10px 0; }
+#last-mile .lm-nearby-row { padding: 12px 0; border-bottom: 1px solid var(--lm-line); display: grid; gap: 10px; }
+#last-mile .lm-nearby-row label { font-size: 11px; }
+#last-mile .lm-nearby-row .lm-button { justify-self: start; }
+#last-mile #lm-add-nearby { margin-top: 10px; }
+#last-mile .lm-impact-results { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+#last-mile .lm-impact-results .lm-result { min-width: 0; }
+#last-mile .lm-impact-results .lm-result-val { font-size: 26px; overflow-wrap: anywhere; }
+#last-mile .lm-impact-results .lm-result-val small { font-size: 12px; }
+#last-mile .lm-impact-results .lm-result-range { line-height: 1.6; }
+#last-mile .lm-simulation-sites, #last-mile .lm-model-evidence { margin-top: 18px; padding: 20px; }
+#last-mile .lm-model-evidence p, #last-mile .lm-model-evidence li { font-size: 12px; line-height: 1.7; margin-top: 10px; }
+#last-mile .lm-model-evidence h3 { margin-top: 20px; }
+#last-mile .lm-model-evidence table { width: 100%; border-collapse: collapse; font-size: 11px; margin-top: 14px; }
+#last-mile .lm-model-evidence th, #last-mile .lm-model-evidence td { text-align: left; padding: 9px 5px; border-bottom: 1px solid var(--lm-line); }
+#last-mile .lm-model-warnings p { background: #fff7e9; border-radius: 4px; padding: 12px; margin-top: 10px; font-size: 12px; line-height: 1.6; }
+#last-mile .lm-model-scope { margin: 16px 0; align-items: flex-start; }
+#last-mile .lm-model-scope span { line-height: 1.7; }
+#last-mile #lm-stale-results { padding: 12px; margin: 12px 0; font-size: 12px; }
+#last-mile #lm-no-results { padding: 25px; }
+#last-mile #lm-run-summary { font-size: 12px; margin-top: 6px; line-height: 1.65; }
+#last-mile #lm-simulation .lm-result-head { align-items: start; gap: 16px; flex-wrap: wrap; }
+#last-mile #lm-simulation .lm-chart { height: 160px; }
+#last-mile #lm-simulation .lm-map-info { max-width: min(450px, calc(100% - 32px)); }
+#last-mile #lm-simulation .lm-map-info p { max-width: 100%; }
+#last-mile #lm-simulation .lm-map-attribution a { color: inherit; text-decoration: none; }
+@media (max-width: 1000px) {
+  #last-mile .lm-impact-results { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  #last-mile .lm-impact-results .lm-result-val { font-size: 21px; }
+  #last-mile #lm-simulation .lm-result-head .lm-segment { max-width: 100%; }
+  #last-mile #lm-simulation .lm-segment button { font-size: 10px; }
+  #last-mile .lm-assessment-form { padding: 18px; }
 }

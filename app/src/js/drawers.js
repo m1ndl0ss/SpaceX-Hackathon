@@ -7,6 +7,7 @@ import { state } from "./state.js";
 import { dispatch, workspace } from "./store.js";
 import { categories, urgencies, reportStatuses, callStatuses, canJoin, canWithdraw, isReportOpen, spacesLeft } from "./workflow.js";
 import { escapeHtml as e, formatDate, localDateTime, formError } from "./format.js";
+import { fileToReportPhoto, isReportPhoto } from "./photo.js";
 import { callLabel, callRow, empty, feedHtml, reportRow } from "./workflow-views.js";
 
 let lastTrigger;
@@ -22,6 +23,46 @@ function timeline(items) {
   return items.length ? items.map((item) => `<article class="lm-timeline-item"><div class="lm-list-name">${e(item.authorName)}</div><div class="lm-list-meta">${e(formatDate(item.createdAt))} · ${e(reportStatuses[item.status] || callStatuses[item.status])}</div>${paragraph(item.body)}</article>`).join("") : empty("No updates yet. Updates will appear here when the government responds.");
 }
 
+function photoPreview(form) {
+  return form?.querySelector(".lm-photo-preview");
+}
+
+function clearPhoto(form) {
+  const input = form.querySelector("[data-photo-input]");
+  const stored = form.querySelector("[name=photo]");
+  const preview = photoPreview(form);
+  if (input) input.value = "";
+  if (stored) stored.value = "";
+  if (preview) {
+    preview.hidden = true;
+    preview.querySelector("img")?.removeAttribute("src");
+  }
+}
+
+async function handlePhotoInput(input) {
+  const form = input.closest("form");
+  const stored = form?.querySelector("[name=photo]");
+  const preview = photoPreview(form);
+  const image = preview?.querySelector("img");
+  const button = form?.querySelector('[type="submit"]');
+  const file = input.files?.[0];
+  if (!form || !file) return;
+  if (button) button.disabled = true;
+  try {
+    const dataUrl = await fileToReportPhoto(file);
+    if (stored) stored.value = dataUrl;
+    if (image) image.src = dataUrl;
+    if (preview) preview.hidden = false;
+    const error = form.querySelector("[data-form-error]");
+    if (error) error.hidden = true;
+  } catch (error) {
+    clearPhoto(form);
+    formError(form, error);
+  } finally {
+    if (button) button.disabled = false;
+  }
+}
+
 function reportForm() {
   return { title: "Report a violation", body: `<p>Describe what you observed. Government can review your report, reply, and organise help.</p>
     <form class="lm-workflow-form" data-workflow-form="submitReport">
@@ -30,7 +71,10 @@ function reportForm() {
       <div class="lm-form-grid">${field("Type of violation", `<select name="category">${categories.map((category) => `<option>${e(category)}</option>`).join("")}</select>`)}${field("Urgency", `<select name="urgency">${options(urgencies, "normal")}</select>`)}</div>
       ${field("When you observed it", `<input type="datetime-local" name="observedAt" value="${localDateTime()}" max="${localDateTime()}" required>`)}
       ${field("What you observed", '<textarea name="note" rows="5" maxlength="4000" placeholder="What happened, what is affected, and any useful details for the team." required></textarea>')}
-      ${field("Evidence link (optional)", '<input type="url" name="evidence" maxlength="2000" placeholder="https://…"><span class="lm-list-meta">Link to a photo, video, or supporting document.</span>')}
+      ${field("Photo (optional)", '<input type="file" data-photo-input accept="image/jpeg,image/png,image/webp"><span class="lm-list-meta">JPEG, PNG, or WebP. The photo is stored with your report for government review.</span>')}
+      <input type="hidden" name="photo" value="">
+      <div class="lm-photo-preview" hidden><img alt="Photo to attach"><button type="button" class="lm-link" data-photo-clear>Remove photo</button></div>
+      ${field("Evidence link (optional)", '<input type="url" name="evidence" maxlength="2000" placeholder="https://…"><span class="lm-list-meta">Optional link to a video or supporting document.</span>')}
       ${errorSlot}<button type="submit" class="lm-button primary">Submit violation</button>
     </form>` };
 }
@@ -58,7 +102,8 @@ function reportDetail(id) {
   return { title: report.title, body: `<div class="lm-detail-tags"><span class="lm-pill ${isReportOpen(report) ? "amber" : ""}">${e(reportStatuses[report.status])}</span><span class="lm-pill">${e(urgencies[report.urgency])} priority</span></div>
     <dl class="lm-detail-meta"><dt>Location</dt><dd>${e(report.place)}</dd><dt>Category</dt><dd>${e(report.category)}</dd><dt>Reported by</dt><dd>${e(report.who)}</dd><dt>Observed</dt><dd>${e(formatDate(report.observedAt))}</dd><dt>Submitted</dt><dd>${e(formatDate(report.createdAt))}</dd></dl>
     ${paragraph(report.note)}
-    ${report.evidence ? `<a class="lm-link" href="${e(report.evidence)}" target="_blank" rel="noopener noreferrer">View supporting evidence <i data-lucide="arrow-up-right" aria-hidden="true"></i></a>` : ""}
+    ${isReportPhoto(report.photo) ? `<figure class="lm-report-photo-wrap"><img class="lm-report-photo" src="${e(report.photo)}" alt="Photo attached to this report"></figure>` : ""}
+    ${report.evidence ? `<a class="lm-link" href="${e(report.evidence)}" target="_blank" rel="noopener noreferrer">View supporting evidence</a>` : ""}
     <h3 class="lm-detail-heading">Response history</h3>${timeline(report.responses)}
     ${linked.length ? `<h3 class="lm-detail-heading">Linked calls for help</h3>${linked.map((call) => callRow(call, state.profile.id)).join("")}` : ""}
     ${isGovernment() ? `<h3 class="lm-detail-heading">${isReportOpen(report) ? "Respond to this violation" : "Reopen this violation"}</h3>
@@ -66,7 +111,7 @@ function reportDetail(id) {
         ${field("Report status", `<select name="status">${options(statusOptions, report.status === "new" ? "reviewing" : report.status)}</select>`)}
         ${field("Response to the reporter", '<textarea name="body" rows="4" maxlength="4000" placeholder="Explain the next step, findings, or resolution. This is visible to the reporter." required></textarea>')}
         ${errorSlot}<button type="submit" class="lm-button primary">Post response</button>
-      </form>${isReportOpen(report) ? `<button type="button" class="lm-button" data-create-call-for="${e(id)}"><i data-lucide="users" aria-hidden="true"></i>Request volunteers</button>` : ""}` : ""}` };
+      </form>${isReportOpen(report) ? `<button type="button" class="lm-button" data-create-call-for="${e(id)}">Request volunteers</button>` : ""}` : ""}` };
 }
 
 function callDetail(id) {
@@ -80,7 +125,7 @@ function callDetail(id) {
     <dl class="lm-detail-meta"><dt>When</dt><dd>${e(formatDate(call.when))}</dd><dt>Meeting point</dt><dd>${e(call.place)}</dd><dt>Organised by</dt><dd>${e(call.organiser)}</dd><dt>Type of help</dt><dd>${e(helpOptions.find((item) => item.id === call.help)?.label)}</dd></dl>
     ${paragraph(call.description)}
     <div class="lm-capacity"><div class="lm-row lm-between"><strong>${call.participants.length} / ${call.capacity} volunteers</strong><span>${spacesLeft(call)} ${spacesLeft(call) === 1 ? "spot" : "spots"} left</span></div><progress value="${call.participants.length}" max="${call.capacity}" aria-label="Volunteer signups"></progress></div>
-    ${report ? `<button type="button" class="lm-link" data-open-report="${e(report.id)}">Linked violation: ${e(report.title)} <i data-lucide="arrow-up-right" aria-hidden="true"></i></button>` : ""}
+    ${report ? `<button type="button" class="lm-link" data-open-report="${e(report.id)}">Linked violation: ${e(report.title)}</button>` : ""}
     ${!isGovernment() ? joined ? (canWithdraw(call) ? `<button type="button" class="lm-button" data-withdraw-call="${e(id)}">Withdraw from action</button>` : '<p>Your signup is saved in your action history.</p>') : `<button type="button" class="lm-button primary" data-join-call="${e(id)}" ${canJoin(call) ? "" : "disabled"}>${canJoin(call) ? "Join this action" : e(callLabel(call))}</button>` : ""}
     <h3 class="lm-detail-heading">Updates for volunteers</h3>${timeline(call.updates)}
     ${isGovernment() ? `<h3 class="lm-detail-heading">Volunteer roster</h3>${roster.length ? roster.map((person) => `<div class="lm-list-row compact"><div><div class="lm-list-name">${e(person.name)}</div><div class="lm-list-meta">${e(person.place)} · ${e(helpOptions.find((item) => item.id === person.help)?.label || "Volunteer")}</div></div><span class="lm-pill">Signed up</span></div>`).join("") : empty("No volunteers have joined yet.")}
@@ -148,6 +193,11 @@ export function bindDrawers() {
     if (site) openDrawer("create-call", { site: Number(site.dataset.createCallSite) });
     const join = event.target.closest("[data-join-call]");
     const withdraw = event.target.closest("[data-withdraw-call]");
+    const photoClear = event.target.closest("[data-photo-clear]");
+    if (photoClear) {
+      event.preventDefault();
+      clearPhoto(photoClear.closest("form"));
+    }
     if (join || withdraw) {
       const button = join || withdraw;
       if (button.disabled) return;
@@ -164,7 +214,11 @@ export function bindDrawers() {
     }
   });
   $("#lm-drawer-body").addEventListener("input", () => { dirty = true; });
-  $("#lm-drawer-body").addEventListener("change", () => { dirty = true; });
+  $("#lm-drawer-body").addEventListener("change", async (event) => {
+    dirty = true;
+    const input = event.target.closest("[data-photo-input]");
+    if (input) await handlePhotoInput(input);
+  });
   $("#lm-drawer-body").addEventListener("submit", async (event) => {
     const form = event.target.closest("[data-workflow-form]");
     if (!form) return;

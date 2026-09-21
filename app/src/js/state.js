@@ -9,16 +9,8 @@ export const state = {
   },
   screen: "overview",
   site: 0,
-  year: 2035,
-  power: 80,
-  water: 1200,
-  land: 24,
-  cooling: false,
-  buffer: false,
-  view: "proposed",
   incidents: true,
   overlayTheme: "habitats",
-  dirty: false,
   overlays: {
     habitat: true,
     wind: true,
@@ -33,10 +25,3 @@ export const state = {
     incidents: true,
   },
 };
-
-export const lastRun = { ...state };
-export const savedScenarios = [];
-
-export function captureRun() {
-  Object.assign(lastRun, state);
-}

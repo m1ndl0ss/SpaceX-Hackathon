@@ -1,0 +1,2 @@
+# The supplied habitat_cart.joblib was created with this version.
+scikit-learn==1.8.0

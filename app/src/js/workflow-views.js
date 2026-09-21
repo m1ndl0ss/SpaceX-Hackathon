@@ -1,4 +1,5 @@
 import { escapeHtml as e, formatDate, timeAgo } from "./format.js";
+import { isReportPhoto } from "./photo.js";
 import { callStatuses, reportStatuses, spacesLeft, urgencies } from "./workflow.js";
 
 export const empty = (message) => `<p class="lm-empty">${e(message)}</p>`;
@@ -11,7 +12,7 @@ export function reportRow(report, compact = false) {
   return `<div class="lm-list-row lm-record-row ${compact ? "compact" : ""}">
     <div><button type="button" class="lm-record-title" data-open-report="${e(report.id)}">${e(report.title)}</button>
       <div class="lm-list-meta">${e(report.place)} · ${e(report.category)}</div>
-      <div class="lm-list-meta">${e(report.who)} · ${e(timeAgo(report.createdAt))}${report.urgency !== "normal" ? ` · <strong class="lm-urgency">${e(urgencies[report.urgency])}</strong>` : ""}</div>
+      <div class="lm-list-meta">${e(report.who)} · ${e(timeAgo(report.createdAt))}${report.urgency !== "normal" ? ` · <strong class="lm-urgency">${e(urgencies[report.urgency])}</strong>` : ""}${isReportPhoto(report.photo) ? " · Photo attached" : ""}</div>
     </div>
     <span class="lm-pill ${["new", "action_required"].includes(report.status) ? "amber" : ""}">${e(reportStatuses[report.status])}</span>
     ${compact ? "" : `<button type="button" class="lm-button" data-open-report="${e(report.id)}" aria-label="View report: ${e(report.title)}">View report</button>`}

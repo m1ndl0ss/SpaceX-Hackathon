@@ -1,0 +1,18 @@
+/* Physical project inputs and their recorded assessment values. */
+#last-mile .lm-project-dimensions { display: grid; gap: 12px; padding-top: 14px; border-top: 1px solid var(--lm-line); }
+#last-mile #lm-project-measurements { display: grid; gap: 14px; }
+#last-mile .lm-measurement-field > label { display: block; font-size: 12px; margin-bottom: 7px; }
+#last-mile .lm-measurement-control { display: flex; gap: 6px; align-items: center; }
+#last-mile .lm-measurement-control input { flex: 1; }
+#last-mile .lm-measurement-control select { width: 85px; flex: 0 0 85px; padding: 10px 6px; }
+#last-mile .lm-measurement-unit { font-size: 12px; min-width: 40px; }
+#last-mile .lm-measurement-field .lm-field-help { margin-top: 5px; }
+#last-mile .lm-input-mapping summary { cursor: pointer; font-size: 12px; font-weight: 600; }
+#last-mile .lm-input-mapping > * + * { margin-top: 10px; }
+#last-mile #lm-mapping-references > div { display: flex; justify-content: space-between; gap: 10px; font-size: 11px; line-height: 1.6; margin-top: 6px; }
+#last-mile #lm-mapping-references strong { white-space: nowrap; }
+#last-mile .lm-input-limits { background: #fff7e9; border-radius: 4px; padding: 12px; font-size: 11px; line-height: 1.65; }
+#last-mile .lm-submitted-inputs { padding: 16px 18px; margin-bottom: 14px; }
+#last-mile #lm-measurement-summary { display: flex; flex-wrap: wrap; gap: 14px 24px; margin: 10px 0; }
+#last-mile #lm-measurement-summary > div { display: grid; gap: 4px; font-size: 12px; }
+#last-mile #lm-measurement-summary span { color: var(--lm-muted); }

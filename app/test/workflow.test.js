@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { applyCommand, canJoin, government, createInitialData, spacesLeft } from '../src/js/workflow.js';
 import { createWorkflowStore, STORAGE_KEY } from '../src/js/workflow-store.js';
 import { escapeHtml } from '../src/js/format.js';
+import { PHOTO_MAX_CHARS } from '../src/js/photo.js';
 
 const now = Date.parse('2026-09-21T10:00:00Z');
 const initial = () => createInitialData(now);
@@ -65,11 +66,30 @@ test('roles protect publishing, responses, signups, and violation submission', (
 test('invalid reports do not mutate data or accept unsafe evidence', () => {
   const data = initial();
   const original = structuredClone(data);
-  for (const input of [ { title: '  ' }, { urgency: 'invalid' }, { observedAt: new Date(now + 1000).toISOString() }, { evidence: 'javascript:alert(1)' }, { evidence: 'data:text/html,<script>' }, { note: 'x'.repeat(4001) } ]) {
+  for (const input of [
+    { title: '  ' },
+    { urgency: 'invalid' },
+    { observedAt: new Date(now + 1000).toISOString() },
+    { evidence: 'javascript:alert(1)' },
+    { evidence: 'data:text/html,<script>' },
+    { photo: 'javascript:alert(1)' },
+    { photo: 'data:text/html,<script>' },
+    { photo: `data:image/png;base64,${'A'.repeat(PHOTO_MAX_CHARS)}` },
+    { note: 'x'.repeat(4001) },
+  ]) {
     assert.throws(() => submit(data, activist(data), 'submitReport', { ...reportInput, ...input }));
   }
   assert.deepEqual(data, original);
   assert.equal(escapeHtml('<img src=x onerror="alert(1)">'), '&lt;img src=x onerror=&quot;alert(1)&quot;&gt;');
+});
+
+test('submitted reports store an attached photo and omit it when none is given', () => {
+  const data = initial();
+  const photo = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg==';
+  const withPhoto = submit(data, activist(data), 'submitReport', { ...reportInput, photo });
+  assert.equal(withPhoto.result.photo, photo);
+  const without = submit(data, activist(data), 'submitReport', reportInput);
+  assert.equal(without.result.photo, '');
 });
 
 test('invalid dates, fractional capacity, and terminal report links are rejected', () => {

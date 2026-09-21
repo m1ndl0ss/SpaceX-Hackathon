@@ -1,4 +1,5 @@
 import { helpOptions, opportunities, people, regions, seedReports } from "../data/community.js";
+import { isReportPhoto } from "./photo.js";
 
 export const reportStatuses = {
   new: "Awaiting review",
@@ -80,6 +81,7 @@ function extraResolvedNotes(profiles, now) {
       category: categories[index % categories.length],
       urgency: "normal",
       evidence: "",
+      photo: "",
       authorId: author.id,
       who: author.name,
       status: "resolved",
@@ -131,6 +133,7 @@ export function createInitialData(now = Date.now()) {
     category: categories[index === 0 ? 0 : index === 1 || index === 3 ? 1 : 2],
     urgency: index === 0 ? "urgent" : index === 4 ? "high" : "normal",
     evidence: "",
+    photo: "",
     authorId: profiles.find((person) => person.name === item.who).id,
     who: item.who,
     status: statuses[index],
@@ -154,6 +157,7 @@ export function createInitialData(now = Date.now()) {
       category: categories[index % categories.length],
       urgency: "normal",
       evidence: "",
+      photo: "",
       authorId: author.id,
       who,
       status: "resolved",
@@ -209,11 +213,13 @@ export function applyCommand(source, actor, command, now = Date.now()) {
       try { url = new URL(evidence); } catch { fail("Evidence must be a valid http or https link."); }
       if (!["https:", "http:"].includes(url.protocol) || evidence.length > 2000) fail("Evidence must be a valid http or https link.");
     }
+    const photo = String(payload.photo || "").trim();
+    if (photo && !isReportPhoto(photo)) fail("The photo could not be saved. Choose a smaller JPEG, PNG, or WebP image.");
     result = {
       id: uid(), title: required(payload.title, "Report title", 140),
       place: required(payload.place, "Location", 200), note: required(payload.note, "What you observed", 4000),
       category: oneOf(payload.category, categories, "category"), urgency: oneOf(payload.urgency, Object.keys(urgencies), "urgency"),
-      observedAt: iso(observed), evidence, authorId: actor.id, who: actor.name, status: "new", createdAt: stamp, responses: [],
+      observedAt: iso(observed), evidence, photo, authorId: actor.id, who: actor.name, status: "new", createdAt: stamp, responses: [],
     };
     data.reports.unshift(result);
     activity("report", result.id, `${actor.name} reported ${result.title.toLowerCase()}`, result.place);
