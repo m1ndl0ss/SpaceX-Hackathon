@@ -4,7 +4,7 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from collectors import (
     habitats,
@@ -17,7 +17,7 @@ from collectors import (
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-OUTPUT_DIR = Path(__file__).parent.parent / 'data'
+OUTPUT_DIR = Path(__file__).resolve().parents[2] / 'data'
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Energy Overpass layers skipped to keep collect runs under rate limits.

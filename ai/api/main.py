@@ -3,7 +3,7 @@
 GIS overlays stay as files (data/*_latest.json and data/cached/).
 User-created rows live in SQLite (data/app.db), seeded from data/seed/catalog.json.
 
-Run: uvicorn api.main:app --port 8000 --reload
+Run from ai/: uvicorn api.main:app --port 8000 --reload
 
 Frontend (app/ is empty in this repo; drop this into state.js when it lands):
 
@@ -41,7 +41,7 @@ from pydantic import BaseModel
 
 from api import db
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'data'
 
 app = FastAPI(title='Benelux wildlife data API', version='0.3.0')
@@ -60,7 +60,7 @@ def startup():
 
 def _json(path: Path):
     if not path.exists():
-        raise HTTPException(404, f'missing cache {path.name} — run python run.py --collect-only')
+        raise HTTPException(404, f'missing cache {path.name} — from ai/ run python run.py --collect-only')
     return json.loads(path.read_text(encoding='utf-8'))
 
 

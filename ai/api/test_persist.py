@@ -1,8 +1,13 @@
-"""Smoke the persistence API against a throwaway SQLite file."""
+"""Smoke the persistence API against a throwaway SQLite file.
+
+Run from ai/: python api/test_persist.py
+"""
 import os
+import sys
 import tempfile
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 os.environ['APP_DB'] = str(Path(tempfile.mkdtemp()) / 'app.db')
 
 from fastapi.testclient import TestClient

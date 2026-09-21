@@ -11,3 +11,6 @@ ai/narrate/.venv/
 *.pyc
 data/app.db
 data/app.db-*
+.idea/
+.vite/
+node_modules/

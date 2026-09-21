@@ -6,7 +6,7 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-ROOT = Path(__file__).parent.parent
+ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'data'
 SEED_PATH = DATA / 'seed' / 'catalog.json'
 DB_PATH = Path(os.environ.get('APP_DB', str(DATA / 'app.db')))

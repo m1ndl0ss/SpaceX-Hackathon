@@ -1,9 +1,16 @@
-"""Collect Benelux caches. Scoring is stale and opt-in only."""
+"""Collect Benelux caches. Scoring is stale and opt-in only.
+
+Run from this folder (ai/ is the Python root):
+
+  python run.py
+  python run.py --collect-only
+  python run.py --score-only
+"""
 import argparse
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from collectors.run_collectors import main as collect
 

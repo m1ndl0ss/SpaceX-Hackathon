@@ -9,7 +9,7 @@ from pathlib import Path
 
 CELL = 0.05  # ~5 km
 WEST, SOUTH, EAST, NORTH = 13.0, 41.4, 14.5, 42.8
-DATA = Path(__file__).parent.parent / 'data'
+DATA = Path(__file__).resolve().parents[2] / 'data'
 
 WEIGHTS = {
     'occupancy': 0.35,
