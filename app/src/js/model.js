@@ -1,6 +1,9 @@
 import catalog from '../data/impact-catalog.json' with { type: 'json' };
 import { exampleMeasurements, mapMeasurements, validateMeasurements } from './project-inputs.js';
+import { demoPrediction } from './demo-impact.js';
 export { catalog };
+export const predictionMode = import.meta.env?.VITE_IMPACT_MODE === 'api' ? 'api' : 'demo';
+export const isDemoReport = (report) => report?.labelKind === 'frontend_demo';
 export const projectTypes = catalog.projectTypes;
 export const projectType = (id) => projectTypes.find((item) => item.id === id);
 export const outcomeDefinitions = [
@@ -33,12 +36,12 @@ export function withinRegion(center) {
 }
 export function validateTreatment(input) {
   if (!projectType(input.typeId)) throw new Error('Select a supported project type.');
-  if (!withinRegion(input.center)) throw new Error('Place the project within the model’s approximate Benelux training region.');
+  if (!withinRegion(input.center)) throw new Error('Place the project within the supported Benelux region.');
   if (!Number.isInteger(input.horizonYear) || input.horizonYear < catalog.limits.minYear || input.horizonYear > catalog.limits.maxYear) throw new Error('Select a year from 2026 to 2040.');
   if (!finite(input.scale) || input.scale < 0.4 || input.scale > 2) throw new Error('Project scale must be between 0.4× and 2.0×.');
   if (typeof input.cooling !== 'boolean' || typeof input.buffer !== 'boolean') throw new Error('Choose valid mitigation options.');
   if (input.cooling && !projectType(input.typeId).cooling) throw new Error('Closed-loop cooling applies to data centres and industrial plants in this workspace.');
-  if (!Array.isArray(input.nearbyTreatments) || input.nearbyTreatments.length > 3) throw new Error('Include up to three nearby projects, matching the model’s training range.');
+  if (!Array.isArray(input.nearbyTreatments) || input.nearbyTreatments.length > 3) throw new Error('Include up to three nearby projects.');
   for (const nearby of input.nearbyTreatments) {
     if (!projectType(nearby.typeId) || !withinRegion(nearby.center)) throw new Error('Each nearby project needs a supported type and valid Benelux coordinates.');
   }
@@ -59,11 +62,17 @@ export function validateReport(report, request) {
     const quantile = report.outcomes?.[key];
     if (!quantile || ![quantile.p10, quantile.p50, quantile.p90].every(finite) || quantile.p10 > quantile.p50 || quantile.p50 > quantile.p90 || (key !== 'tco2e' && quantile.p10 < 0)) throw new Error('The model returned incomplete or invalid prediction ranges. No new results have been displayed.');
   }
-  if (report.labelKind !== 'synthetic_scenario' || !Array.isArray(report.sites) || !Array.isArray(report.shapTop)) throw new Error('The model response does not match the supported impact report format.');
+  if (!['synthetic_scenario', 'frontend_demo'].includes(report.labelKind) || !Array.isArray(report.sites) || !Array.isArray(report.shapTop)) throw new Error('The result does not match the supported impact report format.');
+  if (isDemoReport(report) && (typeof report.demoVersion !== 'string' || !report.demoVersion || report.sites.length || report.shapTop.length)) throw new Error('The demo result contains invalid source information.');
   const invalidSites = report.sites.some((site) => !site || typeof site.name !== 'string' || !['habitat', 'water'].includes(site.kind) || (site.distanceM != null && (!finite(site.distanceM) || site.distanceM < 0)) || !Array.isArray(site.species) || site.species.some((species) => typeof species !== 'string'));
   const invalidDrivers = report.shapTop.some((item) => !item || typeof item.feature !== 'string' || !finite(item.value));
   if (invalidSites || invalidDrivers || (report.shapTarget && report.shapTarget !== 'habitatHa') || !report.dataFlags || Array.isArray(report.dataFlags) || typeof report.dataFlags !== 'object' || Object.values(report.dataFlags).some((value) => typeof value !== 'boolean')) throw new Error('The model returned invalid supporting evidence. No new results have been displayed.');
   return report;
+}
+export async function requestDemoPrediction(treatment, { signal } = {}) {
+  signal?.throwIfAborted();
+  const input = validateTreatment(treatment);
+  return validateReport(demoPrediction(input), input);
 }
 export async function requestPrediction(treatment, { signal, fetcher = fetch } = {}) {
   let response;
@@ -79,19 +88,21 @@ export async function requestPrediction(treatment, { signal, fetcher = fetch } =
   }
   let body;
   try { body = await response.json(); } catch { throw new Error('The model service returned an unreadable response. Please retry.'); }
+  if (body?.labelKind !== 'synthetic_scenario') throw new Error('The model service returned an unsupported result source.');
   return validateReport(body, treatment);
 }
 export async function compareTreatments(input, options = {}) {
   const { treatment, inputMode, measurements, mapping } = prepareAssessment(input);
   const proposedInput = { ...treatment, cooling: false, buffer: false };
-  const predict = options.predict || requestPrediction;
+  const predict = options.predict || (predictionMode === 'api' ? requestPrediction : requestDemoPrediction);
   const [proposed, mitigated] = await Promise.all([
     predict(proposedInput, options),
     treatment.cooling || treatment.buffer ? predict(treatment, options) : Promise.resolve(null),
   ]);
   validateReport(proposed, proposedInput);
   if (mitigated) validateReport(mitigated, treatment);
-  return { id: crypto.randomUUID(), createdAt: new Date().toISOString(), artifactId: catalog.artifactId, inputs: { ...treatment, inputMode, measurements, name: String(input.name || projectType(treatment.typeId).label).trim().slice(0, 120) }, mapping, proposed, mitigated };
+  if (mitigated && (mitigated.labelKind !== proposed.labelKind || mitigated.demoVersion !== proposed.demoVersion)) throw new Error('Both comparisons must use the same result source.');
+  return { id: crypto.randomUUID(), createdAt: new Date().toISOString(), artifactId: isDemoReport(proposed) ? proposed.demoVersion : catalog.artifactId, inputs: { ...treatment, inputMode, measurements, name: String(input.name || projectType(treatment.typeId).label).trim().slice(0, 120) }, mapping, proposed, mitigated };
 }
 export function selectedReport() {
   return simulation.lastRun?.[simulation.view] || simulation.lastRun?.proposed || null;
@@ -103,6 +114,7 @@ export function mitigationComparison(run) {
   return { difference: after - before, percent: before > 0 ? (after - before) / before * 100 : null };
 }
 export function reportWarnings(report, run = simulation.lastRun) {
+  if (isDemoReport(report)) return [];
   const warnings = [];
   for (const outcome of outcomeDefinitions) {
     const stats = catalog.metrics.heads[outcome.key]?.byType?.[report.typeId];
@@ -130,7 +142,10 @@ export function readScenarios(storage = localStorage) {
       }
       if (!run.id || !Number.isFinite(Date.parse(run.createdAt))) return false;
       validateReport(run.proposed, { ...input, cooling: false, buffer: false });
-      if (input.cooling || input.buffer) validateReport(run.mitigated, input);
+      if (input.cooling || input.buffer) {
+        validateReport(run.mitigated, input);
+        if (run.mitigated.labelKind !== run.proposed.labelKind || run.mitigated.demoVersion !== run.proposed.demoVersion) return false;
+      }
       return true;
     } catch { return false; }
   });

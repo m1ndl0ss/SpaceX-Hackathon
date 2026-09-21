@@ -6,7 +6,7 @@ import { toast } from './toast.js';
 import { state } from './state.js';
 import { drawAll, focusSimulation, pickSimulationLocation } from './maps.js';
 import { escapeHtml as e, formatDate } from './format.js';
-import { catalog, simulation, projectTypes, projectType, outcomeDefinitions, locationPresets, compareTreatments, selectedReport, mitigationComparison, reportWarnings, prepareAssessment, readScenarios, saveScenario } from './model.js';
+import { catalog, simulation, projectTypes, projectType, outcomeDefinitions, locationPresets, compareTreatments, selectedReport, mitigationComparison, reportWarnings, prepareAssessment, readScenarios, saveScenario, predictionMode, isDemoReport } from './model.js';
 import { projectFields, demoReferences, exampleMeasurements, emptyMeasurements, mapMeasurements, measurementSummary } from './project-inputs.js';
 
 let requestId = 0;
@@ -130,6 +130,14 @@ function refreshSaved() {
 export function renderResults() {
   const run = simulation.lastRun;
   const report = selectedReport();
+  const demo = report ? isDemoReport(report) : predictionMode === 'demo';
+  $('#lm-model-scope').hidden = demo;
+  $('.lm-simulation-sites').hidden = demo;
+  $('#lm-trained-model-details').hidden = demo;
+  $('#lm-demo-method').hidden = !demo;
+  $('#lm-evidence-title').textContent = demo ? 'Simulation details' : 'Model evidence and limitations';
+  $('#lm-habitat-chart').setAttribute('aria-label', demo ? 'Habitat loss comparison and scenario ranges' : 'Model habitat loss estimates and prediction ranges');
+  $('#lm-chart-caption').textContent = demo ? 'Dots: estimate · lines: scenario range · lower is better' : 'Dots: p50 estimate · lines: p10–p90 range · lower is better';
   $('#lm-save').disabled = !run || simulation.dirty || simulation.running;
   $('#lm-no-results').hidden = Boolean(run);
   $('#lm-result-content').hidden = !run;
@@ -139,19 +147,26 @@ export function renderResults() {
     button.setAttribute('aria-pressed', String(button.dataset.view === simulation.view));
   });
   if (!report) { drawAll(); return; }
-  $('#lm-results-title').textContent = `Model estimates · ${run.inputs.horizonYear}`;
+  $('#lm-results-title').textContent = `Impact estimates · ${run.inputs.horizonYear}`;
   $('#lm-run-summary').textContent = `${run.inputs.name} · ${projectType(run.inputs.typeId).label} · ${run.inputs.center.map((value) => value.toFixed(4)).join(', ')} · ${simulation.view === 'mitigated' ? 'Selected mitigation' : 'Without mitigation'}`;
   const measurements = measurementSummary(run.inputs.typeId, run.inputs.measurements);
   $('#lm-measurement-summary').innerHTML = measurements.length ? measurements.map(({ label, value, unit }) => `<div><span>${e(label)}</span><strong>${number(value, value % 1 ? 2 : 0)} ${e(unit)}</strong></div>`).join('') : '<p class="lm-field-help">This saved assessment used a model factor without physical measurements.</p>';
   $('#lm-measurement-method').textContent = run.mapping ? `Demo approximation (${run.mapping.version}): entered measurements were combined into a ${number(run.inputs.scale, 2)}× size factor. Water, land, and capacity effects are not modeled independently.${run.mapping.limited ? ` The calculated ${number(run.mapping.rawScale, 2)}× exceeded the supported range, so these results use its boundary.` : ''} These measurements describe the project before mitigation.` : `Manual model factor: ${number(run.inputs.scale, 2)}×. Recorded measurements did not influence these predictions.`;
   $('#lm-impact-results').innerHTML = outcomeDefinitions.map(({ key, label, unit, digits }) => {
     const q = report.outcomes[key];
-    return `<div class="lm-result"><div class="lm-result-icon"><span>${e(label)}</span></div><div class="lm-result-val">${number(q.p50, digits)}<small> ${e(unit)}</small></div><div class="lm-result-label">Model p50 estimate</div><div class="lm-result-range">p10–p90: ${number(q.p10, digits)} to ${number(q.p90, digits)} ${e(unit)}</div></div>`;
+    return `<div class="lm-result"><div class="lm-result-icon"><span>${e(label)}</span></div><div class="lm-result-val">${number(q.p50, digits)}<small> ${e(unit)}</small></div><div class="lm-result-label">${demo ? 'Scenario estimate' : 'Model p50 estimate'}</div><div class="lm-result-range">${demo ? 'Range' : 'p10–p90'}: ${number(q.p10, digits)} to ${number(q.p90, digits)} ${e(unit)}</div></div>`;
   }).join('');
   $('#lm-model-warnings').innerHTML = reportWarnings(report).map((warning) => `<p>${e(warning)}</p>`).join('');
   const comparison = mitigationComparison(run);
   $('#lm-mitigation-title').textContent = comparison ? (comparison.difference < 0 ? 'Lower predicted habitat loss.' : comparison.difference > 0 ? 'Higher predicted habitat loss.' : 'No change in the habitat estimate.') : 'Select options to compare.';
   $('#lm-recommendation-text').textContent = comparison ? `${Math.abs(comparison.difference).toFixed(1)} ha ${comparison.difference <= 0 ? 'less' : 'more'} predicted habitat loss${comparison.percent === null ? '' : ` (${Math.abs(comparison.percent).toFixed(0)}%)`} in the mitigation run. Both estimates use the same project type, location, scale, year, and nearby projects. Differences between medians are not a confidence interval for the mitigation effect.` : 'Choose a habitat buffer or, for industrial plants and data centres, closed-loop cooling. Run again to compare two predictions from the team’s models.';
+  if (demo) {
+    $('#lm-recommendation-text').textContent = comparison ? `${Math.abs(comparison.difference).toFixed(1)} ha ${comparison.difference <= 0 ? 'less' : 'more'} habitat loss${comparison.percent === null ? '' : ` (${Math.abs(comparison.percent).toFixed(0)}%)`} with the selected mitigation. Both scenarios use the same project inputs.` : 'Choose a habitat buffer or, for industrial plants and data centres, closed-loop cooling. Run again to compare the outcomes.';
+    $('#lm-model-version').textContent = `Demo mode · ${report.demoVersion}. Project presets are calculated in this browser.`;
+    renderIcons();
+    drawAll();
+    return;
+  }
   $('#lm-model-sites').innerHTML = report.sites.length ? report.sites.map((site) => `<div class="lm-list-row compact"><div><div class="lm-list-name">${e(site.name)}</div><div class="lm-list-meta">${e(site.kind === 'water' ? 'Water feature' : 'Habitat')}${site.species?.length ? ` · ${e(site.species.join(', '))}` : ''}</div></div><span class="lm-pill">${Number.isFinite(site.distanceM) ? `${number(site.distanceM, 0)} m` : 'Distance unavailable'}</span></div>`).join('') : '<p class="lm-empty">No nearby features were returned from the loaded data. This does not establish that the site is ecologically clear.</p>';
   $('#lm-model-version').textContent = `Local artifact reference ${run.artifactId} · ${catalog.training.n.toLocaleString()} synthetic scenarios · ${catalog.training.split.test} held-out test cases. This evaluates imitation of the synthetic recipe, not accuracy on real projects.`;
   $('#lm-model-evaluation').innerHTML = `<table><thead><tr><th>Outcome</th><th>MAE*</th><th>Range coverage*</th><th>Cases</th></tr></thead><tbody>${outcomeDefinitions.map(({ key, label, unit, digits }) => {
@@ -247,7 +262,7 @@ export function bindSimulation() {
     simulation.running = true;
     $('#lm-run').disabled = true;
     $('#lm-run span').textContent = 'Assessing…';
-    status('Running the team’s impact models…');
+    status(predictionMode === 'demo' ? 'Calculating project impacts…' : 'Running the team’s impact models…');
     renderResults();
     const timeout = setTimeout(() => activeController.abort(new Error('timeout')), 45000);
     try {
@@ -259,7 +274,7 @@ export function bindSimulation() {
       showPanel('results');
       $('#lm-assessment-view').scrollTo({ top: 0 });
       status(`Assessment ready · ${formatDate(result.createdAt)}`);
-      toast('Model assessment complete.');
+      toast('Assessment complete.');
     } catch (error) {
       if (current !== requestId) return;
       showPanel('inputs');
