@@ -3,7 +3,7 @@ from __future__ import annotations
 from fastapi.testclient import TestClient
 
 from impact_models import paths
-from impact_models.infer import load_boosters, load_cart_text
+from impact_models.infer import load_boosters, load_cart, load_cart_text
 from impact_models.serve import app as models_app
 from impact_models.train import train
 from impact_models.warehouse import clear_warehouse_cache
@@ -18,9 +18,11 @@ def test_infer_then_narrate(tmp_path, monkeypatch):
     monkeypatch.delenv("NARRATE_API_KEY", raising=False)
     clear_warehouse_cache()
     load_boosters.cache_clear()
+    load_cart.cache_clear()
     load_cart_text.cache_clear()
     train(n=280, seed=11, rounds=20)
     load_boosters.cache_clear()
+    load_cart.cache_clear()
     load_cart_text.cache_clear()
     _CACHE.clear()
 
@@ -39,6 +41,8 @@ def test_infer_then_narrate(tmp_path, monkeypatch):
     payload = maas.json()
     assert any(site["kind"] == "water" for site in payload["sites"]) or payload["outcomes"]["riverTempC"]["p50"] >= 0
     assert any(site["id"] == "maas" for site in payload["sites"])
+    assert payload.get("labelKind") == "synthetic_scenario"
+    assert "habitatHa" in (payload.get("scenarioEstimate") or {})
     narrate = TestClient(narrate_app)
     briefing = narrate.post("/narrate", json=payload)
     assert briefing.status_code == 200

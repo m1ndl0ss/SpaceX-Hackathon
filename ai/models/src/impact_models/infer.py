@@ -2,8 +2,10 @@ from __future__ import annotations
 
 from functools import lru_cache
 
+import joblib
 import lightgbm as lgb
 import numpy as np
+from sklearn.tree import DecisionTreeRegressor
 
 from impact_models.context import project_type
 from impact_models.features import (
@@ -16,12 +18,11 @@ from impact_models.features import (
     nearby_headlines,
     vectorize,
 )
-from impact_models.generate import HEADS
+from impact_models.generate import recipe_labels
 from impact_models.geo import clamp
+from impact_models.outputs import HEADS, QUANTILES, apply_api_quantiles
 from impact_models import paths
-from impact_models.schema import ImpactReport, Outcomes, Quantile, Sectors, ShapItem, Treatment
-
-QUANTILES = ("p10", "p50", "p90")
+from impact_models.schema import ImpactReport, Outcomes, Quantile, ScenarioEstimate, Sectors, ShapItem, Treatment
 
 
 class ArtifactError(FileNotFoundError):
@@ -41,6 +42,14 @@ def load_boosters() -> dict[str, lgb.Booster]:
 
 
 @lru_cache(maxsize=1)
+def load_cart() -> DecisionTreeRegressor | None:
+    path = paths.ARTIFACTS_DIR / "habitat_cart.joblib"
+    if not path.exists():
+        return None
+    return joblib.load(path)
+
+
+@lru_cache(maxsize=1)
 def load_cart_text() -> str:
     path = paths.ARTIFACTS_DIR / "habitat_cart.txt"
     if not path.exists():
@@ -49,14 +58,38 @@ def load_cart_text() -> str:
     return "\n".join(lines[:12])
 
 
-def _ordered(p10: float, p50: float, p90: float) -> Quantile:
-    lo, mid, hi = sorted((p10, p50, p90))
-    return Quantile(p10=float(lo), p50=float(mid), p90=float(hi))
+def cart_decision_path(cart: DecisionTreeRegressor, x: np.ndarray) -> str:
+    tree = cart.tree_
+    sample = np.asarray(x, dtype=float).reshape(1, -1)
+    node = 0
+    parts: list[str] = []
+    while tree.children_left[node] != tree.children_right[node]:
+        feat = int(tree.feature[node])
+        thr = float(tree.threshold[node])
+        name = FEATURE_COLUMNS[feat]
+        value = float(sample[0, feat])
+        if value <= thr:
+            parts.append(f"{name} {value:.4g} <= {thr:.4g}")
+            node = int(tree.children_left[node])
+        else:
+            parts.append(f"{name} {value:.4g} > {thr:.4g}")
+            node = int(tree.children_right[node])
+    leaf = float(tree.value[node][0, 0])
+    parts.append(f"leaf ~ {leaf:.2f} ha")
+    return " -> ".join(parts)
+
+
+def explainer_for_sample(x: np.ndarray) -> str:
+    cart = load_cart()
+    if cart is None:
+        return load_cart_text()
+    return cart_decision_path(cart, x)
 
 
 def _predict_head(boosters: dict[str, lgb.Booster], head: str, x: np.ndarray) -> Quantile:
     values = [float(boosters[f"{head}_{label}"].predict(x)[0]) for label in QUANTILES]
-    return _ordered(*values)
+    lo, mid, hi = apply_api_quantiles(head, *values)
+    return Quantile(p10=float(lo), p50=float(mid), p90=float(hi))
 
 
 def _shap_top(boosters: dict[str, lgb.Booster], x: np.ndarray, k: int = 3) -> list[ShapItem]:
@@ -117,6 +150,7 @@ def infer(treatment: Treatment) -> ImpactReport:
         sectors.society,
         sectors.noise,
     ]
+    estimate = recipe_labels(row)
     return ImpactReport(
         typeId=treatment.typeId,
         center=treatment.center,
@@ -127,8 +161,12 @@ def infer(treatment: Treatment) -> ImpactReport:
         sectors=sectors,
         sites=hit_sites(treatment.center, treatment.typeId),
         shapTop=_shap_top(boosters, x),
-        explainer=load_cart_text(),
+        explainer=explainer_for_sample(x),
         net=round(sum(sector_values) / len(sector_values), 2),
         dataFlags=data_flags(),
         newsHeadlines=nearby_headlines(),
+        scenarioEstimate=ScenarioEstimate(**{head: round(float(estimate[head]), 4) for head in HEADS}),
+        labelKind="synthetic_scenario",
+        shapTarget="habitatHa",
+        netMethod="equal_mean_of_eight_sectors",
     )

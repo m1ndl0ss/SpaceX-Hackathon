@@ -23,6 +23,7 @@ from impact_models.warehouse import (
     news_headlines,
     protected_geometries,
     road_geometries,
+    warehouse_flags,
     water_geometries,
     weather_sites,
 )
@@ -58,10 +59,16 @@ FEATURE_COLUMNS = (
         "min_road_km",
         "snow_mm",
         "precip_mm",
+        "has_gbif",
+        "has_roadkill",
+        "has_osm_roads",
+        "has_open_meteo",
     ]
     + [f"gbif_{item['id']}" for item in taxa()]
     + ["gbif_count_500m", "gbif_count_2km", "gbif_suitability", "roadkill_intensity_2km", "roadkill_count_2km"]
 )
+
+CATEGORICAL_FEATURES = ("type_idx", "country_idx")
 
 
 def outer_radius_m(type_id: str) -> float:
@@ -194,9 +201,15 @@ def feature_row(treatment: Treatment, include_observations: bool = True) -> dict
     row["min_road_km"] = _min_road_km(center)
     row.update(_weather_row(center))
 
+    flags = warehouse_flags()
+    row["has_osm_roads"] = 1.0 if flags.get("osm_roads") else 0.0
+    row["has_open_meteo"] = 1.0 if flags.get("open_meteo") else 0.0
+
     if include_observations:
         row.update(gbif_features(center))
         row.update(roadkill_features(center))
+        row["has_gbif"] = 1.0 if flags.get("gbif") else 0.0
+        row["has_roadkill"] = 1.0 if flags.get("roadkill") else 0.0
     else:
         for taxon in taxa():
             row[f"gbif_{taxon['id']}"] = 0.0
@@ -205,6 +218,8 @@ def feature_row(treatment: Treatment, include_observations: bool = True) -> dict
         row["gbif_suitability"] = 0.0
         row["roadkill_intensity_2km"] = 0.0
         row["roadkill_count_2km"] = 0.0
+        row["has_gbif"] = 0.0
+        row["has_roadkill"] = 0.0
 
     row["_water_bump"] = float(spec["waterBump"])
     row["_wildlife_prior"] = float(spec["sectors"]["wildlife"])

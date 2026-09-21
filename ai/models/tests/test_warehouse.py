@@ -15,6 +15,9 @@ def test_missing_warehouse_zeros(tmp_path, monkeypatch):
     assert row["gbif_suitability"] == 0.0
     assert row["roadkill_intensity_2km"] == 0.0
     assert row["min_road_km"] == 25.0
+    assert row["has_gbif"] == 0.0
+    assert row["has_osm_roads"] == 0.0
+    assert row["has_open_meteo"] == 0.0
 
 
 def test_warehouse_points_and_roads(tmp_path, monkeypatch):
@@ -63,6 +66,8 @@ def test_warehouse_points_and_roads(tmp_path, monkeypatch):
     flags = data_flags()
     assert flags["gbif"] is True
     assert flags["osm_roads"] is True
+    assert row["has_gbif"] == 1.0
+    assert row["has_osm_roads"] == 1.0
     clear_warehouse_cache()
 
 
@@ -167,4 +172,88 @@ def test_warehouse_clips_outside_bbox(tmp_path, monkeypatch):
     clear_warehouse_cache()
     row = feature_row(Treatment(typeId="wind", center=(5.6874, 50.8218)), include_observations=True)
     assert row["gbif_suitability"] == 0.0
+    clear_warehouse_cache()
+
+
+def test_habitats_alias_and_species_slug(tmp_path, monkeypatch):
+    raw = tmp_path / "data"
+    raw.mkdir()
+    (raw / "habitats_latest.json").write_text(
+        json.dumps(
+            [
+                {
+                    "source_id": "C001",
+                    "license": "CC0",
+                    "geometry": {"type": "Point", "coordinates": [5.6874, 50.8218]},
+                    "raw": {
+                        "species_slug": "myotis_myotis",
+                        "scientificName": "Myotis daubentonii (Kuhl, 1817)",
+                    },
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(paths, "WAREHOUSE_DIR", raw)
+    clear_warehouse_cache()
+    row = feature_row(Treatment(typeId="wind", center=(5.6874, 50.8218)), include_observations=True)
+    assert row["gbif_suitability"] > 0
+    assert row["has_gbif"] == 1.0
+    clear_warehouse_cache()
+
+
+def test_roadkill_species_slug(tmp_path, monkeypatch):
+    raw = tmp_path / "data"
+    raw.mkdir()
+    (raw / "roadkill_latest.json").write_text(
+        json.dumps(
+            [
+                {
+                    "source_id": "C006",
+                    "license": "CC_BY",
+                    "geometry": {"type": "Point", "coordinates": [5.6874, 50.8218]},
+                    "raw": {
+                        "species_slug": "meles_meles",
+                        "scientificName": "Vulpes vulpes crucigera",
+                    },
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(paths, "WAREHOUSE_DIR", raw)
+    clear_warehouse_cache()
+    row = feature_row(Treatment(typeId="highway", center=(5.6874, 50.8218)), include_observations=True)
+    assert row["roadkill_intensity_2km"] > 0
+    assert row["has_roadkill"] == 1.0
+    clear_warehouse_cache()
+
+
+def test_open_meteo_monthly_fields(tmp_path, monkeypatch):
+    raw = tmp_path / "data"
+    raw.mkdir()
+    (raw / "open_meteo_latest.json").write_text(
+        json.dumps(
+            [
+                {
+                    "source_id": "S004",
+                    "license": "CC BY 4.0",
+                    "geometry": {"type": "Point", "coordinates": [5.85, 52.15]},
+                    "raw": {
+                        "monthly": {
+                            "snowfall_sum": [1.0, 3.0],
+                            "precipitation_sum": [40.0, 80.0],
+                        }
+                    },
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(paths, "WAREHOUSE_DIR", raw)
+    clear_warehouse_cache()
+    row = feature_row(Treatment(typeId="wind", center=(5.85, 52.15)), include_observations=False)
+    assert row["snow_mm"] == 2.0
+    assert row["precip_mm"] == 60.0
+    assert row["has_open_meteo"] == 1.0
     clear_warehouse_cache()

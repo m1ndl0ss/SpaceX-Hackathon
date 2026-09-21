@@ -2,7 +2,15 @@
 
 Quantile LightGBM heads for infrastructure treatments in NL / BE / LU, plus a shallow CART explainer. A later HTTP client can `POST /infer` with a treatment and render the report.
 
-Covariates are read from `data/raw/{name}_latest.json` when present (GBIF, roadkill, protected areas, water, OSM roads, Open-Meteo). Missing files become zeros plus `dataFlags`. Warehouse polygons replace the curated habitat/water list; if those files are empty, generate and infer still run on the small curated fallback. Labels stay a synthetic treatment recipe. Do not train on cell composite scores. News titles on the report are briefing metadata only.
+Covariates are read from repo-root `data/*_latest.json` (the same files the app serves). GBIF occurrences come from `habitats_latest.json` (with `gbif_latest.json` as a fallback). `data/raw/` is used only if the collector folder is the default warehouse and a source is missing there. Missing files become zeros plus `has_*` availability features and `dataFlags`. Warehouse polygons replace the curated habitat/water list; if those files are empty, generate and infer still run on the small curated fallback.
+
+Labels stay a **synthetic treatment recipe**. `scenarioEstimate` on the report is that noise-free recipe at the same pin — not a field measurement. Do not train on cell composite scores. News titles on the report are briefing metadata only.
+
+Assumptions in the recipe:
+
+- Nearby projects (about half of training rows) add habitat, river, and energy pressure from `nearby_500m` / `nearby_2km` / `nearby_highway_2km`. Neighbor mitigations are ignored.
+- Weather (precip/snow) lowers `vegStress` and slightly lowers `riverTempC` only when `has_open_meteo` is 1. Habitat, jobs, energy, and carbon stay independent of weather.
+- Cooling lowers river temperature pressure; a riparian buffer lowers habitat / vegetation / river pressure. Numerical mitigation claims need two model runs at the same pin.
 
 ## Install
 
@@ -13,7 +21,7 @@ python -m pip install -e ".[dev]"
 
 ## Warehouse
 
-Primary path: repo-root `data/raw/*_latest.json`. Live GBIF/roadkill fetch is fallback only:
+Primary path: repo-root `data/habitats_latest.json`, `data/roadkill_latest.json`, `data/protected_areas_latest.json`, `data/water_latest.json`, `data/osm_roads_latest.json`, `data/open_meteo_latest.json`. Live GBIF/roadkill fetch is fallback only:
 
 ```bash
 impact-models-fetch
@@ -25,7 +33,9 @@ impact-models-fetch
 impact-models-train --n 6000 --rounds 120
 ```
 
-Writes boosters to `artifacts/boosters/` and `artifacts/metrics.json`.
+Writes boosters to `artifacts/boosters/`, `artifacts/metrics.json` (held-out test scores after the same quantile sort and nonnegative clamps as the API), and `artifacts/training_summary.json` (record counts, missing sources, constant features).
+
+Training samples `horizonYear` 2026–2040 and `scale` 0.4–2.0, matching the API. `type_idx` and `country_idx` are categorical. CART is fit to the habitat p50 booster and the report `explainer` is that sample's decision path.
 
 ## Serve
 

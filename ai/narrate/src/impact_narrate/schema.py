@@ -18,6 +18,15 @@ class Outcomes(BaseModel):
     tco2e: Quantile
 
 
+class ScenarioEstimate(BaseModel):
+    habitatHa: float = 0.0
+    riverTempC: float = 0.0
+    vegStress: float = 0.0
+    energyIdx: float = 0.0
+    jobsFte: float = 0.0
+    tco2e: float = 0.0
+
+
 class Sectors(BaseModel):
     wildlife: float
     landPollution: float
@@ -57,6 +66,10 @@ class ImpactReport(BaseModel):
     net: float = 0.0
     dataFlags: dict[str, bool] = Field(default_factory=dict)
     newsHeadlines: list[str] = Field(default_factory=list)
+    scenarioEstimate: ScenarioEstimate | None = None
+    labelKind: str = "synthetic_scenario"
+    shapTarget: str = "habitatHa"
+    netMethod: str = "equal_mean_of_eight_sectors"
 
 
 class Briefing(BaseModel):

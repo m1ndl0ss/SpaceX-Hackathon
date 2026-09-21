@@ -45,6 +45,10 @@ def test_template_contains_locked_numbers():
     assert "River Maas" in briefing.briefing
     assert "NL" in briefing.briefing
     assert "benelux" in briefing.briefing.lower() or "NL" in briefing.briefing
+    assert "Habitat prediction drivers" in briefing.briefing
+    assert "equal mean of the eight sector scores" in briefing.briefing
+    assert "reduced" not in briefing.briefing.lower()
+    assert "compare two model runs" in briefing.recommendation
     assert briefing.source == "template"
     assert "limburg" not in briefing.briefing.lower()
 

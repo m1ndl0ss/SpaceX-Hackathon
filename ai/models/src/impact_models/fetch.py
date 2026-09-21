@@ -11,11 +11,11 @@ def main() -> None:
     gbif_n, gbif_err = 0, None
     kill_n, kill_err = 0, None
     if flags.get("gbif"):
-        print("gbif: using data/raw warehouse, skip live fetch")
+        print("gbif: using collector warehouse, skip live fetch")
     else:
         gbif_n, gbif_err = fetch_gbif()
     if flags.get("roadkill"):
-        print("roadkill: using data/raw warehouse, skip live fetch")
+        print("roadkill: using collector warehouse, skip live fetch")
     else:
         kill_n, kill_err = fetch_roadkill()
     save_fetch_status(

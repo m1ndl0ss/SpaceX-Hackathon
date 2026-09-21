@@ -1,0 +1,141 @@
+{
+  "n": 6000,
+  "split": {
+    "train": 4199,
+    "val": 901,
+    "test": 900
+  },
+  "sources": {
+    "gbif": {
+      "fileRecords": 907,
+      "kept": 907,
+      "droppedPoint": 0,
+      "droppedClip": 0,
+      "droppedLicense": 0,
+      "droppedTaxon": 0,
+      "available": true
+    },
+    "roadkill": {
+      "fileRecords": 212,
+      "kept": 212,
+      "droppedPoint": 0,
+      "droppedClip": 0,
+      "droppedTaxon": 0,
+      "available": true
+    },
+    "protected_areas": {
+      "kept": 400,
+      "available": true
+    },
+    "water": {
+      "kept": 34,
+      "available": true
+    },
+    "osm_roads": {
+      "kept": 50,
+      "available": true
+    },
+    "open_meteo": {
+      "kept": 5,
+      "available": true
+    },
+    "news": {
+      "kept": 0,
+      "available": false
+    }
+  },
+  "missingSources": [
+    "news"
+  ],
+  "constantFeatures": [
+    "gbif_castor_fiber",
+    "gbif_alcedo_atthis",
+    "gbif_bombina_variegata",
+    "gbif_alauda_arvensis",
+    "gbif_podiceps_cristatus",
+    "gbif_acrocephalus_scirpaceus",
+    "gbif_lutra_lutra"
+  ],
+  "featureNunique": {
+    "type_idx": 8,
+    "country_idx": 3,
+    "horizon_year": 15,
+    "cooling": 2,
+    "buffer": 2,
+    "scale": 5907,
+    "nearby_500m": 4,
+    "nearby_2km": 4,
+    "nearby_highway_2km": 4,
+    "min_habitat_m": 4433,
+    "habitat_hits": 7,
+    "habitat_proximity": 1616,
+    "water_hits": 6,
+    "water_overlap": 2,
+    "min_water_m": 6000,
+    "min_road_km": 5274,
+    "snow_mm": 6,
+    "precip_mm": 6,
+    "has_gbif": 2,
+    "has_roadkill": 2,
+    "has_osm_roads": 2,
+    "has_open_meteo": 2,
+    "gbif_myotis_myotis": 18,
+    "gbif_meles_meles": 16,
+    "gbif_castor_fiber": 1,
+    "gbif_alcedo_atthis": 1,
+    "gbif_bombina_variegata": 1,
+    "gbif_alauda_arvensis": 1,
+    "gbif_podiceps_cristatus": 1,
+    "gbif_acrocephalus_scirpaceus": 1,
+    "gbif_lutra_lutra": 1,
+    "gbif_ciconia_ciconia": 31,
+    "gbif_cervus_elaphus": 2,
+    "gbif_count_500m": 5,
+    "gbif_count_2km": 15,
+    "gbif_suitability": 58,
+    "roadkill_intensity_2km": 489,
+    "roadkill_count_2km": 13
+  },
+  "typeCounts": {
+    "wind": 739,
+    "solar": 721,
+    "industrial": 769,
+    "highway": 723,
+    "housing": 746,
+    "dam": 781,
+    "powerline": 796,
+    "datacentre": 725
+  },
+  "countryCounts": {
+    "NL": 2707,
+    "BE": 2354,
+    "LU": 939
+  },
+  "horizonCounts": {
+    "2026": 402,
+    "2027": 428,
+    "2028": 425,
+    "2029": 414,
+    "2030": 358,
+    "2031": 401,
+    "2032": 417,
+    "2033": 384,
+    "2034": 411,
+    "2035": 389,
+    "2036": 395,
+    "2037": 363,
+    "2038": 443,
+    "2039": 372,
+    "2040": 398
+  },
+  "sourceWarnings": [],
+  "fetch": {
+    "gbif": true,
+    "roadkill": true,
+    "protected_areas": true,
+    "water": true,
+    "osm_roads": true,
+    "open_meteo": true,
+    "news": false
+  }
+}

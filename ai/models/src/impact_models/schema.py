@@ -37,6 +37,13 @@ class Treatment(BaseModel):
             raise ValueError("horizonYear must be between 2026 and 2040")
         return value
 
+    @field_validator("scale")
+    @classmethod
+    def scale_in_range(cls, value: float) -> float:
+        if value < 0.4 or value > 2.0:
+            raise ValueError("scale must be between 0.4 and 2.0")
+        return float(value)
+
     @field_validator("center")
     @classmethod
     def lng_lat(cls, value: tuple[float, float]) -> tuple[float, float]:
@@ -59,6 +66,15 @@ class Outcomes(BaseModel):
     energyIdx: Quantile
     jobsFte: Quantile
     tco2e: Quantile
+
+
+class ScenarioEstimate(BaseModel):
+    habitatHa: float
+    riverTempC: float
+    vegStress: float
+    energyIdx: float
+    jobsFte: float
+    tco2e: float
 
 
 class Sectors(BaseModel):
@@ -100,6 +116,10 @@ class ImpactReport(BaseModel):
     net: float
     dataFlags: dict[str, bool] = Field(default_factory=dict)
     newsHeadlines: list[str] = Field(default_factory=list)
+    scenarioEstimate: ScenarioEstimate | None = None
+    labelKind: str = "synthetic_scenario"
+    shapTarget: str = "habitatHa"
+    netMethod: str = "equal_mean_of_eight_sectors"
 
 
 class Briefing(BaseModel):

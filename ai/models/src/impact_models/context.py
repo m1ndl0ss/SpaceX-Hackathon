@@ -41,12 +41,31 @@ def countries() -> list[dict[str, Any]]:
     return load_context().get("countries") or []
 
 
+def _bbox_area(bbox: list[float]) -> float:
+    west, south, east, north = bbox
+    return max(0.0, east - west) * max(0.0, north - south)
+
+
+def _bbox_distance(lng: float, lat: float, bbox: list[float]) -> float:
+    west, south, east, north = bbox
+    if in_bbox(lng, lat, bbox):
+        return 0.0
+    dx = 0.0 if west <= lng <= east else min(abs(lng - west), abs(lng - east))
+    dy = 0.0 if south <= lat <= north else min(abs(lat - south), abs(lat - north))
+    return (dx * dx + dy * dy) ** 0.5
+
+
 def country_for_point(center: tuple[float, float]) -> str:
     lng, lat = center
-    for item in countries():
-        if in_bbox(lng, lat, item["bbox"]):
-            return item["id"]
-    return "NL"
+    boxes = countries()
+    matching = [item for item in boxes if in_bbox(lng, lat, item["bbox"])]
+    if matching:
+        matching.sort(key=lambda item: _bbox_area(item["bbox"]))
+        return str(matching[0]["id"])
+    if not boxes:
+        return "NL"
+    nearest = min(boxes, key=lambda item: _bbox_distance(lng, lat, item["bbox"]))
+    return str(nearest["id"])
 
 
 def country_index(center: tuple[float, float]) -> int:

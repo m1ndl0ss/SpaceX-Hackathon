@@ -37,8 +37,15 @@ def template_briefing(report: ImpactReport) -> Briefing:
         f"River temperature pressure is {_fmt(river.p50)} C (p10 {_fmt(river.p10)}, p90 {_fmt(river.p90)}). "
         f"Employment is {_fmt(jobs.p50)} FTE and net tCO2e/year is {_fmt(carbon.p50, 0)}. "
         f"Sites in range: {sites}. Closed-loop cooling is {cooling}; riparian buffer is {buffer}. "
-        f"Leading drivers: {shap}."
+        f"Habitat prediction drivers: {shap}. "
+        f"Net {report.net:+.2f} is the equal mean of the eight sector scores."
     )
+    estimate = report.scenarioEstimate
+    if estimate is not None:
+        briefing += (
+            f" A synthetic scenario recipe (not a field measurement) estimates "
+            f"habitat {_fmt(estimate.habitatHa)} ha and river {_fmt(estimate.riverTempC)} C at this pin."
+        )
     if news:
         briefing += f" Related headlines on file: {news}."
     notes = {
@@ -49,10 +56,8 @@ def template_briefing(report: ImpactReport) -> Briefing:
         "jobs": f"Jobs sector {report.sectors.jobs:+.1f}; {_fmt(jobs.p50)} FTE at this horizon.",
         "carbon": f"Carbon sector {report.sectors.carbon:+.1f}; {_fmt(carbon.p50, 0)} tCO2e/year.",
     }
-    if report.mitigations.get("cooling") and report.mitigations.get("buffer"):
-        rec = "Cooling and a riparian buffer are both on in this run; compare against an unmitigated treatment at the same pin."
-    elif report.sectors.waterPollution < 0 or report.sectors.wildlife < 0:
-        rec = "A riparian buffer and, where water is hit, closed-loop cooling are the first mitigations to compare."
-    else:
-        rec = "This placement is mixed to net-positive on the modelled sectors; keep the p10-p90 habitat band in the file."
+    rec = (
+        "These figures are from this single model run. "
+        "For a numerical mitigation benefit, compare two model runs at this pin with cooling or a riparian buffer on vs off."
+    )
     return Briefing(briefing=briefing, sectorNotes=notes, recommendation=rec, source="template")
