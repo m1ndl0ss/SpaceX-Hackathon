@@ -34,6 +34,8 @@ The results show the assessed physical inputs, six outcomes with p10/p50/p90 est
 
 Vite automatically starts the team's Python service on `127.0.0.1:8765` and proxies `/api/impact` in both dev and preview. Dependencies live in `app/.model-venv`; setup leaves the team sources and artifacts unchanged. If Python is not on PATH, use `npm run models:setup -- /path/to/python3.12`. Set `MODEL_PYTHON` to use a different existing runtime, or launch Vite with `IMPACT_MODEL_URL=http://host:port` to use an existing compatible service instead. These are server environment variables, not `VITE_` browser variables.
 
+On Windows, setup also detects `python` and the `py -3` launcher, and uses `.model-venv/Scripts/python.exe`. If using the repository's existing Python environment, run `npm run models:setup -- ..\.venv\Scripts\python.exe` from `app`. Restart Vite after setup. To check the service, open `http://127.0.0.1:8765/health`; a connection failure means the runtime has not started.
+
 `npm run models:sync` refreshes selectors, artifact fingerprints, and evaluation metadata from the supplied model files; it also runs before dev and build. An external service must use the matching model artifacts. For a static production deployment, run the model service separately and route `/api/impact/*` to it with the prefix removed; the static bundle cannot launch Python.
 
 **Validity:** these are models of synthetic scenario labels, not validated real-world ecological forecasts. Scale has no calibrated conversion to MW, footprint, or water demand. Carbon has no defined accounting period. Spatial screening and some uncertainty ranges have known weaknesses. See the [model review](docs/MODEL_REVIEW.md) and [290-case stored-model audit](docs/model-audit.json).

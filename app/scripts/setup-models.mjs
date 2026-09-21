@@ -1,11 +1,12 @@
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { defaultPython } from './model-service.mjs';
-const candidates = [process.argv[2], process.env.MODEL_PYTHON, 'python3.13', 'python3.12', 'python3.11', 'python3'].filter(Boolean);
-const python = candidates.find((path) => spawnSync(path, ['-c', 'import sys; sys.exit(0 if sys.version_info >= (3,11) else 1)']).status === 0);
+const candidates = [process.argv[2], process.env.MODEL_PYTHON, defaultPython, 'python3.13', 'python3.12', 'python3.11', 'python3', 'python'].filter(Boolean).map((command) => ({ command, args: [] }));
+if (process.platform === 'win32') candidates.push({ command: 'py', args: ['-3'] });
+const python = candidates.find(({ command, args }) => spawnSync(command, [...args, '-c', 'import sys; sys.exit(0 if sys.version_info >= (3,11) else 1)']).status === 0);
 if (!python) throw new Error('Python 3.11+ is required. Install it, then run npm run models:setup -- /path/to/python.');
 const venv = fileURLToPath(new URL('../.model-venv', import.meta.url));
-if (spawnSync(python, ['-m', 'venv', venv], { stdio: 'inherit' }).status !== 0) process.exit(1);
+if (python.command !== defaultPython && spawnSync(python.command, [...python.args, '-m', 'venv', venv], { stdio: 'inherit' }).status !== 0) process.exit(1);
 const project = fileURLToPath(new URL('../../ai/models/pyproject.toml', import.meta.url));
 const result = spawnSync(defaultPython, ['-c', 'import json,sys,tomllib; print(json.dumps(tomllib.load(open(sys.argv[1],"rb"))["project"]["dependencies"]))', project], { encoding: 'utf8' });
 if (result.status !== 0) throw new Error(result.stderr);

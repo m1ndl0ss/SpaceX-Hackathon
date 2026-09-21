@@ -1,9 +1,10 @@
 import { spawn } from 'node:child_process';
 import { existsSync } from 'node:fs';
+import { delimiter } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const modelSource = fileURLToPath(new URL('../../ai/models/src', import.meta.url));
-export const defaultPython = fileURLToPath(new URL('../.model-venv/bin/python', import.meta.url));
+export const defaultPython = fileURLToPath(new URL(process.platform === 'win32' ? '../.model-venv/Scripts/python.exe' : '../.model-venv/bin/python', import.meta.url));
 export const modelTarget = process.env.IMPACT_MODEL_URL || 'http://127.0.0.1:8765';
 
 export function launchModelService() {
@@ -13,7 +14,7 @@ export function launchModelService() {
     return null;
   }
   const child = spawn(python, ['-B', '-m', 'impact_models.serve', '--host', '127.0.0.1', '--port', '8765'], {
-    env: { ...process.env, PYTHONPATH: [modelSource, process.env.PYTHONPATH].filter(Boolean).join(':'), PYTHONDONTWRITEBYTECODE: '1', OMP_NUM_THREADS: '1', OPENBLAS_NUM_THREADS: '1' },
+    env: { ...process.env, PYTHONPATH: [modelSource, process.env.PYTHONPATH].filter(Boolean).join(delimiter), PYTHONDONTWRITEBYTECODE: '1', OMP_NUM_THREADS: '1', OPENBLAS_NUM_THREADS: '1' },
     stdio: ['ignore', 'inherit', 'inherit'],
   });
   child.on('error', (error) => console.error(`[impact] Model service could not start: ${error.message}. Run npm run models:setup.`));
