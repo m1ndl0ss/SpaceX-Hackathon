@@ -1,0 +1,251 @@
+{
+  "lookups": {
+    "regions": [
+      "Dordrecht",
+      "Papendrecht",
+      "Zwijndrecht",
+      "Sliedrecht",
+      "Alblasserdam",
+      "Hendrik-Ido-Ambacht",
+      "Gorinchem",
+      "Kinderdijk",
+      "Biesbosch",
+      "Rotterdam"
+    ],
+    "helpOptions": [
+      {"id": "survey", "label": "survey"},
+      {"id": "restore", "label": "restore"},
+      {"id": "report", "label": "report"},
+      {"id": "donate", "label": "donate"}
+    ]
+  },
+  "sites": [
+    {
+      "id": "biesbosch-reed",
+      "name": "Dordtse Biesbosch reedbeds",
+      "action": "Rewet and reconnect tidal reed",
+      "species": "Acrocephalus scirpaceus",
+      "note": "Reed warbler breeding down after summer drawdown.",
+      "coords": [4.695, 51.805],
+      "valueRange": [62, 88],
+      "fundingGap": 42000,
+      "budget": 82000,
+      "hectares": 820,
+      "description": "Tidal freshwater marsh on the Wantij–Merwede fork. Priority restore for beaver and reed warbler."
+    },
+    {
+      "id": "wantij-marsh",
+      "name": "Wantij tidal marsh",
+      "action": "Survey kingfisher banks",
+      "species": "Alcedo atthis",
+      "note": "Steep banks collapsing after wash from barge traffic.",
+      "coords": [4.69, 51.812],
+      "valueRange": [54, 79],
+      "fundingGap": 28000,
+      "budget": 64400,
+      "hectares": 910,
+      "description": "Urban-edge marsh inside Dordrecht. Survey and bank repair before nesting."
+    },
+    {
+      "id": "merwede-crossing",
+      "name": "Merwede floodplain crossing",
+      "action": "Open a fauna passage at N3",
+      "species": "Lutra lutra",
+      "note": "Otter and badger roadkill cluster on the N3 levee road.",
+      "coords": [4.72, 51.797],
+      "valueRange": [48, 73],
+      "fundingGap": 22000,
+      "budget": 40000,
+      "hectares": 750,
+      "description": "Floodplain strip next to the Dordrecht East data-centre plot. Crossing plus buffer planting."
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "wetlands",
+      "title": "Biesbosch wetland survey",
+      "place": "Dordtse Biesbosch",
+      "when": "Sat 09:00",
+      "need": "12 surveyors",
+      "spots": 8,
+      "help": "survey"
+    },
+    {
+      "id": "restore-reed",
+      "title": "Reed planting weekend",
+      "place": "Wantij",
+      "when": "Sun 10:00",
+      "need": "boats and waders",
+      "spots": 10,
+      "help": "restore"
+    },
+    {
+      "id": "report-n3",
+      "title": "N3 roadkill watch",
+      "place": "Merwede levee",
+      "when": "Thu evening",
+      "need": "night observers",
+      "spots": 6,
+      "help": "report"
+    },
+    {
+      "id": "donate-crossing",
+      "title": "Fauna passage fund",
+      "place": "Dordrecht East",
+      "when": "Open",
+      "need": "match funding",
+      "spots": 99,
+      "help": "donate"
+    }
+  ],
+  "partners": [
+    {
+      "id": "org-south-holland",
+      "name": "South Holland",
+      "type": "municipality",
+      "place": "Dordrecht",
+      "focus": "Floodplain restoration and municipal coordination",
+      "people": 18
+    },
+    {
+      "id": "org-natuurmonumenten",
+      "name": "Natuurmonumenten",
+      "type": "ngo",
+      "place": "Biesbosch",
+      "focus": "Reed and beaver habitat",
+      "people": 42
+    },
+    {
+      "id": "org-wur",
+      "name": "Wageningen University",
+      "type": "university",
+      "place": "Wageningen",
+      "focus": "Survey design and species monitoring",
+      "people": 24
+    },
+    {
+      "id": "org-port",
+      "name": "Port of Rotterdam",
+      "type": "company",
+      "place": "Rotterdam",
+      "focus": "Cooling-water and grid mitigation",
+      "people": 16
+    },
+    {
+      "id": "org-biesbosch-centrum",
+      "name": "Biesbosch Centrum Dordrecht",
+      "type": "ngo",
+      "place": "Dordrecht",
+      "focus": "Volunteer training and public walks",
+      "people": 20
+    }
+  ],
+  "people": [
+    {
+      "id": "u-lena",
+      "name": "Lena Vos",
+      "place": "Dordrecht",
+      "help": "survey",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "Active",
+      "hours": 18
+    },
+    {
+      "id": "u-mehdi",
+      "name": "Mehdi Karimi",
+      "place": "Zwijndrecht",
+      "help": "restore",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "Active",
+      "hours": 12
+    },
+    {
+      "id": "u-sanne",
+      "name": "Sanne de Wit",
+      "place": "Papendrecht",
+      "help": "report",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "Away",
+      "hours": 6
+    },
+    {
+      "id": "u-jonas",
+      "name": "Jonas Bekker",
+      "place": "Dordrecht",
+      "help": "survey",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "New",
+      "hours": 0
+    },
+    {
+      "id": "u-amina",
+      "name": "Amina El Idrissi",
+      "place": "Rotterdam",
+      "help": "donate",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "Active",
+      "hours": 18
+    },
+    {
+      "id": "u-pieter",
+      "name": "Pieter Lang",
+      "place": "Sliedrecht",
+      "help": "restore",
+      "org": "Independent",
+      "type": "person",
+      "role": "people",
+      "status": "Active",
+      "hours": 9
+    }
+  ],
+  "signups": [
+    {"user_id": "u-lena", "opportunity_id": "wetlands"}
+  ],
+  "reports": [
+    {
+      "id": "r-wantij-1",
+      "place": "Wantij bank",
+      "note": "Kingfisher nest hole washed out after high water.",
+      "status": "Awaiting verification",
+      "who": "Lena Vos",
+      "lng": 4.69,
+      "lat": 51.805
+    },
+    {
+      "id": "r-n3-1",
+      "place": "N3 levee",
+      "note": "Badger on verge, night of 18 Sep.",
+      "status": "Field check assigned",
+      "who": "Sanne de Wit",
+      "lng": 4.71,
+      "lat": 51.8
+    },
+    {
+      "id": "r-reed-1",
+      "place": "Dordtse Biesbosch",
+      "note": "Beaver lodge active, no conflict with path.",
+      "status": "Verified",
+      "who": "Mehdi Karimi",
+      "lng": 4.695,
+      "lat": 51.808
+    }
+  ],
+  "projects": [
+    {
+      "id": "dordrecht-east",
+      "name": "Dordrecht East data centre",
+      "label": "Scenario 04",
+      "coords": [4.72, 51.797]
+    }
+  ]
+}

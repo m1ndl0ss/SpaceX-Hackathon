@@ -1,0 +1,110 @@
+{
+  "region": "Benelux (NL, BE, LU)",
+  "bbox": [
+    2.3,
+    49.4,
+    7.3,
+    53.7
+  ],
+  "files": [
+    {
+      "name": "habitats",
+      "file": "habitats_latest.json",
+      "records": 907,
+      "licenses": [
+        "CC0",
+        "CC_BY"
+      ],
+      "ok": true
+    },
+    {
+      "name": "open_meteo",
+      "file": "open_meteo_latest.json",
+      "records": 5,
+      "licenses": [
+        "CC BY 4.0"
+      ],
+      "ok": true
+    },
+    {
+      "name": "osm_roads",
+      "file": "osm_roads_latest.json",
+      "records": 50,
+      "licenses": [
+        "ODbL"
+      ],
+      "ok": true
+    },
+    {
+      "name": "protected_areas",
+      "file": "protected_areas_latest.json",
+      "records": 400,
+      "licenses": [
+        "EEA"
+      ],
+      "ok": true
+    },
+    {
+      "name": "roadkill",
+      "file": "roadkill_latest.json",
+      "records": 212,
+      "licenses": [
+        "CC0",
+        "CC_BY"
+      ],
+      "ok": true
+    },
+    {
+      "name": "water",
+      "file": "water_latest.json",
+      "records": 34,
+      "licenses": [
+        "ODbL"
+      ],
+      "ok": true
+    }
+  ],
+  "catalog": [
+    {
+      "id": "C001",
+      "name": "GBIF habitats (Benelux species)",
+      "file": "habitats_latest.json",
+      "role": "collect"
+    },
+    {
+      "id": "C006",
+      "name": "GBIF Global Roadkill Data (Grilo 2025)",
+      "file": "roadkill_latest.json",
+      "role": "collect"
+    },
+    {
+      "id": "S001",
+      "name": "EEA Natura 2000 (NL/BE/LU)",
+      "file": "protected_areas_latest.json",
+      "role": "collect"
+    },
+    {
+      "id": "S004",
+      "name": "Open-Meteo monthly climatology",
+      "file": "open_meteo_latest.json",
+      "role": "collect"
+    },
+    {
+      "id": "S005",
+      "name": "OSM roads (Overpass, cached)",
+      "file": "osm_roads_latest.json",
+      "role": "collect"
+    },
+    {
+      "id": "C007",
+      "name": "OSM water (rivers/lakes, cached)",
+      "file": "water_latest.json",
+      "role": "collect"
+    }
+  ],
+  "notes": {
+    "scoring": "Abruzzo bear composite in scoring/engine.py is stale and not run by default.",
+    "energy": "Wind/solar/substations/demand collectors exist but are skipped (Overpass budget).",
+    "news": "GDELT/news is briefing-only and is not collected."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "description": "Frontend copies of collected *_latest.json caches. Originals remain in data/.",
+  "files": [
+    {
+      "name": "habitats",
+      "file": "habitats_latest.json",
+      "path": "data/cached/habitats_latest.json",
+      "records": 907,
+      "bytes": 643627,
+      "kind": "records"
+    },
+    {
+      "name": "open_meteo",
+      "file": "open_meteo_latest.json",
+      "path": "data/cached/open_meteo_latest.json",
+      "records": 5,
+      "bytes": 58942,
+      "kind": "records"
+    },
+    {
+      "name": "osm_roads",
+      "file": "osm_roads_latest.json",
+      "path": "data/cached/osm_roads_latest.json",
+      "records": 50,
+      "bytes": 62962,
+      "kind": "records"
+    },
+    {
+      "name": "protected_areas",
+      "file": "protected_areas_latest.json",
+      "path": "data/cached/protected_areas_latest.json",
+      "records": 400,
+      "bytes": 1194814,
+      "kind": "records"
+    },
+    {
+      "name": "roadkill",
+      "file": "roadkill_latest.json",
+      "path": "data/cached/roadkill_latest.json",
+      "records": 212,
+      "bytes": 175265,
+      "kind": "records"
+    },
+    {
+      "name": "sources",
+      "file": "sources_latest.json",
+      "path": "data/cached/sources_latest.json",
+      "records": 6,
+      "bytes": 2389,
+      "kind": "catalog"
+    },
+    {
+      "name": "water",
+      "file": "water_latest.json",
+      "path": "data/cached/water_latest.json",
+      "records": 34,
+      "bytes": 151651,
+      "kind": "records"
+    }
+  ]
+}

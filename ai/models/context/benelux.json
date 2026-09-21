@@ -1,0 +1,352 @@
+{
+  "bbox": [2.3, 49.4, 7.3, 53.7],
+  "region": "Benelux",
+  "horizons": [2026, 2030, 2035],
+  "countries": [
+    {"id": "LU", "bbox": [5.7, 49.4, 6.55, 50.2]},
+    {"id": "BE", "bbox": [2.5, 49.45, 6.4, 51.51]},
+    {"id": "NL", "bbox": [3.3, 50.75, 7.23, 53.55]}
+  ],
+  "taxa": [
+    {"id": "myotis_myotis", "scientificName": "Myotis myotis", "commonName": "Greater mouse-eared bat", "taxonKey": 2432384},
+    {"id": "meles_meles", "scientificName": "Meles meles", "commonName": "Eurasian badger", "taxonKey": 5219243},
+    {"id": "castor_fiber", "scientificName": "Castor fiber", "commonName": "Eurasian beaver", "taxonKey": 2432164},
+    {"id": "alcedo_atthis", "scientificName": "Alcedo atthis", "commonName": "Common kingfisher", "taxonKey": 2475479},
+    {"id": "bombina_variegata", "scientificName": "Bombina variegata", "commonName": "Yellow-bellied toad", "taxonKey": 2426614},
+    {"id": "alauda_arvensis", "scientificName": "Alauda arvensis", "commonName": "Skylark", "taxonKey": 2490742},
+    {"id": "podiceps_cristatus", "scientificName": "Podiceps cristatus", "commonName": "Great crested grebe", "taxonKey": 2482142},
+    {"id": "acrocephalus_scirpaceus", "scientificName": "Acrocephalus scirpaceus", "commonName": "Reed warbler", "taxonKey": 2493754},
+    {"id": "lutra_lutra", "scientificName": "Lutra lutra", "commonName": "Eurasian otter", "taxonKey": 2433695},
+    {"id": "ciconia_ciconia", "scientificName": "Ciconia ciconia", "commonName": "White stork", "taxonKey": 2481238},
+    {"id": "cervus_elaphus", "scientificName": "Cervus elaphus", "commonName": "Red deer", "taxonKey": 2440946}
+  ],
+  "roadkillGroups": [
+    {"id": "meles_meles", "scientificName": "Meles meles"},
+    {"id": "cervus_elaphus", "scientificName": "Cervus elaphus"},
+    {"id": "capreolus_capreolus", "scientificName": "Capreolus capreolus"},
+    {"id": "sus_scrofa", "scientificName": "Sus scrofa"},
+    {"id": "castor_fiber", "scientificName": "Castor fiber"},
+    {"id": "lutra_lutra", "scientificName": "Lutra lutra"}
+  ],
+  "habitats": [
+    {
+      "id": "sint-pietersberg",
+      "name": "Sint-Pietersberg",
+      "center": [5.6874, 50.8218],
+      "bufferM": 650,
+      "species": ["Greater mouse-eared bat", "Early spider-orchid", "Calcareous grassland"]
+    },
+    {
+      "id": "savelsbos",
+      "name": "Savelsbos",
+      "center": [5.7368, 50.8245],
+      "bufferM": 700,
+      "species": ["Eurasian badger", "Middle spotted woodpecker", "Ancient woodland flora"]
+    },
+    {
+      "id": "jekerdal",
+      "name": "Jekerdal",
+      "center": [5.6705, 50.8288],
+      "bufferM": 550,
+      "species": ["Yellow-bellied toad", "Skylark", "Streamside meadow"]
+    },
+    {
+      "id": "maas-corridor",
+      "name": "Maas corridor",
+      "center": [5.6988, 50.8562],
+      "bufferM": 500,
+      "species": ["Eurasian beaver", "Common kingfisher", "Atlantic salmon (migratory)"]
+    },
+    {
+      "id": "pietersplas-oevers",
+      "name": "Pietersplas shores",
+      "center": [5.7045, 50.8735],
+      "bufferM": 420,
+      "species": ["Great crested grebe", "Reed warbler", "Shallow-water plants"]
+    },
+    {
+      "id": "veluwe",
+      "name": "Veluwe",
+      "center": [5.85, 52.15],
+      "bufferM": 8000,
+      "species": ["Red deer", "Wild boar", "Heathland"]
+    },
+    {
+      "id": "biesbosch",
+      "name": "Biesbosch",
+      "center": [4.77, 51.755],
+      "bufferM": 4000,
+      "species": ["Eurasian beaver", "European eel", "Freshwater tidal marsh"]
+    },
+    {
+      "id": "hoge-kempen",
+      "name": "Hoge Kempen",
+      "center": [5.63, 50.97],
+      "bufferM": 3500,
+      "species": ["Nightjar", "Pine heath", "Eurasian badger"]
+    },
+    {
+      "id": "hautes-fagnes",
+      "name": "Hautes Fagnes",
+      "center": [6.13, 50.52],
+      "bufferM": 5000,
+      "species": ["Black grouse", "Peat bog", "Eurasian otter"]
+    },
+    {
+      "id": "mullerthal",
+      "name": "Mullerthal",
+      "center": [6.30, 49.78],
+      "bufferM": 2500,
+      "species": ["Sandstone ravines", "Black woodpecker", "Brook lamprey"]
+    },
+    {
+      "id": "zonien",
+      "name": "Sonian Forest",
+      "center": [4.45, 50.78],
+      "bufferM": 3000,
+      "species": ["Ancient beech", "Middle spotted woodpecker"]
+    },
+    {
+      "id": "oostvaardersplassen",
+      "name": "Oostvaardersplassen",
+      "center": [5.38, 52.45],
+      "bufferM": 2500,
+      "species": ["White stork", "Marshland", "Greylag goose"]
+    },
+    {
+      "id": "texel-dunes",
+      "name": "Texel dunes",
+      "center": [4.78, 53.08],
+      "bufferM": 2000,
+      "species": ["Coastal dune", "Natterjack toad"]
+    },
+    {
+      "id": "semois",
+      "name": "Semois valley",
+      "center": [5.05, 49.85],
+      "bufferM": 3500,
+      "species": ["Riparian woodland", "Kingfisher"]
+    }
+  ],
+  "waterBodies": [
+    {
+      "id": "maas",
+      "name": "River Maas",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.693, 50.885], [5.694, 50.878], [5.6948, 50.872], [5.6955, 50.866],
+          [5.6962, 50.86], [5.6968, 50.855], [5.6955, 50.851], [5.694, 50.8485],
+          [5.6935, 50.845], [5.6938, 50.84], [5.693, 50.834], [5.692, 50.828],
+          [5.6908, 50.822], [5.6895, 50.816], [5.6935, 50.816], [5.6948, 50.822],
+          [5.696, 50.828], [5.697, 50.834], [5.6978, 50.84], [5.6975, 50.845],
+          [5.6982, 50.8485], [5.6998, 50.851], [5.7005, 50.855], [5.7, 50.86],
+          [5.6992, 50.866], [5.6985, 50.872], [5.6978, 50.878], [5.6968, 50.885],
+          [5.693, 50.885]
+        ]]
+      }
+    },
+    {
+      "id": "jeker",
+      "name": "River Jeker",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.6628, 50.8184], [5.6684, 50.8236], [5.6742, 50.8284], [5.6808, 50.8326],
+          [5.6862, 50.8372], [5.6904, 50.8418], [5.6936, 50.8454], [5.6932, 50.846],
+          [5.6898, 50.8424], [5.6854, 50.8378], [5.68, 50.8332], [5.6734, 50.8288],
+          [5.6676, 50.824], [5.6622, 50.8188], [5.6628, 50.8184]
+        ]]
+      }
+    },
+    {
+      "id": "pietersplas",
+      "name": "Pietersplas",
+      "kind": "lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [5.6972, 50.8768], [5.7018, 50.8792], [5.7074, 50.8796], [5.7116, 50.8778],
+          [5.7124, 50.8744], [5.7108, 50.8708], [5.7062, 50.8688], [5.7004, 50.8692],
+          [5.697, 50.8722], [5.6972, 50.8768]
+        ]]
+      }
+    },
+    {
+      "id": "scheldt",
+      "name": "Scheldt",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[3.7, 51.05], [4.5, 51.05], [4.5, 51.35], [3.7, 51.35], [3.7, 51.05]]]
+      }
+    },
+    {
+      "id": "rhine-waal",
+      "name": "Rhine / Waal",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[5.1, 51.75], [6.2, 51.75], [6.2, 52.05], [5.1, 52.05], [5.1, 51.75]]]
+      }
+    },
+    {
+      "id": "ijsselmeer",
+      "name": "IJsselmeer",
+      "kind": "lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[5.0, 52.5], [5.7, 52.5], [5.7, 53.0], [5.0, 53.0], [5.0, 52.5]]]
+      }
+    },
+    {
+      "id": "sure",
+      "name": "Sûre",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[6.1, 49.7], [6.55, 49.7], [6.55, 49.95], [6.1, 49.95], [6.1, 49.7]]]
+      }
+    }
+  ],
+  "projectTypes": [
+    {
+      "id": "wind",
+      "label": "Wind turbine",
+      "rings": [{"radiusM": 250, "net": -3}, {"radiusM": 1200, "net": -1}, {"radiusM": 3500, "net": 1}],
+      "sectors": {"wildlife": -4, "landPollution": -1, "waterPollution": 0, "society": -2, "energy": 5, "noise": -3, "jobs": 2, "carbon": 4},
+      "waterBump": 0,
+      "sectorNotes": {
+        "wildlife": "Rotor sweep and tower lighting raise collision risk for bats on Sint-Pietersberg and for commuting raptors.",
+        "landPollution": "Small concrete pad and crane hardstand; limited soil sealing compared with other types.",
+        "waterPollution": "No process discharge. Spill risk is limited to maintenance oils on the pad.",
+        "energy": "High local renewable yield; one turbine covers several hundred households in a windy year.",
+        "jobs": "Short construction peak plus a handful of ongoing service visits.",
+        "carbon": "Avoids grid gas generation once built; payback is a few months of operation.",
+        "society": "Close neighbours get flicker and a moving silhouette on the skyline.",
+        "noise": "Broadband swish is strongest within a few hundred metres, especially downwind at night."
+      }
+    },
+    {
+      "id": "solar",
+      "label": "Solar farm",
+      "rings": [{"radiusM": 300, "net": -2}, {"radiusM": 1000, "net": 0}, {"radiusM": 2500, "net": 2}],
+      "sectors": {"wildlife": -2, "landPollution": -2, "waterPollution": 0, "society": 0, "energy": 4, "noise": 0, "jobs": 2, "carbon": 4},
+      "waterBump": -1,
+      "sectorNotes": {
+        "wildlife": "Fenced grassland is lost to ground-nesting birds; some insects use panel shade later.",
+        "landPollution": "Pile foundations and access tracks seal and compact soil across the array.",
+        "waterPollution": "Panels themselves are inert; silt from grading can reach ditches during build.",
+        "energy": "Steady daytime output that pairs well with city demand, weaker in December.",
+        "jobs": "Install crews for a season, then occasional cleaning and electrical checks.",
+        "carbon": "Displaces fossil peakers on bright weekdays; manufacturing debt is paid within years.",
+        "society": "Low profile after planting; glare complaints are uncommon at this latitude.",
+        "noise": "Inverters hum on the pad; inaudible beyond the fence for this layout."
+      }
+    },
+    {
+      "id": "industrial",
+      "label": "Industrial plant",
+      "rings": [{"radiusM": 250, "net": -5}, {"radiusM": 800, "net": -3}, {"radiusM": 2500, "net": -1}],
+      "sectors": {"wildlife": -4, "landPollution": -4, "waterPollution": -2, "society": -3, "energy": -1, "noise": -4, "jobs": 4, "carbon": -3},
+      "waterBump": -3,
+      "sectorNotes": {
+        "wildlife": "Night lighting, noise, and a hard edge push mammals and birds out of the inner ring.",
+        "landPollution": "Yard runoff can carry oils and metals into soil unless the pad is fully bunded.",
+        "waterPollution": "Process and wash-water risk is the main water pathway if drains reach the Maas.",
+        "energy": "A net consumer of grid power and process heat.",
+        "jobs": "The strongest local employment of the catalog, including shift work.",
+        "carbon": "Process heat and freight raise the area's fossil footprint.",
+        "society": "Odour, trucks, and a closed façade lower amenity for nearby streets.",
+        "noise": "Fans, shunters, and early HGV arrivals dominate the inner 250 m."
+      }
+    },
+    {
+      "id": "highway",
+      "label": "Highway",
+      "rings": [{"radiusM": 200, "net": -4}, {"radiusM": 750, "net": -2}, {"radiusM": 2000, "net": -1}],
+      "sectors": {"wildlife": -4, "landPollution": -2, "waterPollution": -1, "society": -1, "energy": 0, "noise": -5, "jobs": 1, "carbon": -2},
+      "waterBump": -2,
+      "sectorNotes": {
+        "wildlife": "Barrier and kill risk for badger, deer, and amphibians; lighting spills into edges.",
+        "landPollution": "Tyre wear, salt, and metals settle in verges and gully pots.",
+        "waterPollution": "Unattenuated carriageway runoff is a classic path into the Maas and Jeker.",
+        "energy": "No generation; induced traffic burns more fuel than the old rat-run.",
+        "jobs": "Construction only, plus a little induced retail at junctions.",
+        "carbon": "New vehicle-kilometres lock in road carbon for decades.",
+        "society": "Faster through-trips, but severs streets and adds traffic into adjoining neighbourhoods.",
+        "noise": "The worst noise profile in the catalog; night lorries travel far along the valley."
+      }
+    },
+    {
+      "id": "housing",
+      "label": "Housing",
+      "rings": [{"radiusM": 200, "net": -2}, {"radiusM": 600, "net": -1}, {"radiusM": 1500, "net": 1}],
+      "sectors": {"wildlife": -3, "landPollution": -2, "waterPollution": -1, "society": 3, "energy": -1, "noise": -1, "jobs": 2, "carbon": -1},
+      "waterBump": -1,
+      "sectorNotes": {
+        "wildlife": "Gardens can help later, but the build clears the existing edge habitat first.",
+        "landPollution": "Foundations and parking increase sealed area and garden-chemical use.",
+        "waterPollution": "Foul water is assumed on mains; surface water still pulses into local brooks.",
+        "energy": "A net demand node unless roofs are fully solar — this layout is not.",
+        "jobs": "Trades during construction and a small ongoing service economy.",
+        "carbon": "Embodied concrete plus household heat; better than sprawl further out.",
+        "society": "Homes, street life, and walking trips are the main social gain.",
+        "noise": "Build phase is noisy; occupied streets are milder than a highway."
+      }
+    },
+    {
+      "id": "dam",
+      "label": "Dam / hydropower",
+      "rings": [{"radiusM": 400, "net": -4}, {"radiusM": 1200, "net": -2}, {"radiusM": 3000, "net": 2}],
+      "sectors": {"wildlife": -5, "landPollution": -2, "waterPollution": -4, "society": 1, "energy": 5, "noise": -1, "jobs": 3, "carbon": 3},
+      "waterBump": -2,
+      "sectorNotes": {
+        "wildlife": "Blocks fish passage and drowns margins; kingfisher and beaver lose slack-water edges.",
+        "landPollution": "Borrow pits and cofferdams disturb banks during construction.",
+        "waterPollution": "Altered flow, temperature, and sediment. This is the highest water-body stress in the set.",
+        "energy": "Firm renewable output when the river is up; weaker in late summer.",
+        "jobs": "Civil engineering peak and a small permanent operations team.",
+        "carbon": "Long-lived renewable energy, with methane risk if a still basin forms.",
+        "society": "Flood modulation and a path across the structure; recreation on the new pond is mixed.",
+        "noise": "Turbines are housed; construction blasting is the noisy window."
+      }
+    },
+    {
+      "id": "powerline",
+      "label": "Power line",
+      "rings": [{"radiusM": 150, "net": -2}, {"radiusM": 600, "net": -1}, {"radiusM": 1500, "net": 0}],
+      "sectors": {"wildlife": -3, "landPollution": -1, "waterPollution": 0, "society": -1, "energy": 3, "noise": 0, "jobs": 1, "carbon": 1},
+      "waterBump": 0,
+      "sectorNotes": {
+        "wildlife": "Collision and electrocution risk for heron, buzzard, and commuting geese along the Maas.",
+        "landPollution": "Footings and a mown wayleave; soil impact is localised.",
+        "waterPollution": "No operational discharge.",
+        "energy": "Moves renewable and grid power into the city; enables other energy gains.",
+        "jobs": "Line crews during stringing, then inspections.",
+        "carbon": "Lets cleaner power reach loads; the steel itself is a small embodied cost.",
+        "society": "Visual clutter and a cleared strip; some residents object to nearby spans.",
+        "noise": "Slight corona crackle in damp weather, rarely audible at 150 m."
+      }
+    },
+    {
+      "id": "datacentre",
+      "label": "Datacentre",
+      "rings": [{"radiusM": 200, "net": -2}, {"radiusM": 700, "net": -1}, {"radiusM": 2000, "net": 0}],
+      "sectors": {"wildlife": -1, "landPollution": -2, "waterPollution": -2, "society": 0, "energy": -5, "noise": -2, "jobs": 3, "carbon": -4},
+      "waterBump": -3,
+      "sectorNotes": {
+        "wildlife": "A large sealed box with little edge planting; lighting is the main night-time pressure.",
+        "landPollution": "Slab, generators, and chemical stores on a fully engineered pad.",
+        "waterPollution": "Cooling blowdown and high water demand stress rivers and lakes if sited beside them.",
+        "energy": "The largest grid drain in the catalog — a continuous megawatt-scale load.",
+        "jobs": "Construction plus a specialised 24/7 operations team.",
+        "carbon": "Unless matched to new renewables, this is a long-lived carbon sinkhole.",
+        "society": "Few visitors; heat-reuse to homes is not assumed in this layout.",
+        "noise": "CRAH fans and generators on test days; directional but persistent."
+      }
+    }
+  ]
+}

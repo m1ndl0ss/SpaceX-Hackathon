@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "impact-models"
+version = "0.1.0"
+description = "Spatial impact heads for Benelux infrastructure treatments."
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.32",
+  "pydantic>=2.9",
+  "lightgbm>=4.5",
+  "scikit-learn>=1.5",
+  "pandas>=2.2",
+  "pyarrow>=15",
+  "numpy>=1.26",
+  "httpx>=0.27",
+  "joblib>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "httpx>=0.27"]
+
+[project.scripts]
+impact-models-serve = "impact_models.serve:main"
+impact-models-train = "impact_models.train:main"
+impact-models-generate = "impact_models.generate:main"
+impact-models-fetch = "impact_models.fetch:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "../narrate/src"]
