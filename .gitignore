@@ -9,3 +9,8 @@ ai/models/.venv/
 ai/narrate/.venv/
 .env
 *.pyc
+data/app.db
+data/app.db-*
+.idea/
+.vite/
+node_modules/

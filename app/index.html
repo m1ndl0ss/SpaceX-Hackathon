@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yosemite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div id="last-mile" aria-label="Yosemite conservation platform">
+  <div class="lm-backdrop" aria-hidden="true"></div>
+  <div class="lm-boot" id="lm-boot" role="status" aria-live="polite" aria-label="Loading Yosemite">
+    <div class="lm-boot-stage">
+      <pre class="lm-boot-term"><span class="lm-boot-prompt">let habitat = species.current();</span>
+<span class="lm-boot-gt">&gt;</span> <span id="lm-boot-typed"></span><span class="lm-boot-caret" aria-hidden="true"></span></pre>
+      <p class="lm-boot-wordmark">Yosemite</p>
+    </div>
+  </div>
+  <section id="lm-gate" class="lm-gate" aria-label="Sign in">
+    <div class="lm-gate-card">
+      <div class="lm-brand"><div class="lm-brand-symbol"></div><div class="lm-brand-name">Yosemite</div></div>
+      <div id="lm-gate-choices">
+        <div class="lm-eyebrow">Conservation intelligence</div>
+        <h1>Sign in to continue</h1>
+        <p class="lm-gate-copy">Choose your role. Reports and actions are saved in this browser and shared between these workspaces.</p>
+        <div class="lm-gate-choices">
+          <button type="button" class="lm-gate-choice" id="lm-login-organisation">
+            <i data-lucide="landmark" aria-hidden="true"></i>
+            <strong>Government</strong>
+            <span>Review violations and coordinate calls for help</span>
+          </button>
+          <button type="button" class="lm-gate-choice" id="lm-login-people">
+            <i data-lucide="user" aria-hidden="true"></i>
+            <strong>Activist</strong>
+            <span>Report violations and respond to calls for help</span>
+          </button>
+        </div>
+      </div>
+      <div id="lm-signup" hidden>
+        <button type="button" class="lm-link" id="lm-signup-back"><i data-lucide="arrow-up-right" aria-hidden="true"></i> Back to sign in</button>
+        <div class="lm-eyebrow" style="margin-top:16px">Demo profile</div>
+        <h1 id="lm-signup-title">Join as an activist</h1>
+        <p class="lm-gate-copy" id="lm-signup-copy">Tell us how you want to help.</p>
+        <form id="lm-signup-form" class="lm-signup-form">
+          <label class="lm-field">
+            <span class="lm-field-head">Name</span>
+            <input type="text" id="lm-signup-name" name="name" autocomplete="name" maxlength="80" required>
+          </label>
+          <label class="lm-field">
+            <span class="lm-field-head">Place</span>
+            <select id="lm-signup-place" name="place" aria-label="Place"></select>
+          </label>
+          <label class="lm-field">
+            <span class="lm-field-head">How you want to help</span>
+            <select id="lm-signup-help" name="help" aria-label="How you want to help"></select>
+          </label>
+          <p class="lm-form-error" data-form-error role="alert" tabindex="-1" hidden></p><button type="submit" class="lm-button primary lm-signup-submit">Enter workspace</button>
+        </form>
+      </div>
+      <p class="lm-gate-note" id="lm-gate-note" hidden role="status"></p>
+    </div>
+  </section>
+  <div class="lm-shell" hidden>
+    <div class="lm-workspace">
+      <header class="lm-topbar">
+        <div class="lm-brand"><div class="lm-brand-symbol"></div><div class="lm-brand-name">Yosemite</div></div>
+        <nav class="lm-screen-switch" data-role="organisation" aria-label="Main sections">
+          <button type="button" data-screen="overview" aria-current="page">Overview</button>
+          <button type="button" data-screen="simulation">Simulation</button>
+        </nav>
+        <div class="lm-topbar-end">
+          <span class="lm-tag" id="lm-workspace-label">Government</span><span class="lm-tag lm-secondary-action"><span class="lm-dot" style="background:var(--lm-amber)"></span>Browser demo</span>
+          <button type="button" class="lm-button" id="lm-sign-out"><i data-lucide="log-out" aria-hidden="true"></i>Switch workspace</button>
+        </div>
+      </header>
+      <p class="lm-form-error lm-storage-error" id="lm-storage-error" role="alert" hidden></p>
+      <section id="lm-overview" class="lm-screen" aria-label="Organisation overview">
+            <div class="lm-titlebar"><div><div class="lm-eyebrow">Benelux · Government dashboard</div><h1>Every action. A future.</h1><p>Review violations, organise a response, and connect with activists ready to help.</p></div><div class="lm-title-actions"><button type="button" class="lm-button" data-drawer="network"><i data-lucide="users" aria-hidden="true"></i>Partners</button><button type="button" class="lm-button primary" data-drawer="create-call"><i data-lucide="plus" aria-hidden="true"></i>Post a call for help</button></div></div>
+        <div class="lm-stat-row" id="lm-overview-stats"></div>
+        <div class="lm-overview-main">
+          <div class="lm-map-panel" aria-label="Regional conservation map">
+            <div class="lm-map-canvas" id="lm-overview-map"></div>
+            <div class="lm-map-heading"><div><h2>A living landscape</h2><p><span class="lm-dot"></span> 3 priority areas · Benelux</p></div><div class="lm-layer-wrap"><select class="lm-overlay-select" data-overlay-theme aria-label="Overlay set"></select><button type="button" class="lm-button icon-only" data-layer-toggle aria-label="Layers in this set" aria-expanded="false"><i data-lucide="layers" aria-hidden="true"></i></button><div class="lm-layer-menu" hidden></div></div></div>
+            <button type="button" class="lm-map-pin selected" data-site="0" aria-label="Select Biesbosch wetlands"><i data-lucide="sprout" aria-hidden="true"></i></button>
+            <button type="button" class="lm-map-pin" data-site="1" aria-label="Select Haringvliet shoreline"><i data-lucide="waves" aria-hidden="true"></i></button>
+            <button type="button" class="lm-map-pin" data-site="2" aria-label="Select Oude Maas corridor"><i data-lucide="trees" aria-hidden="true"></i></button>
+            <button type="button" class="lm-map-pin warning" data-incident="r1" aria-label="View harbour discharge report"><i data-lucide="triangle-alert" aria-hidden="true"></i></button>
+            <div class="lm-map-info"><div class="lm-eyebrow">Priority 01 · Restoration opportunity</div><h3 id="lm-site-name">Biesbosch wetlands</h3><p id="lm-site-note">European eel · Restoration opportunity</p><button type="button" class="lm-link" id="lm-site-action">Explore intervention <i data-lucide="arrow-up-right" aria-hidden="true"></i></button></div>
+            <div class="lm-map-compass">N<i data-lucide="navigation" aria-hidden="true"></i></div>
+            <div class="lm-map-foot"><div class="lm-map-legend"><span data-legend-set="habitats all"><i></i>Species</span><span data-legend-set="energy all"><i class="wind"></i>Wind</span><span data-legend-set="energy all"><i class="solar"></i>Solar</span><span data-legend-set="grid all"><i class="gold"></i>380 kV</span><span data-legend-set="grid all"><i class="blue"></i>150 kV</span><span data-legend-set="grid all"><i class="cable"></i>Cable</span><span data-legend-set="energy all"><i class="amber"></i>Feeder</span></div><span class="lm-map-attribution"><a href="https://www.mapbox.com/about/maps/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">Mapbox</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">OSM</a> · Demo overlays</span></div>
+          </div>
+          <section class="lm-panel lm-action-panel" aria-label="Priority violations"><div class="lm-row lm-between"><h2>Needs attention</h2><i data-lucide="triangle-alert" aria-hidden="true" style="color:var(--lm-amber)"></i></div><p class="lm-panel-sub" id="lm-priority-count"></p><div id="lm-priority-reports"></div><button type="button" class="lm-link" data-drawer="reports">View all violations <i data-lucide="arrow-up-right" aria-hidden="true"></i></button></section>
+        </div>
+        <div class="lm-operations-grid">
+          <section class="lm-panel lm-list-panel" aria-labelledby="lm-violations-heading">
+            <div class="lm-row lm-between"><h2 id="lm-violations-heading">Violation inbox</h2><span class="lm-list-meta" id="lm-report-count"></span></div>
+            <p class="lm-panel-sub">Review evidence, reply to activists, and track each response.</p>
+            <div class="lm-filter-bar"><input id="lm-report-search" type="search" aria-label="Search violations" placeholder="Search reports, people, or places"><select id="lm-report-filter" aria-label="Filter violations by status"><option value="open">Open violations</option><option value="all">All reports</option><option value="new">Awaiting review</option><option value="reviewing">Under review</option><option value="action_required">Action needed</option><option value="resolved">Resolved</option><option value="dismissed">Dismissed</option></select></div>
+            <div id="lm-dashboard-reports" class="lm-list"></div>
+          </section>
+          <section class="lm-panel lm-list-panel" aria-labelledby="lm-calls-heading">
+            <div class="lm-row lm-between"><h2 id="lm-calls-heading">Calls for help</h2><span class="lm-list-meta" id="lm-call-count"></span></div>
+            <p class="lm-panel-sub">Manage volunteer signups and keep your crews updated.</p>
+            <div class="lm-filter-bar"><input id="lm-call-search" type="search" aria-label="Search actions" placeholder="Search actions or places"><select id="lm-call-filter" aria-label="Filter actions by status"><option value="all">All actions</option><option value="available">Accepting volunteers</option><option value="open">Open</option><option value="closed">Signups closed</option><option value="completed">Completed</option><option value="cancelled">Cancelled</option></select></div>
+            <div id="lm-dashboard-calls" class="lm-list"></div>
+          </section>
+        </div>
+        <div class="lm-overview-bottom">
+          <section class="lm-panel lm-activity"><div class="lm-activity-header"><h2>From signal to action</h2><button type="button" class="lm-link" data-drawer="activity">View all activity <i data-lucide="arrow-up-right" aria-hidden="true"></i></button></div><div id="lm-overview-feed"></div></section>
+        </div>
+        <footer class="lm-app-footer"><span><span class="lm-dot"></span>Yosemite</span><span>Saved in this browser · Sample records included</span></footer>
+      </section>
+      <section id="lm-simulation" class="lm-screen" aria-label="Impact simulation" hidden>
+        <div class="lm-titlebar"><div><div class="lm-eyebrow">Organisation · Impact simulation</div><h1>See the impact. Before it happens.</h1><p>Dordrecht East data centre <span style="color:var(--lm-muted)">/</span> Scenario 04</p></div><div class="lm-title-actions"><span class="lm-tag lm-secondary-action"><i data-lucide="flask-conical" aria-hidden="true"></i>Draft scenario</span><button type="button" class="lm-button" id="lm-save"><i data-lucide="bookmark" aria-hidden="true"></i>Save scenario</button></div></div>
+        <div class="lm-simulation-layout">
+          <section class="lm-panel lm-input-panel" aria-label="Project parameters">
+            <div class="lm-row lm-between"><h2>Project parameters</h2><i data-lucide="sliders-horizontal" aria-hidden="true" style="color:var(--lm-muted)"></i></div>
+            <div class="lm-input-project"><div class="lm-project-icon"><i data-lucide="server" aria-hidden="true"></i></div><div><h3>Data centre</h3><p>Dordrecht East, Netherlands</p></div></div>
+            <label class="lm-field"><span class="lm-field-head">Power demand <span class="lm-field-value" id="lm-power-value">80 MW</span></span><input type="range" id="lm-power" min="10" max="150" step="5" value="80" aria-label="Power demand in megawatts"><span class="lm-field-scale"><span>10 MW</span><span>150 MW</span></span></label>
+            <label class="lm-field"><span class="lm-field-head">Water withdrawal <span class="lm-field-value" id="lm-water-value">1,200 m³/d</span></span><input type="range" id="lm-water" min="100" max="4000" step="100" value="1200" aria-label="Water withdrawal in cubic metres per day"><span class="lm-field-scale"><span>100 m³/day</span><span>4,000 m³/day</span></span></label>
+            <label class="lm-field"><span class="lm-field-head">Site footprint <span class="lm-field-value" id="lm-land-value">24 ha</span></span><input type="range" id="lm-land" min="2" max="60" step="2" value="24" aria-label="Site footprint in hectares"><span class="lm-field-scale"><span>2 ha</span><span>60 ha</span></span></label>
+            <div class="lm-field"><div class="lm-field-head">Projection year</div><div class="lm-segment" aria-label="Projection year"><button type="button" data-year="2030" aria-pressed="false">2030</button><button type="button" data-year="2035" aria-pressed="true">2035</button><button type="button" data-year="2040" aria-pressed="false">2040</button></div></div>
+            <div class="lm-mitigation"><div class="lm-mitigation-head"><i data-lucide="sprout" aria-hidden="true"></i>Mitigation options</div><label class="lm-toggle">Closed-loop cooling<input type="checkbox" id="lm-cooling" aria-label="Closed-loop cooling"></label><label class="lm-toggle">Riparian habitat buffer<input type="checkbox" id="lm-buffer" aria-label="Riparian habitat buffer"></label></div>
+            <button type="button" class="lm-button primary lm-run" id="lm-run"><i data-lucide="play" aria-hidden="true"></i><span>Run simulation</span></button><div class="lm-input-foot">Compare with a no-project baseline</div><div class="lm-status" id="lm-input-status" aria-live="polite">Scenario up to date</div>
+          </section>
+          <div class="lm-sim-main">
+            <div class="lm-map-panel lm-sim-map" aria-label="Project impact map"><div class="lm-map-canvas" id="lm-simulation-map"></div><div class="lm-map-heading"><div><h2>One project. An entire ecosystem.</h2><p>Rhine–Meuse Delta · <span id="lm-map-year">2035</span></p></div><div class="lm-row" style="pointer-events:auto;gap:8px;align-items:flex-start"><div class="lm-segment" aria-label="Map scenario"><button type="button" data-view="baseline" aria-pressed="false">Baseline</button><button type="button" data-view="proposed" aria-pressed="true">Proposed</button><button type="button" data-view="mitigated" aria-pressed="false">Mitigated</button></div><div class="lm-layer-wrap"><select class="lm-overlay-select" data-overlay-theme aria-label="Overlay set"></select><button type="button" class="lm-button icon-only" data-layer-toggle aria-label="Layers in this set" aria-expanded="false"><i data-lucide="layers" aria-hidden="true"></i></button><div class="lm-layer-menu" hidden></div></div></div></div><div class="lm-map-info"><div class="lm-eyebrow" id="lm-impact-kicker" style="color:var(--lm-amber)">Downstream impact zone</div><h3 id="lm-impact-title">Biesbosch wetlands</h3><p id="lm-impact-copy">Thermal exposure · European eel habitat</p></div><div class="lm-map-compass">N<i data-lucide="navigation" aria-hidden="true"></i></div><div class="lm-map-foot"><div class="lm-map-legend"><span data-legend-set="habitats energy grid all"><i class="amber"></i>Impact</span><span data-legend-set="habitats all"><i></i>Species</span><span data-legend-set="grid all"><i class="gold"></i>380 kV</span><span data-legend-set="grid all"><i class="blue"></i>150 kV</span><span data-legend-set="grid all"><i class="cable"></i>Cable</span><span data-legend-set="energy all"><i class="wind"></i>Wind</span></div><span class="lm-map-attribution"><a href="https://www.mapbox.com/about/maps/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">Mapbox</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">OSM</a> · Demo overlays</span></div></div>
+            <div class="lm-result-head"><h2 id="lm-results-title">Projected change by 2035</h2><span id="lm-comparison-label">Proposed vs. no project</span></div>
+            <div class="lm-results" aria-live="polite">
+              <div class="lm-result"><div class="lm-result-icon"><i data-lucide="waves" aria-hidden="true"></i><span>River</span></div><div class="lm-result-val"><span id="lm-temp">+1.8</span><small> °C</small></div><div class="lm-result-label">River temperature</div><div class="lm-result-range" id="lm-temp-range">Range +1.3 to +2.3 °C</div></div>
+              <div class="lm-result"><div class="lm-result-icon"><i data-lucide="bird" aria-hidden="true"></i><span>Species</span></div><div class="lm-result-val"><span id="lm-habitat">−42</span><small> ha</small></div><div class="lm-result-label">Suitable habitat</div><div class="lm-result-range" id="lm-habitat-range">Range −31 to −53 ha</div></div>
+              <div class="lm-result"><div class="lm-result-icon"><i data-lucide="leaf" aria-hidden="true"></i><span>Plants</span></div><div class="lm-result-val"><span id="lm-stress">+12</span><small> pts</small></div><div class="lm-result-label">Vegetation stress</div><div class="lm-result-range" id="lm-stress-range">On a 0–100 index</div></div>
+              <div class="lm-result"><div class="lm-result-icon"><i data-lucide="zap" aria-hidden="true"></i><span>Energy</span></div><div class="lm-result-val"><span id="lm-price">+6.4</span><small> €/MWh</small></div><div class="lm-result-label">Electricity price</div><div class="lm-result-range" id="lm-price-range">Range +4.5 to +8.3</div></div>
+            </div>
+            <div class="lm-sim-bottom"><section class="lm-panel lm-chart-panel"><h3>Habitat outlook</h3><div class="lm-chart-sub">Suitable habitat index · 2026 = 100</div><svg class="lm-chart" id="lm-habitat-chart" role="img" aria-label="Projected suitable habitat index, with and without mitigation"></svg><div class="lm-chart-legend"><span><i></i>Proposed</span><span><i class="green"></i>Mitigated</span></div></section><section class="lm-panel lm-recommendation"><div><div class="lm-recommendation-label"><i data-lucide="sparkles" aria-hidden="true"></i>A better path is possible</div><h3>Less pressure. More possibility.</h3><p id="lm-recommendation-text">Closed-loop cooling and a habitat buffer could reduce habitat loss by 71%.</p></div><button type="button" class="lm-link" id="lm-apply-mitigation">Compare with mitigation <i data-lucide="arrow-up-right" aria-hidden="true"></i></button></section></div>
+            <div class="lm-demo-note"><i data-lucide="info" aria-hidden="true"></i><span>Illustrative scenario, not a validated forecast. Ranges show demo uncertainty; price effects assume constrained grid capacity.</span></div>
+          </div>
+        </div>
+        <footer class="lm-app-footer"><span><span class="lm-dot"></span>Plan for what we cannot afford to lose.</span><span>Concept model · Organisation workspace</span></footer>
+      </section>
+      <section id="lm-people" class="lm-screen" aria-label="Activist workspace" hidden>
+        <div class="lm-titlebar"><div><div class="lm-eyebrow">Activist · <span data-profile-place>Dordrecht</span></div><h1>Hello, <span data-profile-name>Alex</span>.</h1><p>Report violations, respond to calls for help, and follow the response.</p></div><div class="lm-title-actions"><button type="button" class="lm-button primary" data-drawer="new-report"><i data-lucide="radio" aria-hidden="true"></i>Report a violation</button></div></div>
+        <div class="lm-stat-row" id="lm-people-stats"></div>
+        <div class="lm-overview-main lm-community-grid">
+          <section class="lm-panel lm-list-panel"><div class="lm-row lm-between"><h2>Your actions</h2><i data-lucide="check" aria-hidden="true" style="color:var(--lm-green)"></i></div><p class="lm-panel-sub">Your signups, meeting details, and government updates.</p><div id="lm-people-actions" class="lm-list"></div></section>
+          <section class="lm-panel lm-list-panel"><div class="lm-row lm-between"><h2>Calls for help</h2><i data-lucide="users" aria-hidden="true" style="color:var(--lm-green)"></i></div><p class="lm-panel-sub">Find an action, read the details, and join the crew.</p><div class="lm-filter-bar"><input id="lm-opportunity-search" type="search" aria-label="Search calls for help" placeholder="Search actions or places"><select id="lm-help-filter" aria-label="Filter by type of help"><option value="all">All ways to help</option><option value="survey">Field surveys</option><option value="restore">Habitat restoration</option><option value="report">Citizen reports</option><option value="donate">Local funding</option></select></div><div id="lm-people-opportunities" class="lm-list"></div></section>
+        </div>
+        <div class="lm-operations-grid">
+          <section class="lm-panel lm-list-panel"><div class="lm-row lm-between"><h2>Your violation reports</h2><i data-lucide="radio" aria-hidden="true" style="color:var(--lm-amber)"></i></div><p class="lm-panel-sub">Track the status of your reports and read government responses.</p><div id="lm-people-reports" class="lm-list"></div></section>
+          <section class="lm-panel lm-activity"><div class="lm-activity-header"><h2>Community activity</h2><button type="button" class="lm-link" data-drawer="activity">View all <i data-lucide="arrow-up-right" aria-hidden="true"></i></button></div><div id="lm-people-feed"></div></section>
+        </div>
+        <footer class="lm-app-footer"><span><span class="lm-dot"></span>Activist workspace</span><span>Saved in this browser · Sample records included</span></footer>
+      </section>
+    </div>
+  </div>
+  <div class="lm-drawer-overlay" id="lm-drawer-overlay" hidden><section class="lm-drawer" role="dialog" aria-modal="true" aria-labelledby="lm-drawer-title"><div class="lm-drawer-title"><h2 id="lm-drawer-title">Reconnect the wetlands</h2><button type="button" class="lm-button ghost" id="lm-close-drawer" aria-label="Close details"><i data-lucide="x" aria-hidden="true"></i></button></div><div id="lm-drawer-body"></div></section></div>
+  <div class="lm-toast" id="lm-toast" hidden role="status"></div>
+</div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
