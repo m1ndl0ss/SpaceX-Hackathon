@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bear startup</title>
+  <link rel="stylesheet" href="startup.css" />
+  <style>
+    html, body { margin: 0; height: 100%; background: #05080a; }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <div id="startup"></div>
+  </div>
+  <script src="startup.js"></script>
+  <script>
+    function play() {
+      var host = document.getElementById('stage');
+      host.innerHTML = '<div id="startup"></div>';
+      BearStartup.mount('#startup', {
+        svgUrl: './bear.svg',
+        holdMs: 900,
+        remove: false,
+        onDone: function () { window.setTimeout(play, 400); }
+      });
+    }
+    play();
+  </script>
+</body>
+</html>

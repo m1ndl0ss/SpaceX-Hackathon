@@ -1,0 +1,93 @@
+.bear-startup {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: grid;
+  place-items: center;
+  background: #05080a;
+  pointer-events: none;
+  filter: none;
+}
+
+.bear-startup svg {
+  width: min(42vw, 280px);
+  height: auto;
+  overflow: visible;
+  filter: none;
+}
+
+.bear-startup path {
+  filter: none;
+}
+
+.bear-startup .bear-line,
+.bear-startup .bear-body-outer,
+.bear-startup .bear-body-inner,
+.bear-startup .bear-body-core,
+.bear-startup .bear-ear,
+.bear-startup .bear-tail,
+.bear-startup .bear-snout,
+.bear-startup .bear-eye {
+  fill: none;
+  stroke: #037e52;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation:
+    bear-stroke 1.55s cubic-bezier(0.4, 0, 0.2, 1) 0s forwards,
+    bear-line-hide 0.2s 1.7s ease-out forwards;
+  animation-delay: 0s, 1.7s;
+}
+
+.bear-startup .bear-fill {
+  fill: #037e52;
+  fill-opacity: 0;
+  animation: bear-fill 0.28s 1.55s ease-out forwards;
+}
+
+.bear-startup.is-done {
+  animation: bear-fade 0.55s 0.15s ease forwards;
+}
+
+@keyframes bear-stroke {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes bear-line-hide {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes bear-fill {
+  to {
+    fill-opacity: 1;
+  }
+}
+
+@keyframes bear-fade {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bear-startup .bear-line,
+  .bear-startup .bear-body-outer,
+  .bear-startup .bear-body-inner,
+  .bear-startup .bear-body-core,
+  .bear-startup .bear-ear,
+  .bear-startup .bear-tail,
+  .bear-startup .bear-snout,
+  .bear-startup .bear-eye {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+
+  .bear-startup .bear-fill {
+    animation: none;
+    fill-opacity: 1;
+  }
+}
