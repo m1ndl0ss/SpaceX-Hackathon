@@ -1,6 +1,6 @@
 # Impact narrate
 
-Turns a locked `ImpactReport` JSON into planner copy. It does not compute numbers.
+Turns a locked `ImpactReport` JSON into planner copy for a Benelux briefing. It does not compute numbers.
 
 ## Install
 
@@ -46,4 +46,4 @@ Response:
 }
 ```
 
-`source` is `"llm"` or `"template"`. Responses are cached by report hash.
+`source` is `"llm"` or `"template"`. Responses are cached by report hash. Use only sites, country, and quantities in the report; `newsHeadlines` may be cited if present.

@@ -47,6 +47,7 @@ class ImpactReport(BaseModel):
     typeId: str
     center: tuple[float, float]
     horizonYear: int
+    country: str = ""
     mitigations: dict[str, bool] = Field(default_factory=dict)
     outcomes: Outcomes
     sectors: Sectors
@@ -55,6 +56,7 @@ class ImpactReport(BaseModel):
     explainer: str = ""
     net: float = 0.0
     dataFlags: dict[str, bool] = Field(default_factory=dict)
+    newsHeadlines: list[str] = Field(default_factory=list)
 
 
 class Briefing(BaseModel):

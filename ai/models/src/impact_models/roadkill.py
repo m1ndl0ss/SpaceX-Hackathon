@@ -14,7 +14,7 @@ DATASET_KEYS = [
     "90d9e8a0-0c54-4175-9c9c-7d139eb0c0e5",
 ]
 PAGE = 300
-COUNTRIES = ("NL", "BE")
+COUNTRIES = ("NL", "BE", "LU")
 
 
 def _names() -> list[str]:
@@ -23,7 +23,6 @@ def _names() -> list[str]:
 
 def fetch_roadkill() -> tuple[int, str | None]:
     west, south, east, north = bbox()
-    pad_west, pad_south, pad_east, pad_north = west - 0.8, south - 0.6, east + 0.8, north + 0.6
     rows: list[dict[str, Any]] = []
     names = {name.lower() for name in _names()}
     try:
@@ -38,8 +37,8 @@ def fetch_roadkill() -> tuple[int, str | None]:
                             "hasCoordinate": "true",
                             "limit": PAGE,
                             "offset": offset,
-                            "decimalLongitude": f"{pad_west},{pad_east}",
-                            "decimalLatitude": f"{pad_south},{pad_north}",
+                            "decimalLongitude": f"{west},{east}",
+                            "decimalLatitude": f"{south},{north}",
                         }
                         response = client.get(GBIF_SEARCH, params=params, timeout=30.0)
                         if response.status_code == 404:

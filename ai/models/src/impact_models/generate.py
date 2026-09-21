@@ -5,13 +5,14 @@ import argparse
 import numpy as np
 import pandas as pd
 
-from impact_models.context import bbox, load_context
-from impact_models.features import FEATURE_COLUMNS, feature_row, vectorize
+from impact_models.context import countries, load_context
+from impact_models.features import FEATURE_COLUMNS, feature_row
 from impact_models.geo import clamp
 from impact_models.schema import Treatment
 
 HEADS = ("habitatHa", "riverTempC", "vegStress", "energyIdx", "jobsFte", "tco2e")
 TYPE_IDS = [item["id"] for item in load_context()["projectTypes"]]
+COUNTRY_WEIGHTS = {"NL": 0.45, "BE": 0.40, "LU": 0.15}
 
 
 def physical_labels(row: dict[str, float], rng: np.random.Generator) -> dict[str, float]:
@@ -39,6 +40,8 @@ def physical_labels(row: dict[str, float], rng: np.random.Generator) -> dict[str
     habitat = max(0.0, -wildlife * 12.0 * scale) * suitability
     if int(row["type_idx"]) == 3:
         habitat *= 1.0 + 0.25 * float(row["roadkill_intensity_2km"])
+        if row["min_road_km"] < 1.5:
+            habitat *= 1.15
     elif int(row["type_idx"]) == 2:
         habitat *= 1.0 + 0.08 * float(row["roadkill_intensity_2km"])
 
@@ -76,14 +79,23 @@ def physical_labels(row: dict[str, float], rng: np.random.Generator) -> dict[str
     return labels
 
 
+def _sample_center(rng: np.random.Generator) -> tuple[float, float]:
+    boxes = countries()
+    ids = [item["id"] for item in boxes]
+    weights = np.array([COUNTRY_WEIGHTS.get(item_id, 0.1) for item_id in ids], dtype=float)
+    weights = weights / weights.sum()
+    choice = int(rng.choice(len(boxes), p=weights))
+    west, south, east, north = boxes[choice]["bbox"]
+    return float(rng.uniform(west, east)), float(rng.uniform(south, north))
+
+
 def generate_frame(n: int = 6000, seed: int = 7, include_observations: bool = True) -> pd.DataFrame:
     rng = np.random.default_rng(seed)
-    west, south, east, north = bbox()
     rows: list[dict[str, float]] = []
     for _ in range(n):
         treatment = Treatment(
             typeId=str(rng.choice(TYPE_IDS)),
-            center=(float(rng.uniform(west, east)), float(rng.uniform(south, north))),
+            center=_sample_center(rng),
             horizonYear=int(rng.choice([2026, 2030, 2035])),
             cooling=bool(rng.random() < 0.3),
             buffer=bool(rng.random() < 0.3),
@@ -98,7 +110,7 @@ def generate_frame(n: int = 6000, seed: int = 7, include_observations: bool = Tr
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate synthetic Limburg treatment rows.")
+    parser = argparse.ArgumentParser(description="Generate synthetic Benelux treatment rows.")
     parser.add_argument("--n", type=int, default=6000)
     parser.add_argument("--seed", type=int, default=7)
     parser.add_argument("--out", default="")

@@ -1,6 +1,8 @@
-# Limburg spatial impact models
+# Benelux spatial impact models
 
-Quantile LightGBM heads for infrastructure treatments in southern Limburg, plus a shallow CART explainer. A later HTTP client can `POST /infer` with a treatment and render the report.
+Quantile LightGBM heads for infrastructure treatments in NL / BE / LU, plus a shallow CART explainer. A later HTTP client can `POST /infer` with a treatment and render the report.
+
+Covariates are read from `data/raw/{name}_latest.json` when present (GBIF, roadkill, protected areas, water, OSM roads, Open-Meteo). Missing files become zeros plus `dataFlags`. Warehouse polygons replace the curated habitat/water list; if those files are empty, generate and infer still run on the small curated fallback. Labels stay a synthetic treatment recipe. Do not train on cell composite scores. News titles on the report are briefing metadata only.
 
 ## Install
 
@@ -9,13 +11,13 @@ cd ai/models
 python -m pip install -e ".[dev]"
 ```
 
-## Data (optional)
+## Warehouse
+
+Primary path: repo-root `data/raw/*_latest.json`. Live GBIF/roadkill fetch is fallback only:
 
 ```bash
 impact-models-fetch
 ```
-
-Pulls GBIF occurrences for local taxa (CC0 / CC BY only) and roadkill records for NL/BE. Writes `data/processed/`. If the network fails, training still runs with zeroed observation columns; `artifacts/metrics.json` records the flag.
 
 ## Train
 
@@ -35,13 +37,7 @@ Health: `GET http://127.0.0.1:8765/health`
 
 ### Infer
 
-```bash
-curl -s http://127.0.0.1:8765/infer ^
-  -H "Content-Type: application/json" ^
-  -d "{\"typeId\":\"wind\",\"center\":[5.6874,50.8218],\"horizonYear\":2030,\"cooling\":false,\"buffer\":false}"
-```
-
-Unix:
+Limburg pin:
 
 ```bash
 curl -s http://127.0.0.1:8765/infer \
@@ -49,8 +45,20 @@ curl -s http://127.0.0.1:8765/infer \
   -d '{"typeId":"wind","center":[5.6874,50.8218],"horizonYear":2030,"cooling":false,"buffer":false}'
 ```
 
-Body fields: `typeId`, `center` `[lng,lat]`, `horizonYear`, `cooling`, `buffer`, optional `scale`, optional `nearbyTreatments`.
+Namur:
 
-Response is an `ImpactReport`: quantile outcomes (`habitatHa`, `riverTempC`, `vegStress`, `energyIdx`, `jobsFte`, `tco2e`), sector scores, sites in range, top drivers, CART snippet.
+```bash
+curl -s http://127.0.0.1:8765/infer \
+  -H "Content-Type: application/json" \
+  -d '{"typeId":"highway","center":[4.87,50.47],"horizonYear":2030}'
+```
 
-Pipe that JSON to the narrate service (`POST http://127.0.0.1:8766/narrate`) for briefing copy.
+Luxembourg City:
+
+```bash
+curl -s http://127.0.0.1:8765/infer \
+  -H "Content-Type: application/json" \
+  -d '{"typeId":"datacentre","center":[6.13,49.61],"horizonYear":2035,"cooling":true}'
+```
+
+Pipe the JSON to `POST http://127.0.0.1:8766/narrate`.

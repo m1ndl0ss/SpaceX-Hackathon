@@ -4,6 +4,7 @@ import json
 from functools import lru_cache
 from typing import Any
 
+from impact_models.geo import in_bbox
 from impact_models.paths import CONTEXT_PATH
 
 
@@ -34,3 +35,20 @@ def bbox() -> list[float]:
 
 def taxa() -> list[dict[str, Any]]:
     return load_context()["taxa"]
+
+
+def countries() -> list[dict[str, Any]]:
+    return load_context().get("countries") or []
+
+
+def country_for_point(center: tuple[float, float]) -> str:
+    lng, lat = center
+    for item in countries():
+        if in_bbox(lng, lat, item["bbox"]):
+            return item["id"]
+    return "NL"
+
+
+def country_index(center: tuple[float, float]) -> int:
+    order = {"NL": 0, "BE": 1, "LU": 2}
+    return order.get(country_for_point(center), 0)

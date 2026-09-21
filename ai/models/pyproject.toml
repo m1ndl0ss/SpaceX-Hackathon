@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "impact-models"
 version = "0.1.0"
-description = "Spatial impact heads for Limburg infrastructure treatments."
+description = "Spatial impact heads for Benelux infrastructure treatments."
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115",
@@ -21,7 +21,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8.3"]
+dev = ["pytest>=8.3", "httpx>=0.27"]
 
 [project.scripts]
 impact-models-serve = "impact_models.serve:main"
@@ -34,4 +34,4 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["src", "../narrate/src"]

@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from impact_models.infer import ArtifactError, infer
-from impact_models.observations import load_fetch_status
+from impact_models.warehouse import warehouse_flags
 from impact_models.schema import ImpactReport, Treatment
 
 app = FastAPI(title="Impact models", version="0.1.0")
@@ -21,7 +21,7 @@ app.add_middleware(
 
 @app.get("/health")
 def health() -> dict:
-    return {"ok": True, "fetch": load_fetch_status()}
+    return {"ok": True, "warehouse": warehouse_flags()}
 
 
 @app.post("/infer", response_model=ImpactReport)
@@ -35,7 +35,7 @@ def infer_route(treatment: Treatment) -> ImpactReport:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Serve POST /infer for Limburg impact heads.")
+    parser = argparse.ArgumentParser(description="Serve POST /infer for Benelux impact heads.")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
     args = parser.parse_args()

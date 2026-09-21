@@ -6,7 +6,16 @@ import lightgbm as lgb
 import numpy as np
 
 from impact_models.context import project_type
-from impact_models.features import FEATURE_COLUMNS, data_flags, feature_row, hit_sites, lookup_sectors, vectorize
+from impact_models.features import (
+    FEATURE_COLUMNS,
+    country_code,
+    data_flags,
+    feature_row,
+    hit_sites,
+    lookup_sectors,
+    nearby_headlines,
+    vectorize,
+)
 from impact_models.generate import HEADS
 from impact_models.geo import clamp
 from impact_models import paths
@@ -112,6 +121,7 @@ def infer(treatment: Treatment) -> ImpactReport:
         typeId=treatment.typeId,
         center=treatment.center,
         horizonYear=treatment.horizonYear,
+        country=country_code(treatment.center),
         mitigations={"cooling": treatment.cooling, "buffer": treatment.buffer},
         outcomes=outcomes,
         sectors=sectors,
@@ -120,4 +130,5 @@ def infer(treatment: Treatment) -> ImpactReport:
         explainer=load_cart_text(),
         net=round(sum(sector_values) / len(sector_values), 2),
         dataFlags=data_flags(),
+        newsHeadlines=nearby_headlines(),
     )

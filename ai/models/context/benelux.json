@@ -1,7 +1,12 @@
 {
-  "bbox": [5.62, 50.80, 5.76, 50.90],
-  "region": "Maastricht, southern Limburg",
+  "bbox": [2.3, 49.4, 7.3, 53.7],
+  "region": "Benelux",
   "horizons": [2026, 2030, 2035],
+  "countries": [
+    {"id": "LU", "bbox": [5.7, 49.4, 6.55, 50.2]},
+    {"id": "BE", "bbox": [2.5, 49.45, 6.4, 51.51]},
+    {"id": "NL", "bbox": [3.3, 50.75, 7.23, 53.55]}
+  ],
   "taxa": [
     {"id": "myotis_myotis", "scientificName": "Myotis myotis", "commonName": "Greater mouse-eared bat", "taxonKey": 2432384},
     {"id": "meles_meles", "scientificName": "Meles meles", "commonName": "Eurasian badger", "taxonKey": 5219243},
@@ -10,14 +15,18 @@
     {"id": "bombina_variegata", "scientificName": "Bombina variegata", "commonName": "Yellow-bellied toad", "taxonKey": 2426614},
     {"id": "alauda_arvensis", "scientificName": "Alauda arvensis", "commonName": "Skylark", "taxonKey": 2490742},
     {"id": "podiceps_cristatus", "scientificName": "Podiceps cristatus", "commonName": "Great crested grebe", "taxonKey": 2482142},
-    {"id": "acrocephalus_scirpaceus", "scientificName": "Acrocephalus scirpaceus", "commonName": "Reed warbler", "taxonKey": 2493754}
+    {"id": "acrocephalus_scirpaceus", "scientificName": "Acrocephalus scirpaceus", "commonName": "Reed warbler", "taxonKey": 2493754},
+    {"id": "lutra_lutra", "scientificName": "Lutra lutra", "commonName": "Eurasian otter", "taxonKey": 2433695},
+    {"id": "ciconia_ciconia", "scientificName": "Ciconia ciconia", "commonName": "White stork", "taxonKey": 2481238},
+    {"id": "cervus_elaphus", "scientificName": "Cervus elaphus", "commonName": "Red deer", "taxonKey": 2440946}
   ],
   "roadkillGroups": [
     {"id": "meles_meles", "scientificName": "Meles meles"},
     {"id": "cervus_elaphus", "scientificName": "Cervus elaphus"},
     {"id": "capreolus_capreolus", "scientificName": "Capreolus capreolus"},
     {"id": "sus_scrofa", "scientificName": "Sus scrofa"},
-    {"id": "castor_fiber", "scientificName": "Castor fiber"}
+    {"id": "castor_fiber", "scientificName": "Castor fiber"},
+    {"id": "lutra_lutra", "scientificName": "Lutra lutra"}
   ],
   "habitats": [
     {
@@ -54,6 +63,69 @@
       "center": [5.7045, 50.8735],
       "bufferM": 420,
       "species": ["Great crested grebe", "Reed warbler", "Shallow-water plants"]
+    },
+    {
+      "id": "veluwe",
+      "name": "Veluwe",
+      "center": [5.85, 52.15],
+      "bufferM": 8000,
+      "species": ["Red deer", "Wild boar", "Heathland"]
+    },
+    {
+      "id": "biesbosch",
+      "name": "Biesbosch",
+      "center": [4.77, 51.755],
+      "bufferM": 4000,
+      "species": ["Eurasian beaver", "European eel", "Freshwater tidal marsh"]
+    },
+    {
+      "id": "hoge-kempen",
+      "name": "Hoge Kempen",
+      "center": [5.63, 50.97],
+      "bufferM": 3500,
+      "species": ["Nightjar", "Pine heath", "Eurasian badger"]
+    },
+    {
+      "id": "hautes-fagnes",
+      "name": "Hautes Fagnes",
+      "center": [6.13, 50.52],
+      "bufferM": 5000,
+      "species": ["Black grouse", "Peat bog", "Eurasian otter"]
+    },
+    {
+      "id": "mullerthal",
+      "name": "Mullerthal",
+      "center": [6.30, 49.78],
+      "bufferM": 2500,
+      "species": ["Sandstone ravines", "Black woodpecker", "Brook lamprey"]
+    },
+    {
+      "id": "zonien",
+      "name": "Sonian Forest",
+      "center": [4.45, 50.78],
+      "bufferM": 3000,
+      "species": ["Ancient beech", "Middle spotted woodpecker"]
+    },
+    {
+      "id": "oostvaardersplassen",
+      "name": "Oostvaardersplassen",
+      "center": [5.38, 52.45],
+      "bufferM": 2500,
+      "species": ["White stork", "Marshland", "Greylag goose"]
+    },
+    {
+      "id": "texel-dunes",
+      "name": "Texel dunes",
+      "center": [4.78, 53.08],
+      "bufferM": 2000,
+      "species": ["Coastal dune", "Natterjack toad"]
+    },
+    {
+      "id": "semois",
+      "name": "Semois valley",
+      "center": [5.05, 49.85],
+      "bufferM": 3500,
+      "species": ["Riparian woodland", "Kingfisher"]
     }
   ],
   "waterBodies": [
@@ -100,6 +172,42 @@
           [5.7124, 50.8744], [5.7108, 50.8708], [5.7062, 50.8688], [5.7004, 50.8692],
           [5.697, 50.8722], [5.6972, 50.8768]
         ]]
+      }
+    },
+    {
+      "id": "scheldt",
+      "name": "Scheldt",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[3.7, 51.05], [4.5, 51.05], [4.5, 51.35], [3.7, 51.35], [3.7, 51.05]]]
+      }
+    },
+    {
+      "id": "rhine-waal",
+      "name": "Rhine / Waal",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[5.1, 51.75], [6.2, 51.75], [6.2, 52.05], [5.1, 52.05], [5.1, 51.75]]]
+      }
+    },
+    {
+      "id": "ijsselmeer",
+      "name": "IJsselmeer",
+      "kind": "lake",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[5.0, 52.5], [5.7, 52.5], [5.7, 53.0], [5.0, 53.0], [5.0, 52.5]]]
+      }
+    },
+    {
+      "id": "sure",
+      "name": "Sûre",
+      "kind": "river",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[6.1, 49.7], [6.55, 49.7], [6.55, 49.95], [6.1, 49.95], [6.1, 49.7]]]
       }
     }
   ],

@@ -29,14 +29,18 @@ def template_briefing(report: ImpactReport) -> Briefing:
     cooling = "on" if report.mitigations.get("cooling") else "off"
     buffer = "on" if report.mitigations.get("buffer") else "off"
     shap = ", ".join(f"{item.feature} ({item.direction})" for item in report.shapTop[:3]) or "type and distance"
+    country = report.country or "Benelux"
+    news = "; ".join(report.newsHeadlines[:2])
     briefing = (
-        f"A {label} at {report.center[1]:.4f} N, {report.center[0]:.4f} E is modelled to {report.horizonYear}. "
+        f"A {label} in {country} at {report.center[1]:.4f} N, {report.center[0]:.4f} E is modelled to {report.horizonYear}. "
         f"Suitable habitat change is {_fmt(hab.p50)} ha (p10 {_fmt(hab.p10)}, p90 {_fmt(hab.p90)}). "
         f"River temperature pressure is {_fmt(river.p50)} C (p10 {_fmt(river.p10)}, p90 {_fmt(river.p90)}). "
         f"Employment is {_fmt(jobs.p50)} FTE and net tCO2e/year is {_fmt(carbon.p50, 0)}. "
         f"Sites in range: {sites}. Closed-loop cooling is {cooling}; riparian buffer is {buffer}. "
         f"Leading drivers: {shap}."
     )
+    if news:
+        briefing += f" Related headlines on file: {news}."
     notes = {
         "wildlife": f"Wildlife sector {report.sectors.wildlife:+.1f}; habitat { _fmt(hab.p50)} ha.",
         "landPollution": f"Land sector {report.sectors.landPollution:+.1f}; vegetation stress { _fmt(report.outcomes.vegStress.p50)}.",

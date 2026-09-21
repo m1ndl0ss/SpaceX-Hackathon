@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import json
 import math
-from functools import lru_cache
 from typing import Any
 
 import pandas as pd
@@ -10,6 +9,11 @@ import pandas as pd
 from impact_models.context import taxa
 from impact_models.geo import haversine_m
 from impact_models.paths import PROCESSED_DIR, ensure_data_dirs
+from impact_models.warehouse import (
+    gbif_points as warehouse_gbif,
+    roadkill_points as warehouse_roadkill,
+    warehouse_flags,
+)
 
 GBIF_POINTS = PROCESSED_DIR / "gbif_points.parquet"
 ROADKILL_POINTS = PROCESSED_DIR / "roadkill_points.parquet"
@@ -22,33 +26,40 @@ def _empty_points() -> pd.DataFrame:
     return pd.DataFrame(columns=["lng", "lat", "taxon_id", "scientificName"])
 
 
-@lru_cache(maxsize=1)
+def _parquet(path) -> pd.DataFrame:
+    ensure_data_dirs()
+    if not path.exists():
+        return _empty_points()
+    frame = pd.read_parquet(path)
+    if frame.empty:
+        return _empty_points()
+    return frame
+
+
 def load_gbif_points() -> pd.DataFrame:
-    ensure_data_dirs()
-    if not GBIF_POINTS.exists():
-        return _empty_points()
-    frame = pd.read_parquet(GBIF_POINTS)
-    if frame.empty:
-        return _empty_points()
-    return frame
+    warehouse = warehouse_gbif()
+    if not warehouse.empty:
+        return warehouse
+    return _parquet(GBIF_POINTS)
 
 
-@lru_cache(maxsize=1)
 def load_roadkill_points() -> pd.DataFrame:
-    ensure_data_dirs()
-    if not ROADKILL_POINTS.exists():
-        return _empty_points()
-    frame = pd.read_parquet(ROADKILL_POINTS)
-    if frame.empty:
-        return _empty_points()
-    return frame
+    warehouse = warehouse_roadkill()
+    if not warehouse.empty:
+        return warehouse
+    return _parquet(ROADKILL_POINTS)
 
 
 def load_fetch_status() -> dict[str, Any]:
+    flags = warehouse_flags()
     ensure_data_dirs()
-    if not FETCH_STATUS.exists():
-        return {"gbif": False, "roadkill": False}
-    return json.loads(FETCH_STATUS.read_text(encoding="utf-8"))
+    extra: dict[str, Any] = {}
+    if FETCH_STATUS.exists():
+        extra = json.loads(FETCH_STATUS.read_text(encoding="utf-8"))
+    merged = {**extra, **flags}
+    merged["gbif"] = bool(flags.get("gbif") or extra.get("gbif"))
+    merged["roadkill"] = bool(flags.get("roadkill") or extra.get("roadkill"))
+    return merged
 
 
 def save_fetch_status(status: dict[str, Any]) -> None:
@@ -60,8 +71,6 @@ def save_points(path, rows: list[dict[str, Any]]) -> None:
     ensure_data_dirs()
     frame = pd.DataFrame(rows) if rows else _empty_points()
     frame.to_parquet(path, index=False)
-    load_gbif_points.cache_clear()
-    load_roadkill_points.cache_clear()
 
 
 def kernel_intensity(center: tuple[float, float], points: pd.DataFrame, radius_m: float) -> float:

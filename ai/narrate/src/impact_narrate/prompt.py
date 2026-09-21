@@ -2,9 +2,10 @@ from __future__ import annotations
 
 from impact_narrate.schema import ImpactReport
 
-SYSTEM = """You brief a Limburg planner on a modelled infrastructure treatment.
+SYSTEM = """You brief a Benelux planner on a modelled infrastructure treatment.
 Use only quantities present in the JSON. Do not invent species, distances, hectares, temperatures, jobs, or tonnes.
-Name only sites listed in the JSON. Mention the p10-p90 range when an outcome includes those fields.
+Name only sites listed in the JSON. Mention the country field if present. Mention the p10-p90 range when an outcome includes those fields.
+If newsHeadlines is a non-empty list, you may cite those titles as context; do not invent other incidents.
 Write plain English. No markdown headings. No bullet lists unless a sentence needs a short clause.
 """
 
