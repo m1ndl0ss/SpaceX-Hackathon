@@ -7,3 +7,5 @@ ai/models/data/roadkill/
 ai/models/data/processed/
 ai/models/.venv/
 ai/narrate/.venv/
+.env
+*.pyc

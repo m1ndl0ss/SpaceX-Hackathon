@@ -1,0 +1,453 @@
+{
+  "species": "Ursus arctos",
+  "region": "Abruzzo / central Apennines",
+  "weights": {
+    "occupancy": 0.35,
+    "protection": 0.3,
+    "road_safety": 0.2,
+    "season": 0.15
+  },
+  "computed_at": "2026-09-21T11:41:03.070794+00:00",
+  "cell_count": 15,
+  "cells": [
+    {
+      "cell_id": "13.7_41.85",
+      "bbox": [
+        13.7,
+        41.85,
+        13.75,
+        41.9
+      ],
+      "centroid": [
+        13.725,
+        41.875
+      ],
+      "composite": 91.97,
+      "sub_scores": {
+        "occupancy": 100.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 27,
+        "year_span": [
+          2001,
+          2002,
+          2005,
+          2026
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 8.85,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.75_41.85",
+      "bbox": [
+        13.75,
+        41.85,
+        13.8,
+        41.9
+      ],
+      "centroid": [
+        13.775,
+        41.875
+      ],
+      "composite": 79.37,
+      "sub_scores": {
+        "occupancy": 64.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 4,
+        "year_span": [
+          2002,
+          2005,
+          2025
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 6.85,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.7_41.8",
+      "bbox": [
+        13.7,
+        41.8,
+        13.75,
+        41.85
+      ],
+      "centroid": [
+        13.725,
+        41.825
+      ],
+      "composite": 71.17,
+      "sub_scores": {
+        "occupancy": 52.0,
+        "protection": 90.0,
+        "road_safety": 70.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 3,
+        "year_span": [
+          2002,
+          2018
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 3.67,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.8_41.85",
+      "bbox": [
+        13.8,
+        41.85,
+        13.85,
+        41.9
+      ],
+      "centroid": [
+        13.825,
+        41.875
+      ],
+      "composite": 70.97,
+      "sub_scores": {
+        "occupancy": 40.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 2,
+        "year_span": [
+          2002
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 5.03,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.65_41.8",
+      "bbox": [
+        13.65,
+        41.8,
+        13.7,
+        41.85
+      ],
+      "centroid": [
+        13.675,
+        41.825
+      ],
+      "composite": 68.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2026
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 5.71,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.8_41.75",
+      "bbox": [
+        13.8,
+        41.75,
+        13.85,
+        41.8
+      ],
+      "centroid": [
+        13.825,
+        41.775
+      ],
+      "composite": 68.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2025
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 5.5,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.95_41.7",
+      "bbox": [
+        13.95,
+        41.7,
+        14.0,
+        41.75
+      ],
+      "centroid": [
+        13.975,
+        41.725
+      ],
+      "composite": 68.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2013
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 19.87,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.9_41.7",
+      "bbox": [
+        13.9,
+        41.7,
+        13.95,
+        41.75
+      ],
+      "centroid": [
+        13.925,
+        41.725
+      ],
+      "composite": 68.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2005
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 15.72,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.9_41.75",
+      "bbox": [
+        13.9,
+        41.75,
+        13.95,
+        41.8
+      ],
+      "centroid": [
+        13.925,
+        41.775
+      ],
+      "composite": 68.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          1997
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 12.18,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.8_41.8",
+      "bbox": [
+        13.8,
+        41.8,
+        13.85,
+        41.85
+      ],
+      "centroid": [
+        13.825,
+        41.825
+      ],
+      "composite": 59.17,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 90.0,
+        "road_safety": 45.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2001
+        ],
+        "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "road_distance_km": 0.32,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.1_42.35",
+      "bbox": [
+        13.1,
+        42.35,
+        13.15,
+        42.4
+      ],
+      "centroid": [
+        13.125,
+        42.375
+      ],
+      "composite": 48.67,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 25.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2026
+        ],
+        "protected_area": null,
+        "road_distance_km": 63.89,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.75_41.95",
+      "bbox": [
+        13.75,
+        41.95,
+        13.8,
+        42.0
+      ],
+      "centroid": [
+        13.775,
+        41.975
+      ],
+      "composite": 48.67,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 25.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2026
+        ],
+        "protected_area": null,
+        "road_distance_km": 11.41,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.95_41.6",
+      "bbox": [
+        13.95,
+        41.6,
+        14.0,
+        41.65
+      ],
+      "centroid": [
+        13.975,
+        41.625
+      ],
+      "composite": 48.67,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 25.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2025
+        ],
+        "protected_area": null,
+        "road_distance_km": 27.87,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.5_41.95",
+      "bbox": [
+        13.5,
+        41.95,
+        13.55,
+        42.0
+      ],
+      "centroid": [
+        13.525,
+        41.975
+      ],
+      "composite": 48.67,
+      "sub_scores": {
+        "occupancy": 32.0,
+        "protection": 25.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [
+          2025
+        ],
+        "protected_area": null,
+        "road_distance_km": 11.77,
+        "road_data_gap": false
+      }
+    },
+    {
+      "cell_id": "13.6_42.5",
+      "bbox": [
+        13.6,
+        42.5,
+        13.65,
+        42.55
+      ],
+      "centroid": [
+        13.625,
+        42.525
+      ],
+      "composite": 47.27,
+      "sub_scores": {
+        "occupancy": 28.0,
+        "protection": 25.0,
+        "road_safety": 90.0,
+        "season": 79.79
+      },
+      "signals": {
+        "occurrence_count": 1,
+        "year_span": [],
+        "protected_area": null,
+        "road_distance_km": 51.55,
+        "road_data_gap": false
+      }
+    }
+  ]
+}
