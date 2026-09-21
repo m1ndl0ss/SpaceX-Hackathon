@@ -1,18 +1,15 @@
-"""Cell-level persistence / risk score for the Abruzzo demo grid.
+"""STALE: Abruzzo / Ursus arctos cell composite. Not the Benelux baseline.
 
-Higher composite = safer / more suitable bear presence cell.
-Deterministic. No LLM in the score.
+Do not use these scores for NL/BE/LU work. run.py skips this unless --score-only.
 """
 import json
-from datetime import date, datetime, timezone
+from datetime import datetime, timezone
 from math import inf
 from pathlib import Path
 
 CELL = 0.05  # ~5 km
 WEST, SOUTH, EAST, NORTH = 13.0, 41.4, 14.5, 42.8
-RAW = Path(__file__).parent.parent / 'data' / 'raw'
-OUT = Path(__file__).parent.parent / 'data' / 'scores'
-CACHE = Path(__file__).parent.parent / 'data' / 'cache'
+DATA = Path(__file__).parent.parent / 'data'
 
 WEIGHTS = {
     'occupancy': 0.35,
@@ -23,7 +20,7 @@ WEIGHTS = {
 
 
 def _load(name):
-    p = RAW / f'{name}_latest.json'
+    p = DATA / f'{name}_latest.json'
     if not p.exists():
         return []
     return json.loads(p.read_text(encoding='utf-8'))
@@ -59,7 +56,7 @@ def _min_road_km(lon, lat, roads):
 
 
 def score_all():
-    occs = _load('gbif')
+    occs = _load('habitats') or _load('gbif')
     parks = _load('protected_areas')
     roads = _load('osm_roads')
     weather = _load('open_meteo')
@@ -157,22 +154,24 @@ def score_all():
         'cells': cells,
     }
     payload = json.dumps(result, ensure_ascii=False, indent=2)
-    OUT.mkdir(parents=True, exist_ok=True)
-    CACHE.mkdir(parents=True, exist_ok=True)
-    today = date.today().isoformat()
-    (OUT / 'cells_latest.json').write_text(payload, encoding='utf-8')
-    (OUT / f'cells_{today}.json').write_text(payload, encoding='utf-8')
+    DATA.mkdir(parents=True, exist_ok=True)
+    (DATA / 'cells_latest.json').write_text(payload, encoding='utf-8')
 
     bundle = {
         'computed_at': result['computed_at'],
         'scores': result,
         'occurrences': occs,
+        'habitats': occs,
+        'wind': _load('wind'),
+        'solar': _load('solar'),
+        'substations': _load('substations'),
+        'energy_demand': _load('energy_demand'),
         'protected_areas': parks,
         'roads': roads,
         'weather': weather,
         'news': _load('news'),
     }
-    bundle_text = json.dumps(bundle, ensure_ascii=False, indent=2)
-    (CACHE / 'frontend_latest.json').write_text(bundle_text, encoding='utf-8')
-    (CACHE / f'frontend_{today}.json').write_text(bundle_text, encoding='utf-8')
+    (DATA / 'frontend_latest.json').write_text(
+        json.dumps(bundle, ensure_ascii=False, indent=2), encoding='utf-8'
+    )
     return result

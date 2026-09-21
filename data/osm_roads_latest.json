@@ -1,0 +1,2755 @@
+[
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.845381+00:00",
+    "raw": {
+      "osm_id": 6699741,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7294681,
+          50.7815421
+        ],
+        [
+          5.7293652,
+          50.7803941
+        ],
+        [
+          5.7291761,
+          50.7793767
+        ],
+        [
+          5.7289426,
+          50.7785082
+        ],
+        [
+          5.7286632,
+          50.7776933
+        ],
+        [
+          5.7284268,
+          50.7771359
+        ],
+        [
+          5.7280904,
+          50.7764318
+        ],
+        [
+          5.7277971,
+          50.775892
+        ],
+        [
+          5.7275565,
+          50.7754797
+        ],
+        [
+          5.727095,
+          50.7747773
+        ],
+        [
+          5.7264889,
+          50.7739535
+        ],
+        [
+          5.7258855,
+          50.7732326
+        ],
+        [
+          5.7253989,
+          50.7727109
+        ],
+        [
+          5.7248651,
+          50.7721684
+        ],
+        [
+          5.7243243,
+          50.771662
+        ],
+        [
+          5.723632,
+          50.771065
+        ],
+        [
+          5.7231524,
+          50.7706835
+        ],
+        [
+          5.7224753,
+          50.7701709
+        ],
+        [
+          5.721845,
+          50.7697301
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699746,
+      "tags": {
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7273652,
+          50.7746967
+        ],
+        [
+          5.727829,
+          50.7754226
+        ],
+        [
+          5.7280654,
+          50.7758287
+        ],
+        [
+          5.728367,
+          50.7763685
+        ],
+        [
+          5.7286896,
+          50.7770621
+        ],
+        [
+          5.728944,
+          50.7776651
+        ],
+        [
+          5.7292262,
+          50.7784765
+        ],
+        [
+          5.7294991,
+          50.7794828
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699755,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "NL:rural"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7183239,
+          50.76773
+        ],
+        [
+          5.7174233,
+          50.7673046
+        ],
+        [
+          5.7165781,
+          50.7669449
+        ],
+        [
+          5.7156564,
+          50.7665686
+        ],
+        [
+          5.7145438,
+          50.7661445
+        ],
+        [
+          5.7122295,
+          50.7653081
+        ],
+        [
+          5.7113788,
+          50.765013
+        ],
+        [
+          5.7104856,
+          50.7646957
+        ],
+        [
+          5.7095844,
+          50.7643581
+        ],
+        [
+          5.7086312,
+          50.7639931
+        ],
+        [
+          5.7076573,
+          50.7636052
+        ],
+        [
+          5.7065306,
+          50.7631255
+        ],
+        [
+          5.705364,
+          50.7625862
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699758,
+      "tags": {
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "NL:rural"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7051923,
+          50.7622696
+        ],
+        [
+          5.7059213,
+          50.762622
+        ],
+        [
+          5.7066577,
+          50.7629591
+        ],
+        [
+          5.7077843,
+          50.763442
+        ],
+        [
+          5.7087814,
+          50.7638381
+        ],
+        [
+          5.7097016,
+          50.7641784
+        ],
+        [
+          5.7123532,
+          50.7651437
+        ],
+        [
+          5.7146443,
+          50.7659716
+        ],
+        [
+          5.7158009,
+          50.7664147
+        ],
+        [
+          5.7167136,
+          50.7667811
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699762,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "NL:rural"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7043571,
+          50.7618337
+        ],
+        [
+          5.7051923,
+          50.7622696
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699764,
+      "tags": {
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "maxspeed:type": "sign",
+        "maxspeed:type:conditional": "NL:motorway @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "NL:rural"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.697817,
+          50.7566324
+        ],
+        [
+          5.6980891,
+          50.7569494
+        ],
+        [
+          5.6983473,
+          50.7572379
+        ],
+        [
+          5.6989587,
+          50.7578746
+        ],
+        [
+          5.6993427,
+          50.7582489
+        ],
+        [
+          5.6998093,
+          50.7586768
+        ],
+        [
+          5.7002817,
+          50.7590883
+        ],
+        [
+          5.7012285,
+          50.7598276
+        ],
+        [
+          5.7020574,
+          50.7604233
+        ],
+        [
+          5.7028543,
+          50.7609502
+        ],
+        [
+          5.7036909,
+          50.7614567
+        ],
+        [
+          5.7043571,
+          50.7618337
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699781,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7280188,
+          50.7880945
+        ],
+        [
+          5.7281321,
+          50.787808
+        ],
+        [
+          5.728538,
+          50.7867723
+        ],
+        [
+          5.7289273,
+          50.7855559
+        ],
+        [
+          5.7291803,
+          50.7846124
+        ],
+        [
+          5.7292748,
+          50.7841136
+        ],
+        [
+          5.7293676,
+          50.7835116
+        ],
+        [
+          5.7294425,
+          50.7828334
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699782,
+      "tags": {
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7297523,
+          50.7826041
+        ],
+        [
+          5.7297098,
+          50.7830659
+        ],
+        [
+          5.7296502,
+          50.7835335
+        ],
+        [
+          5.7295668,
+          50.7841259
+        ],
+        [
+          5.7294611,
+          50.7846537
+        ],
+        [
+          5.7292165,
+          50.7855629
+        ],
+        [
+          5.728807,
+          50.7868505
+        ],
+        [
+          5.7281332,
+          50.7885767
+        ],
+        [
+          5.7275039,
+          50.7900287
+        ],
+        [
+          5.7273422,
+          50.7904082
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699783,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7269345,
+          50.7906506
+        ],
+        [
+          5.7270813,
+          50.7903047
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699789,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Re",
+        "change:lanes": "yes|not_right|not_left",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "none|none|merge_to_left"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7294585,
+          50.7826155
+        ],
+        [
+          5.7294688,
+          50.7823243
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6699790,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Autosnelweg RW A-2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "source:official_name": "NWB",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7297621,
+          50.7823107
+        ],
+        [
+          5.7297523,
+          50.7826041
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6773085,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Rijksweg A2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7882354,
+          50.9435757
+        ],
+        [
+          5.7882925,
+          50.9437984
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6773086,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Rijksweg A2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7881338,
+          50.9438626
+        ],
+        [
+          5.7880792,
+          50.9436425
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6773088,
+      "tags": {
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Rijksweg A2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7814781,
+          50.9327188
+        ],
+        [
+          5.7827897,
+          50.9340866
+        ],
+        [
+          5.7835043,
+          50.9348666
+        ],
+        [
+          5.7841578,
+          50.9356551
+        ],
+        [
+          5.7847761,
+          50.9364532
+        ],
+        [
+          5.7853942,
+          50.9373305
+        ],
+        [
+          5.7855684,
+          50.9376017
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6773089,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "noname": "yes",
+        "official_name": "Rijksweg A2",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A2",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.7885546,
+          50.9464815
+        ],
+        [
+          5.7885241,
+          50.9461669
+        ],
+        [
+          5.7884567,
+          50.94558
+        ],
+        [
+          5.7883333,
+          50.94479
+        ],
+        [
+          5.7882325,
+          50.9442912
+        ],
+        [
+          5.7881338,
+          50.9438626
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4309222,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "120",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4295416,
+          51.1268539
+        ],
+        [
+          4.4295589,
+          51.1264781
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4309231,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h1",
+        "change:lanes": "yes|yes|yes|only_left|yes",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "lanes": "5",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "120",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "placement": "right_of:2",
+        "ref": "E19",
+        "toll:hgv": "yes",
+        "turn:lanes": "none|none|none|none|merge_to_left",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4302948,
+          51.1266803
+        ],
+        [
+          4.4302955,
+          51.1267991
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310135,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "120",
+        "maxspeed:type": "BE:motorway",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "merge_to_right|none",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4136611,
+          51.1899226
+        ],
+        [
+          4.4139099,
+          51.1894369
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310136,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h1",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "70",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "left;through|through|right",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4139111,
+          51.1899167
+        ],
+        [
+          4.4133307,
+          51.1910773
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310141,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "120",
+        "maxspeed:type": "BE:motorway",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "merge_to_right|none",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4131401,
+          51.1910408
+        ],
+        [
+          4.4136611,
+          51.1899226
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310143,
+      "tags": {
+        "carriageway_ref": "h1",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "70",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "left;through|through|right",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4133307,
+          51.1910773
+        ],
+        [
+          4.412968,
+          51.1917797
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310144,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "120",
+        "maxspeed:type": "BE:motorway",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4127637,
+          51.1917843
+        ],
+        [
+          4.4131401,
+          51.1910408
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310147,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h1",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "4",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "70",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "left|through|through|right",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.412968,
+          51.1917797
+        ],
+        [
+          4.4127982,
+          51.192164
+        ],
+        [
+          4.4127261,
+          51.1923116
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310148,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "int_ref": "E 19",
+        "junction:ref": "5a",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "120",
+        "maxspeed:type": "BE:motorway",
+        "nat_ref": "A1",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "E19",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4124753,
+          51.1923159
+        ],
+        [
+          4.4127637,
+          51.1917843
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310170,
+      "tags": {
+        "hazmat:D": "no",
+        "highway": "motorway",
+        "int_ref": "E 34",
+        "lanes": "3",
+        "layer": "-2",
+        "lit": "24/7",
+        "maxspeed": "70",
+        "name": "Kennedytunnel",
+        "name:etymology:wikidata": "Q9696",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "R1",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "tunnel": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.3744811,
+          51.2028881
+        ],
+        [
+          4.3690194,
+          51.2080498
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310171,
+      "tags": {
+        "hazmat:D": "no",
+        "highway": "motorway",
+        "int_ref": "E 34",
+        "lanes": "3",
+        "layer": "-2",
+        "lit": "24/7",
+        "maxspeed": "100",
+        "name": "Kennedytunnel",
+        "name:etymology:wikidata": "Q9696",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "R1",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "tunnel": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.3688037,
+          51.2079603
+        ],
+        [
+          4.374246,
+          51.2027913
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310576,
+      "tags": {
+        "bridge": "yes",
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "90",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4090151,
+          51.1913323
+        ],
+        [
+          4.4086399,
+          51.1911781
+        ],
+        [
+          4.4082278,
+          51.1909542
+        ],
+        [
+          4.4079661,
+          51.1907881
+        ],
+        [
+          4.4077397,
+          51.1906126
+        ],
+        [
+          4.4075548,
+          51.1904755
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310577,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "90",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4075548,
+          51.1904755
+        ],
+        [
+          4.4071874,
+          51.1901135
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310582,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "90",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4071874,
+          51.1901135
+        ],
+        [
+          4.406984,
+          51.1898965
+        ],
+        [
+          4.4064775,
+          51.1893487
+        ],
+        [
+          4.4062826,
+          51.1891527
+        ],
+        [
+          4.4060525,
+          51.1889536
+        ],
+        [
+          4.4056688,
+          51.1886696
+        ],
+        [
+          4.4052953,
+          51.1884509
+        ],
+        [
+          4.4046907,
+          51.188186
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4310619,
+      "tags": {
+        "carriageway_ref": "h2",
+        "highway": "motorway",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "90",
+        "maxspeed:hgv": "70",
+        "oneway": "yes",
+        "operator": "Agentschap Wegen en Verkeer",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "zone:traffic": "BE:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          4.4046907,
+          51.188186
+        ],
+        [
+          4.4043305,
+          51.1880515
+        ],
+        [
+          4.4036138,
+          51.187794
+        ],
+        [
+          4.4021001,
+          51.1872761
+        ],
+        [
+          4.3984523,
+          51.1860387
+        ],
+        [
+          4.3969506,
+          51.1855403
+        ],
+        [
+          4.3958187,
+          51.1851446
+        ],
+        [
+          4.3954911,
+          51.18503
+        ],
+        [
+          4.3947244,
+          51.1847602
+        ],
+        [
+          4.3939916,
+          51.1844811
+        ],
+        [
+          4.3933925,
+          51.1842442
+        ],
+        [
+          4.3928236,
+          51.1840071
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4015964,
+      "tags": {
+        "destination": "Bruxelles;Liège;Bridel",
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight:signed": "no",
+        "maxspeed": "130",
+        "maxspeed:bus": "90",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "moped": "no",
+        "name": "Autoroute d'Arlon",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "overtaking:hgv": "no",
+        "ref": "A 6",
+        "shoulder:right": "yes",
+        "source:maxspeed": "LU:motorway",
+        "surface": "asphalt",
+        "toll": "no",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.0834861,
+          49.6189561
+        ],
+        [
+          6.0834746,
+          49.6192659
+        ],
+        [
+          6.0834365,
+          49.6196799
+        ],
+        [
+          6.0833734,
+          49.6200788
+        ],
+        [
+          6.0832667,
+          49.620576
+        ],
+        [
+          6.0830979,
+          49.621125
+        ],
+        [
+          6.0829101,
+          49.6215791
+        ],
+        [
+          6.0826987,
+          49.6220037
+        ],
+        [
+          6.0824895,
+          49.6223553
+        ],
+        [
+          6.0822399,
+          49.6227891
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 4015977,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 25",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight:signed": "no",
+        "maxspeed": "130",
+        "maxspeed:bus": "90",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "moped": "no",
+        "name": "Autoroute d'Arlon",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 6",
+        "shoulder:right": "yes",
+        "surface": "asphalt",
+        "toll": "no",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.0718936,
+          49.6287758
+        ],
+        [
+          6.0733881,
+          49.6282888
+        ],
+        [
+          6.0744498,
+          49.6278938
+        ],
+        [
+          6.0749572,
+          49.6276939
+        ],
+        [
+          6.0753085,
+          49.6275474
+        ],
+        [
+          6.0760414,
+          49.627216
+        ],
+        [
+          6.0767888,
+          49.6268591
+        ],
+        [
+          6.0772689,
+          49.626611
+        ],
+        [
+          6.0777398,
+          49.6263628
+        ],
+        [
+          6.0781928,
+          49.6261086
+        ],
+        [
+          6.0789397,
+          49.6256475
+        ],
+        [
+          6.0793823,
+          49.6253453
+        ],
+        [
+          6.0798195,
+          49.6250213
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 8656182,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "130",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.1788239,
+          49.6196512
+        ],
+        [
+          6.1788283,
+          49.6195348
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 8656183,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "24/7",
+        "maxheight": "default",
+        "maxspeed": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "toll": "no",
+        "tunnel": "yes",
+        "tunnel:name": "Tunnel Cents",
+        "tunnel:name:fr": "Tunnel de Cents",
+        "tunnel:name:lb": "Tunnel Zens",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.179017,
+          49.6196538
+        ],
+        [
+          6.179046,
+          49.6203597
+        ],
+        [
+          6.179158,
+          49.6210903
+        ],
+        [
+          6.1793366,
+          49.6217511
+        ],
+        [
+          6.1796172,
+          49.6223853
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 8656203,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "24/7",
+        "maxheight": "default",
+        "maxspeed": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "toll": "no",
+        "tunnel": "yes",
+        "tunnel:name": "Tunnel Cents",
+        "tunnel:name:fr": "Tunnel de Cents",
+        "tunnel:name:lb": "Tunnel Zens",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.1794582,
+          49.6224161
+        ],
+        [
+          6.1791857,
+          49.6217611
+        ],
+        [
+          6.1790072,
+          49.6210995
+        ],
+        [
+          6.1788869,
+          49.6203654
+        ],
+        [
+          6.1788239,
+          49.6196512
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 9095414,
+      "tags": {
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "yes",
+        "highway": "motorway",
+        "int_ref": "E 25;E 44",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "130",
+        "maxspeed:bus": "90",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "moped": "no",
+        "name": "Autoroute d'Arlon",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 6",
+        "surface": "asphalt",
+        "toll": "no",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.0874506,
+          49.5857135
+        ],
+        [
+          6.0879329,
+          49.5853509
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 9095417,
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "foot": "no",
+        "hgv": "yes",
+        "highway": "motorway",
+        "int_ref": "E 25;E 44",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "130",
+        "maxspeed:bus": "90",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "moped": "no",
+        "name": "Autoroute d'Arlon",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 6",
+        "surface": "asphalt",
+        "toll": "no",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.0870615,
+          49.586025
+        ],
+        [
+          6.0874506,
+          49.5857135
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 9096536,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "130",
+        "maxspeed:bus": "90",
+        "maxspeed:conditional": "110 @ wet",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "toll": "no",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.1455882,
+          49.5760924
+        ],
+        [
+          6.1450333,
+          49.5759438
+        ],
+        [
+          6.144444,
+          49.575798
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 9096538,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "24/7",
+        "maxspeed": "90",
+        "maxspeed:bus": "90",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "toll": "no",
+        "tunnel": "yes",
+        "tunnel:name": "Tunnel Howald",
+        "tunnel:name:fr": "Tunnel de Howald",
+        "tunnel:name:lb": "Tunnel Houwald",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.1513882,
+          49.5783466
+        ],
+        [
+          6.1507182,
+          49.5780062
+        ],
+        [
+          6.1504395,
+          49.5778678
+        ],
+        [
+          6.1499251,
+          49.5776326
+        ],
+        [
+          6.1493897,
+          49.5774011
+        ],
+        [
+          6.1484865,
+          49.5770411
+        ],
+        [
+          6.1478347,
+          49.5768054
+        ],
+        [
+          6.1473093,
+          49.5766173
+        ],
+        [
+          6.1467486,
+          49.576429
+        ],
+        [
+          6.1455882,
+          49.5760924
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 9096558,
+      "tags": {
+        "highway": "motorway",
+        "int_ref": "E 29;E 44",
+        "lanes": "2",
+        "layer": "-1",
+        "lit": "24/7",
+        "maxspeed": "90",
+        "maxspeed:bus": "90",
+        "maxspeed:hgv:conditional": "90 @ (weight>7.5)",
+        "maxspeed:trailer": "90",
+        "minspeed": "40",
+        "name": "Autoroute de Trèves",
+        "oneway": "yes",
+        "operator": "Administration des Ponts et Chaussées",
+        "ref": "A 1",
+        "surface": "asphalt",
+        "toll": "no",
+        "tunnel": "yes",
+        "tunnel:name": "Tunnel Howald",
+        "tunnel:name:fr": "Tunnel de Howald",
+        "tunnel:name:lb": "Tunnel Houwald",
+        "zone:traffic": "LU:motorway"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          6.1461499,
+          49.5761114
+        ],
+        [
+          6.1469622,
+          49.5763488
+        ],
+        [
+          6.1474309,
+          49.5765155
+        ],
+        [
+          6.1478688,
+          49.5766751
+        ],
+        [
+          6.1487241,
+          49.5769928
+        ],
+        [
+          6.149471,
+          49.5772881
+        ],
+        [
+          6.1500446,
+          49.577528
+        ],
+        [
+          6.1505625,
+          49.5777645
+        ],
+        [
+          6.1508181,
+          49.5778911
+        ],
+        [
+          6.1515176,
+          49.5782426
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6989436,
+      "tags": {
+        "access:lanes": "variable|yes|yes|yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "none|none|none|merge_to_left"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2740689,
+          52.0638045
+        ],
+        [
+          5.274939,
+          52.0640312
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990122,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2772579,
+          52.0645172
+        ],
+        [
+          5.2776135,
+          52.0645775
+        ],
+        [
+          5.2784548,
+          52.0646951
+        ],
+        [
+          5.2792617,
+          52.0648056
+        ],
+        [
+          5.2801527,
+          52.0648831
+        ],
+        [
+          5.2812158,
+          52.0649537
+        ],
+        [
+          5.2828029,
+          52.0650077
+        ],
+        [
+          5.2867914,
+          52.0650477
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990124,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.3150438,
+          52.0654154
+        ],
+        [
+          5.3124659,
+          52.0653916
+        ],
+        [
+          5.2975553,
+          52.065264
+        ],
+        [
+          5.2932943,
+          52.0652276
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990127,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "bridge": "yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2749866,
+          52.06422
+        ],
+        [
+          5.2747096,
+          52.0641498
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990128,
+      "tags": {
+        "access:lanes": "variable|yes|yes|yes",
+        "bridge": "yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "4",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes",
+        "turn:lanes": "none|none|none|merge_to_left"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.274939,
+          52.0640312
+        ],
+        [
+          5.2752234,
+          52.0640999
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990129,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 30",
+        "lanes": "3",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A28",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2246003,
+          52.1031031
+        ],
+        [
+          5.2306576,
+          52.1034667
+        ],
+        [
+          5.2362941,
+          52.1038105
+        ],
+        [
+          5.2379656,
+          52.103915
+        ],
+        [
+          5.2396114,
+          52.1040195
+        ],
+        [
+          5.2435261,
+          52.1042515
+        ],
+        [
+          5.2475848,
+          52.1044943
+        ],
+        [
+          5.2494222,
+          52.1046113
+        ],
+        [
+          5.250407,
+          52.1046936
+        ],
+        [
+          5.251537,
+          52.1048118
+        ],
+        [
+          5.2523802,
+          52.1049056
+        ],
+        [
+          5.2532706,
+          52.1050273
+        ],
+        [
+          5.2543666,
+          52.105193
+        ],
+        [
+          5.2548876,
+          52.1052836
+        ],
+        [
+          5.25594,
+          52.1054722
+        ],
+        [
+          5.2567847,
+          52.1056426
+        ],
+        [
+          5.2580345,
+          52.105917
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6990730,
+      "tags": {
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 30",
+        "lanes": "3",
+        "lit": "yes",
+        "maxheight:signed": "no",
+        "maxspeed": "100",
+        "maxspeed:conditional": "130 @ (19:00-06:00)",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A28",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2976906,
+          52.1146078
+        ],
+        [
+          5.2988848,
+          52.1147984
+        ],
+        [
+          5.2997219,
+          52.1149237
+        ],
+        [
+          5.3005455,
+          52.115043
+        ],
+        [
+          5.3012956,
+          52.115145
+        ],
+        [
+          5.3021259,
+          52.1152528
+        ],
+        [
+          5.3029745,
+          52.1153551
+        ],
+        [
+          5.3038132,
+          52.1154532
+        ],
+        [
+          5.3046908,
+          52.1155453
+        ],
+        [
+          5.3063567,
+          52.1157047
+        ],
+        [
+          5.3073063,
+          52.1157842
+        ],
+        [
+          5.3083084,
+          52.1158598
+        ],
+        [
+          5.3097061,
+          52.1159481
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6992915,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "carriageway_ref": "Li",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2663377,
+          52.0611502
+        ],
+        [
+          5.2638895,
+          52.0601888
+        ],
+        [
+          5.2630368,
+          52.0598721
+        ],
+        [
+          5.2619483,
+          52.0595137
+        ],
+        [
+          5.2610977,
+          52.059268
+        ],
+        [
+          5.260652,
+          52.0591606
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6993353,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2672084,
+          52.0612425
+        ],
+        [
+          5.2698539,
+          52.062313
+        ],
+        [
+          5.2709902,
+          52.0627705
+        ],
+        [
+          5.2720784,
+          52.0631763
+        ],
+        [
+          5.2726634,
+          52.0633783
+        ],
+        [
+          5.2733218,
+          52.063587
+        ],
+        [
+          5.2740689,
+          52.0638045
+        ]
+      ]
+    }
+  },
+  {
+    "source_id": "S005",
+    "source_name": "OSM roads (Overpass)",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "collected_at": "2026-09-21T12:43:57.846380+00:00",
+    "raw": {
+      "osm_id": 6993357,
+      "tags": {
+        "access:lanes": "variable|yes|yes",
+        "bridge": "yes",
+        "carriageway_ref": "Re",
+        "highway": "motorway",
+        "int_ref": "E 35",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "100",
+        "oneway": "yes",
+        "operator": "Rijkswaterstaat",
+        "ref": "A12",
+        "surface": "asphalt",
+        "toll:hgv": "yes"
+      }
+    },
+    "license": "ODbL",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          5.2666029,
+          52.0609995
+        ],
+        [
+          5.2672084,
+          52.0612425
+        ]
+      ]
+    }
+  }
+]

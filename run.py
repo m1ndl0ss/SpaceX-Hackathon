@@ -1,4 +1,4 @@
-"""Collect (or reuse cache) then score. Use --score-only on stage."""
+"""Collect Benelux caches. Scoring is stale and opt-in only."""
 import argparse
 import sys
 from pathlib import Path
@@ -6,21 +6,21 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from collectors.run_collectors import main as collect
-from scoring.engine import score_all
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument('--score-only', action='store_true')
+    p.add_argument('--score-only', action='store_true', help='run stale Abruzzo scoring (not the Benelux baseline)')
+    p.add_argument('--collect-only', action='store_true', help='collect caches and exit (default behaviour)')
     args = p.parse_args()
-    if not args.score_only:
-        collect()
-    result = score_all()
-    print(f"scored {result['cell_count']} cells")
-    print('cached data/scores/cells_latest.json and data/cache/frontend_latest.json')
-    if result['cells']:
-        top = result['cells'][0]
-        print(f"top cell {top['cell_id']} composite={top['composite']}")
+    if args.score_only:
+        from scoring.engine import score_all
+        print('scoring engine is stale (Abruzzo bear composite); not a Benelux baseline')
+        result = score_all()
+        print(f"scored {result['cell_count']} cells")
+        return
+    collect()
+    print('collection cached under data/*_latest.json')
 
 
 if __name__ == '__main__':
