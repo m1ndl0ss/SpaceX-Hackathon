@@ -1,0 +1,22 @@
+import "./styles.css";
+import { root } from "./js/dom.js";
+import { renderIcons } from "./js/icons.js";
+import { drawAll } from "./js/maps.js";
+import { bindAuth } from "./js/auth.js";
+import { bindBoot } from "./js/boot.js";
+import { bindCursor } from "./js/cursor.js";
+import { bindCommunity } from "./js/community.js";
+import { bindWorkspace } from "./js/workspace.js";
+import { bindDrawers } from "./js/drawers.js";
+import { bindSimulation, renderResults } from "./js/simulation.js";
+
+bindBoot();
+bindCursor();
+bindAuth();
+bindWorkspace();
+bindCommunity();
+bindDrawers();
+bindSimulation();
+renderResults();
+renderIcons();
+new ResizeObserver(drawAll).observe(root);

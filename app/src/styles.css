@@ -1,0 +1,2621 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#last-mile {
+  --lm-brand: #007552;
+  --lm-brand-dark: #005c41;
+  --lm-white: #ffffff;
+  --lm-bg: #ffffff;
+  --lm-panel: #ffffff;
+  --lm-panel2: #eef7f3;
+  --lm-line: rgba(0, 117, 82, 0.14);
+  --lm-text: #123d32;
+  --lm-muted: #5a7a70;
+  --lm-green: #007552;
+  --lm-emerald: #2f9a74;
+  --lm-amber: #c9842a;
+  --lm-blue: #2a8f9a;
+  --lm-radius: 16px;
+  --lm-sans: "Montserrat", sans-serif;
+  --lm-display: "Michroma", sans-serif;
+  --lm-mono: "Michroma", sans-serif;
+  color-scheme: light;
+  font-family: var(--lm-sans);
+  color: var(--lm-text);
+  background: var(--lm-bg);
+  font-size: 14px;
+  line-height: 1.45;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#last-mile * {
+  box-sizing: border-box;
+}
+
+#last-mile button,
+#last-mile input,
+#last-mile select,
+#last-mile textarea {
+  font: inherit;
+}
+
+#last-mile button {
+  cursor: pointer;
+}
+
+#last-mile button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+#last-mile h1,
+#last-mile h2,
+#last-mile h3,
+#last-mile p {
+  margin: 0;
+}
+
+#last-mile h1 {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+}
+
+#last-mile h2 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+}
+
+#last-mile h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#last-mile svg.lucide {
+  width: 17px;
+  height: 17px;
+  flex: none;
+  stroke-width: 1.7;
+}
+
+#last-mile [hidden] {
+  display: none !important;
+}
+
+#last-mile .lm-small {
+  font-size: 12px;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-mono {
+  font-family: var(--lm-mono);
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  font-variant-numeric: tabular-nums;
+}
+
+#last-mile .lm-boot,
+#last-mile .lm-boot-wordmark,
+#last-mile .lm-gate,
+#last-mile .lm-screen-switch,
+#last-mile .lm-brand-name,
+#last-mile .lm-eyebrow,
+#last-mile .lm-tag,
+#last-mile .lm-stat-num,
+#last-mile .lm-stat-note em,
+#last-mile .lm-action-rank,
+#last-mile .lm-action-detail strong,
+#last-mile .lm-field-value,
+#last-mile .lm-result-val,
+#last-mile .lm-drawer-metrics strong,
+#last-mile .lm-avatar,
+#last-mile .lm-popup-kicker,
+#last-mile .lm-recommendation-label,
+#last-mile .lm-layer-title,
+#last-mile .lm-drawer-list-title,
+#last-mile .lm-proposed-site span,
+#last-mile .lm-chart,
+#last-mile .lm-mono {
+  font-family: var(--lm-display);
+}
+
+#last-mile .lm-eyebrow {
+  font-size: 11px;
+  letter-spacing: 1.6px;
+  color: var(--lm-muted);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#last-mile .lm-green {
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-amber {
+  color: var(--lm-amber);
+}
+
+#last-mile .lm-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#last-mile .lm-between {
+  justify-content: space-between;
+}
+
+#last-mile .lm-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: var(--lm-brand);
+  border-radius: 50%;
+  flex: none;
+}
+
+#last-mile .lm-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  line-height: 1;
+  padding: 7px 9px;
+  border: 1px solid var(--lm-line);
+  border-radius: 6px;
+  color: var(--lm-muted);
+  white-space: nowrap;
+  background: var(--lm-white);
+}
+
+#last-mile .lm-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 13px;
+  border: 1px solid rgba(0, 117, 82, 0.2);
+  border-radius: 8px;
+  background: var(--lm-white);
+  color: var(--lm-brand);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, filter 0.2s;
+}
+
+#last-mile .lm-button:hover {
+  background: #f3faf7;
+}
+
+#last-mile .lm-button.primary {
+  background: var(--lm-brand);
+  color: var(--lm-white);
+  border-color: var(--lm-brand);
+}
+
+#last-mile .lm-button.primary:hover {
+  background: var(--lm-brand-dark);
+  filter: none;
+}
+
+#last-mile .lm-button.ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--lm-muted);
+  padding: 6px;
+}
+
+#last-mile .lm-button.icon-only {
+  padding: 8px;
+}
+
+#last-mile .lm-link {
+  border: 0;
+  background: none;
+  color: var(--lm-brand);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+}
+
+#last-mile .lm-link:hover {
+  text-decoration: underline;
+}
+
+#last-mile .lm-pill {
+  border-radius: 99px;
+  padding: 5px 9px;
+  background: rgba(0, 117, 82, 0.1);
+  color: var(--lm-brand);
+  font-size: 11px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#last-mile .lm-pill.amber {
+  background: rgba(201, 132, 42, 0.14);
+  color: var(--lm-amber);
+}
+
+#last-mile .lm-backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+  background-color: #ffffff;
+  background-image: url("/valley.jpg?v=tunnel");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: saturate(0.78) contrast(1.04);
+}
+
+#last-mile .lm-backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.54) 48%, rgba(255, 255, 255, 0.66) 100%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.16), transparent 46%, rgba(255, 255, 255, 0.12));
+}
+
+#last-mile.lm-in-app .lm-backdrop {
+  filter: saturate(0.5) contrast(1.02);
+}
+
+#last-mile.lm-in-app .lm-backdrop::after {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.9) 48%, rgba(255, 255, 255, 0.96) 100%),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.32), transparent 46%, rgba(255, 255, 255, 0.24));
+}
+
+#last-mile .lm-shell,
+#last-mile .lm-gate,
+#last-mile .lm-drawer-overlay,
+#last-mile .lm-toast {
+  position: relative;
+  z-index: 1;
+}
+
+#last-mile .lm-gate {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 32px 20px;
+}
+
+#last-mile .lm-gate-card {
+  width: min(520px, 100%);
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--lm-line);
+  border-radius: 20px;
+  padding: 36px 32px 32px;
+  box-shadow: 0 18px 50px rgba(0, 40, 28, 0.1);
+  backdrop-filter: blur(18px);
+}
+
+#last-mile .lm-gate .lm-brand {
+  padding-left: 0;
+  margin-bottom: 22px;
+}
+
+#last-mile .lm-gate .lm-brand-name {
+  display: block;
+  font-size: 15px;
+}
+
+#last-mile .lm-gate .lm-brand-symbol {
+  width: 48px;
+  height: 48px;
+}
+
+#last-mile .lm-gate .lm-brand-symbol img.lm-logo {
+  width: 48px;
+  height: 48px;
+}
+
+#last-mile .lm-gate .lm-eyebrow {
+  margin-bottom: 10px;
+}
+
+#last-mile .lm-gate h1 {
+  font-size: 26px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+#last-mile .lm-gate-copy {
+  font-family: var(--lm-sans);
+  margin-top: 16px;
+  color: var(--lm-muted);
+  font-size: 14px;
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+#last-mile .lm-gate-card > p {
+  margin-top: 8px;
+  color: var(--lm-muted);
+  font-size: 14px;
+}
+
+#last-mile .lm-gate-choices {
+  display: grid;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+#last-mile .lm-gate-choice {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  column-gap: 14px;
+  row-gap: 3px;
+  text-align: left;
+  padding: 16px 18px;
+  border: 1px solid var(--lm-line);
+  border-radius: 12px;
+  background: var(--lm-white);
+  color: var(--lm-text);
+  font-weight: 400;
+}
+
+#last-mile .lm-gate-choice svg.lucide,
+#last-mile .lm-gate-choice i {
+  grid-row: 1 / span 2;
+  align-self: center;
+  width: 22px;
+  height: 22px;
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-gate-choice strong {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#last-mile .lm-gate-choice span {
+  font-family: var(--lm-sans);
+  font-size: 12px;
+  color: var(--lm-muted);
+  line-height: 1.45;
+}
+
+#last-mile .lm-gate-choice:hover {
+  background: #f3faf7;
+  border-color: rgba(0, 117, 82, 0.35);
+}
+
+#last-mile .lm-gate-choice.primary {
+  background: var(--lm-brand);
+  border-color: var(--lm-brand);
+  color: var(--lm-white);
+}
+
+#last-mile .lm-gate-choice.primary svg.lucide,
+#last-mile .lm-gate-choice.primary i,
+#last-mile .lm-gate-choice.primary span {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+#last-mile .lm-gate-choice.primary strong {
+  color: var(--lm-white);
+}
+
+#last-mile .lm-gate-choice.primary:hover {
+  background: var(--lm-brand-dark);
+  border-color: var(--lm-brand-dark);
+}
+
+#last-mile .lm-gate-choice[aria-pressed="true"] {
+  border-color: var(--lm-brand);
+  box-shadow: 0 0 0 3px rgba(0, 117, 82, 0.12);
+}
+
+#last-mile .lm-gate-note {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: var(--lm-panel2);
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--lm-text);
+  line-height: 1.5;
+}
+
+@media (max-width: 520px) {
+  #last-mile .lm-gate {
+    padding: 20px 14px;
+    align-items: end;
+  }
+
+  #last-mile .lm-gate-card {
+    padding: 28px 20px 24px;
+  }
+
+  #last-mile .lm-gate h1 {
+    font-size: 24px;
+  }
+
+  #last-mile #lm-signup h1 {
+    font-size: 26px;
+  }
+}
+
+#last-mile .lm-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  height: 100%;
+}
+
+#last-mile .lm-workspace {
+  min-width: 0;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#last-mile .lm-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 3px;
+}
+
+#last-mile .lm-brand-symbol {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  color: var(--lm-brand);
+  flex: none;
+}
+
+#last-mile .lm-brand-symbol img.lm-logo {
+  width: 36px;
+  height: 36px;
+  display: block;
+  object-fit: contain;
+}
+
+#last-mile .lm-brand-name {
+  display: block;
+  font-size: 13px;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-avatar {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--lm-panel2);
+  color: var(--lm-brand);
+  font-size: 11px;
+  font-weight: 600;
+  flex: none;
+}
+
+#last-mile .lm-topbar {
+  min-height: 76px;
+  border-bottom: 1px solid var(--lm-line);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 12px 28px;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  flex: none;
+}
+
+#last-mile .lm-screen-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  background: var(--lm-panel2);
+  border: 1px solid var(--lm-line);
+  border-radius: 14px;
+}
+
+#last-mile .lm-screen-switch button {
+  border: 0;
+  background: transparent;
+  color: var(--lm-muted);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 28px;
+  border-radius: 10px;
+  min-width: 148px;
+}
+
+#last-mile .lm-screen-switch button:hover {
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-screen-switch button[aria-current="page"] {
+  background: var(--lm-brand);
+  color: var(--lm-white);
+}
+
+#last-mile .lm-topbar-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+#last-mile .lm-breadcrumb {
+  font-size: 12px;
+  color: var(--lm-muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+#last-mile .lm-breadcrumb span:last-child {
+  color: var(--lm-text);
+}
+
+#last-mile .lm-screen {
+  padding: 25px;
+}
+
+#last-mile .lm-titlebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+#last-mile .lm-titlebar .lm-eyebrow {
+  margin-bottom: 8px;
+}
+
+#last-mile .lm-titlebar p {
+  font-size: 12px;
+  color: var(--lm-muted);
+  margin-top: 8px;
+}
+
+#last-mile .lm-title-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#last-mile .lm-stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-top: 1px solid var(--lm-line);
+  border-bottom: 1px solid var(--lm-line);
+  padding: 17px 0;
+  margin-bottom: 22px;
+}
+
+#last-mile .lm-stat {
+  padding: 0 19px;
+  border-left: 1px solid var(--lm-line);
+  min-width: 0;
+  position: relative;
+}
+
+#last-mile .lm-stat:first-child {
+  padding-left: 0;
+  border: 0;
+}
+
+#last-mile .lm-stat:last-child {
+  padding-right: 0;
+}
+
+#last-mile .lm-stat-title {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-bottom: 7px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+#last-mile .lm-stat-num {
+  font-size: 27px;
+  letter-spacing: 0;
+  line-height: 1.15;
+  font-weight: 400;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+#last-mile .lm-stat-note {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#last-mile .lm-stat-note em {
+  font-style: normal;
+  color: var(--lm-brand);
+  font-weight: 600;
+}
+
+#last-mile .lm-stat-spark {
+  position: absolute;
+  right: 15px;
+  bottom: 6px;
+  width: 45px;
+  height: 20px;
+  opacity: 0.7;
+}
+
+#last-mile .lm-stat-spark i {
+  display: inline-block;
+  width: 3px;
+  margin-right: 3px;
+  background: var(--lm-brand);
+  border-radius: 2px;
+}
+
+#last-mile .lm-overview-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 282px;
+  gap: 17px;
+}
+
+#last-mile .lm-panel,
+#last-mile .lm-result,
+#last-mile .lm-drawer,
+#last-mile .lm-map-info,
+#last-mile .lm-layer-menu {
+  --lm-text: #123d32;
+  --lm-muted: #5a7a70;
+  --lm-line: rgba(0, 117, 82, 0.14);
+  --lm-panel2: #eef7f3;
+  --lm-green: #007552;
+  color: var(--lm-text);
+}
+
+#last-mile .lm-panel {
+  background: var(--lm-panel);
+  border: 1px solid var(--lm-line);
+  border-radius: var(--lm-radius);
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 40, 28, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+#last-mile .lm-panel .lm-dot {
+  background: var(--lm-brand);
+}
+
+#last-mile .lm-panel .lm-button {
+  background: var(--lm-white);
+  color: var(--lm-brand);
+  border-color: rgba(0, 117, 82, 0.2);
+}
+
+#last-mile .lm-panel .lm-button:hover {
+  background: #f3faf7;
+}
+
+#last-mile .lm-panel .lm-button.primary,
+#last-mile .lm-drawer .lm-button.primary {
+  background: var(--lm-brand);
+  color: var(--lm-white);
+  border-color: var(--lm-brand);
+}
+
+#last-mile .lm-panel .lm-button.primary:hover,
+#last-mile .lm-drawer .lm-button.primary:hover {
+  background: var(--lm-brand-dark);
+  filter: none;
+}
+
+#last-mile .lm-panel-head {
+  padding: 17px 18px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#last-mile .lm-map-panel {
+  position: relative;
+  min-height: 520px;
+  background: #0d4a38;
+  overflow: hidden;
+  border: 1px solid var(--lm-line);
+  border-radius: var(--lm-radius);
+  box-shadow: 0 12px 40px rgba(0, 40, 28, 0.08);
+}
+
+#last-mile .lm-map-heading {
+  position: absolute;
+  z-index: 3;
+  top: 17px;
+  left: 18px;
+  right: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  pointer-events: none;
+  color: var(--lm-white);
+  text-shadow: 0 1px 12px rgba(0, 40, 28, 0.45);
+}
+
+#last-mile .lm-map-heading h2 {
+  font-size: 15px;
+}
+
+#last-mile .lm-map-heading p {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.82);
+  margin-top: 4px;
+}
+
+#last-mile .lm-map-heading button {
+  pointer-events: auto;
+  text-shadow: none;
+}
+
+#last-mile .lm-map-heading .lm-dot {
+  background: var(--lm-white);
+}
+
+#last-mile .lm-map-canvas {
+  position: absolute;
+  inset: 0;
+  background: #0d4a38;
+  overflow: hidden;
+}
+
+#last-mile .lm-map-canvas::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(0, 117, 82, 0.34) 0%, transparent 28%, transparent 72%, rgba(0, 117, 82, 0.3) 100%);
+}
+
+#last-mile .lm-map-canvas svg.lm-geography {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
+#last-mile .lm-map-grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.08;
+  background-image:
+    linear-gradient(#ffffff50 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff50 1px, transparent 1px);
+  background-size: 44px 44px;
+  pointer-events: none;
+}
+
+#last-mile .lm-map-pin {
+  z-index: 4;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  background: var(--lm-brand);
+  color: var(--lm-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 7px rgba(0, 117, 82, 0.22);
+  transition: box-shadow 0.2s, background 0.2s;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#last-mile .lm-map-pin:hover,
+#last-mile .lm-map-pin.selected {
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.28), 0 0 25px rgba(0, 117, 82, 0.35);
+  background: var(--lm-white);
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-map-pin.warning {
+  background: #8a5a16;
+  border-color: #f0c07a;
+  color: #fff6e8;
+  box-shadow: 0 0 0 7px rgba(201, 132, 42, 0.2);
+}
+
+#last-mile .lm-map-pin.selected::after {
+  content: "";
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 50%;
+  position: absolute;
+}
+
+#last-mile .lm-map-info {
+  position: absolute;
+  z-index: 5;
+  left: 16px;
+  bottom: 39px;
+  max-width: min(280px, calc(100% - 70px));
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 24px rgba(0, 40, 28, 0.18);
+}
+
+#last-mile .lm-map-info .lm-eyebrow {
+  font-size: 11px;
+  color: var(--lm-brand);
+  letter-spacing: 1.2px;
+  margin-bottom: 5px;
+}
+
+#last-mile .lm-map-info h3 {
+  font-size: 13px;
+}
+
+#last-mile .lm-map-info p {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 4px;
+}
+
+#last-mile .lm-map-info .lm-link {
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+#last-mile .lm-map-foot {
+  flex-wrap: wrap;
+  position: absolute;
+  bottom: 12px;
+  left: 17px;
+  right: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  z-index: 3;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.82);
+  text-shadow: 0 1px 8px rgba(0, 40, 28, 0.4);
+}
+
+#last-mile .lm-map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#last-mile .lm-map-legend span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#last-mile .lm-map-legend i {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: var(--lm-white);
+}
+
+#last-mile .lm-map-legend i.amber {
+  background: #f0c07a;
+}
+
+#last-mile .lm-map-legend i.blue {
+  background: #7ad3dc;
+}
+
+#last-mile .lm-map-compass {
+  position: absolute;
+  bottom: 51px;
+  right: 19px;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.82);
+  display: grid;
+  justify-items: center;
+  font-size: 11px;
+  gap: 3px;
+}
+
+#last-mile .lm-map-compass svg.lucide {
+  height: 20px;
+  width: 20px;
+}
+
+#last-mile .lm-action-panel {
+  padding: 18px 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+#last-mile .lm-action-panel h2 {
+  font-size: 15px;
+}
+
+#last-mile .lm-action-panel .lm-panel-sub {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 5px;
+}
+
+#last-mile .lm-action-list {
+  display: grid;
+  margin-top: 11px;
+  flex: 1;
+}
+
+#last-mile .lm-action {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--lm-line);
+  background: transparent;
+  color: var(--lm-text);
+  text-align: left;
+  padding: 13px 0;
+  display: grid;
+  grid-template-columns: 23px minmax(0, 1fr);
+  gap: 8px;
+}
+
+#last-mile .lm-action:last-child {
+  border: 0;
+}
+
+#last-mile .lm-action:hover .lm-action-name {
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-action-rank {
+  color: #7a9a8e;
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 1px;
+}
+
+#last-mile .lm-action.active .lm-action-rank {
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-action-name {
+  font-size: 12px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+#last-mile .lm-action-place {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 3px;
+}
+
+#last-mile .lm-action-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+#last-mile .lm-action-detail strong {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-action-detail small {
+  font-size: 11px;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-evidence {
+  font-size: 11px;
+  color: var(--lm-brand);
+  background: rgba(0, 117, 82, 0.1);
+  border-radius: 4px;
+  padding: 3px 5px;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+#last-mile .lm-action-footer {
+  border-top: 1px solid var(--lm-line);
+  padding-top: 12px;
+  font-size: 11px;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-overview-bottom {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 17px;
+  margin-top: 17px;
+}
+
+#last-mile .lm-community-bottom {
+  grid-template-columns: minmax(0, 1fr) 282px;
+}
+
+#last-mile .lm-activity {
+  padding: 18px;
+}
+
+#last-mile .lm-activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+#last-mile .lm-activity-header h2 {
+  font-size: 14px;
+}
+
+#last-mile .lm-feed-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid var(--lm-line);
+}
+
+#last-mile .lm-feed-item:first-of-type {
+  border-top: 0;
+}
+
+#last-mile .lm-feed-icon {
+  width: 31px;
+  height: 31px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 117, 82, 0.1);
+  border: 1px solid rgba(0, 117, 82, 0.16);
+  border-radius: 8px;
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-feed-icon.amber {
+  background: rgba(201, 132, 42, 0.12);
+  border-color: rgba(201, 132, 42, 0.22);
+  color: var(--lm-amber);
+}
+
+#last-mile .lm-feed-copy {
+  flex: 1;
+  min-width: 0;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+#last-mile .lm-feed-copy p {
+  font-size: 11px;
+  margin-top: 3px;
+  color: var(--lm-muted);
+  font-weight: 400;
+}
+
+#last-mile .lm-feed-time {
+  font-size: 11px;
+  color: #7a9a8e;
+  white-space: nowrap;
+}
+
+#last-mile .lm-app-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  font-size: 11px;
+  color: var(--lm-muted);
+  font-weight: 500;
+}
+
+#last-mile .lm-app-footer span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#last-mile .lm-simulation-layout {
+  display: grid;
+  grid-template-columns: 244px minmax(0, 1fr);
+  gap: 18px;
+}
+
+#last-mile .lm-input-panel {
+  padding: 17px;
+  align-self: start;
+}
+
+#last-mile .lm-input-panel h2 {
+  font-size: 14px;
+}
+
+#last-mile .lm-input-project {
+  margin: 18px 0 19px;
+  border: 1px solid rgba(0, 117, 82, 0.16);
+  border-radius: 8px;
+  padding: 11px;
+  background: #eef7f3;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#last-mile .lm-project-icon {
+  color: var(--lm-white);
+  background: var(--lm-brand);
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  display: grid;
+  place-items: center;
+}
+
+#last-mile .lm-input-project h3 {
+  font-size: 12px;
+}
+
+#last-mile .lm-input-project p {
+  font-size: 11px;
+  margin-top: 2px;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-field {
+  display: block;
+  margin-bottom: 22px;
+}
+
+#last-mile .lm-field-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-bottom: 8px;
+  gap: 4px;
+  font-weight: 600;
+}
+
+#last-mile .lm-field-value {
+  font-size: 12px;
+  color: var(--lm-text);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+#last-mile input[type="range"] {
+  width: 100%;
+  height: 4px;
+  display: block;
+  margin: 11px 0 8px;
+  accent-color: var(--lm-brand);
+  cursor: pointer;
+}
+
+#last-mile .lm-field-scale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: #7a9a8e;
+}
+
+#last-mile .lm-segment {
+  display: flex;
+  gap: 3px;
+  padding: 3px;
+  border: 1px solid var(--lm-line);
+  border-radius: 7px;
+  background: #eef7f3;
+}
+
+#last-mile .lm-segment button {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  color: var(--lm-muted);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+#last-mile .lm-segment button[aria-pressed="true"] {
+  background: var(--lm-brand);
+  color: var(--lm-white);
+}
+
+#last-mile .lm-mitigation {
+  border-top: 1px solid var(--lm-line);
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+#last-mile .lm-mitigation-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--lm-brand);
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+
+#last-mile .lm-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  margin: 13px 0;
+  cursor: pointer;
+}
+
+#last-mile .lm-toggle input {
+  appearance: none;
+  display: block;
+  flex: none;
+  width: 27px;
+  height: 16px;
+  background: #d5e6de;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  border: 1px solid #b7cfc4;
+}
+
+#last-mile .lm-toggle input::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  background: var(--lm-white);
+  transition: transform 0.15s;
+}
+
+#last-mile .lm-toggle input:checked {
+  background: var(--lm-brand);
+  border-color: var(--lm-brand);
+}
+
+#last-mile .lm-toggle input:checked::before {
+  background: var(--lm-white);
+  transform: translateX(11px);
+}
+
+#last-mile .lm-run {
+  margin-top: 18px;
+  width: 100%;
+}
+
+#last-mile .lm-input-foot {
+  font-size: 11px;
+  color: #7a9a8e;
+  text-align: center;
+  margin-top: 9px;
+}
+
+#last-mile .lm-sim-main {
+  min-width: 0;
+}
+
+#last-mile .lm-sim-map {
+  height: 285px;
+  min-height: 285px;
+}
+
+#last-mile .lm-sim-map .lm-map-info {
+  bottom: 38px;
+  padding: 10px 12px;
+  max-width: 220px;
+}
+
+#last-mile .lm-sim-map .lm-map-info p {
+  font-size: 11px;
+}
+
+#last-mile .lm-sim-map .lm-map-heading {
+  right: 14px;
+  left: 16px;
+  top: 14px;
+}
+
+#last-mile .lm-sim-map .lm-map-heading h2 {
+  font-size: 13px;
+}
+
+#last-mile .lm-sim-map .lm-map-heading p {
+  font-size: 11px;
+}
+
+#last-mile .lm-sim-map .lm-segment {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(10px);
+}
+
+#last-mile .lm-sim-map .lm-segment button {
+  font-size: 11px;
+  padding: 5px 7px;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+#last-mile .lm-sim-map .lm-segment button[aria-pressed="true"] {
+  background: var(--lm-white);
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-result-head {
+  margin: 17px 0 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: var(--lm-text);
+}
+
+#last-mile .lm-result-head h2 {
+  font-size: 13px;
+}
+
+#last-mile .lm-result-head span {
+  font-size: 11px;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-results {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+#last-mile .lm-result {
+  background: var(--lm-panel);
+  border: 1px solid var(--lm-line);
+  border-radius: 10px;
+  padding: 12px 10px;
+  min-width: 0;
+  box-shadow: 0 10px 28px rgba(0, 40, 28, 0.06);
+  backdrop-filter: blur(18px);
+}
+
+#last-mile .lm-result-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--lm-muted);
+  margin-bottom: 11px;
+}
+
+#last-mile .lm-result-icon span {
+  font-size: 11px;
+  border: 1px solid rgba(201, 132, 42, 0.28);
+  background: rgba(201, 132, 42, 0.12);
+  border-radius: 4px;
+  padding: 2px 4px;
+  color: var(--lm-amber);
+  font-weight: 600;
+}
+
+#last-mile .lm-result-val {
+  font-size: 22px;
+  letter-spacing: 0;
+  color: var(--lm-amber);
+  white-space: nowrap;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+#last-mile .lm-result-val small {
+  font-size: 11px;
+  letter-spacing: 0;
+  color: var(--lm-muted);
+}
+
+#last-mile .lm-result-label {
+  font-size: 11px;
+  margin-top: 4px;
+  color: var(--lm-text);
+  font-weight: 500;
+}
+
+#last-mile .lm-result-range {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 6px;
+}
+
+#last-mile .lm-sim-bottom {
+  margin-top: 13px;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 12px;
+}
+
+#last-mile .lm-chart-panel {
+  padding: 13px 13px 8px;
+}
+
+#last-mile .lm-chart-panel h3 {
+  font-size: 11px;
+}
+
+#last-mile .lm-chart-sub {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 3px;
+}
+
+#last-mile .lm-chart {
+  display: block;
+  width: 100%;
+  height: 111px;
+  margin-top: 4px;
+  overflow: visible;
+  font-family: var(--lm-display);
+}
+
+#last-mile .lm-chart-legend {
+  display: flex;
+  gap: 10px;
+  font-size: 11px;
+  color: var(--lm-muted);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#last-mile .lm-chart-legend span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#last-mile .lm-chart-legend i {
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: var(--lm-amber);
+}
+
+#last-mile .lm-chart-legend i.green {
+  background: var(--lm-brand);
+}
+
+#last-mile .lm-recommendation {
+  border-color: var(--lm-line);
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(0, 117, 82, 0.08), transparent 80%),
+    var(--lm-panel);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#last-mile .lm-recommendation-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--lm-brand);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#last-mile .lm-recommendation h3 {
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+#last-mile .lm-recommendation p {
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--lm-muted);
+  margin: 6px 0 11px;
+}
+
+#last-mile .lm-recommendation .lm-link {
+  font-size: 11px;
+}
+
+#last-mile .lm-status {
+  font-size: 11px;
+  color: var(--lm-brand);
+  margin-top: 9px;
+  text-align: center;
+  min-height: 15px;
+}
+
+#last-mile .lm-demo-note {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 13px;
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+#last-mile .lm-demo-note svg.lucide {
+  width: 13px;
+  height: 13px;
+  flex: none;
+  margin-top: 1px;
+}
+
+#last-mile .lm-drawer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 50, 38, 0.46);
+  z-index: 20;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#last-mile .lm-drawer {
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid var(--lm-line);
+  border-radius: 14px;
+  padding: 24px;
+  width: 360px;
+  max-width: 100%;
+  box-shadow: 0 20px 90px rgba(0, 40, 28, 0.2);
+  backdrop-filter: blur(20px);
+}
+
+#last-mile .lm-drawer-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  gap: 12px;
+}
+
+#last-mile .lm-drawer h2 {
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+
+#last-mile .lm-drawer p {
+  font-size: 12px;
+  color: var(--lm-muted);
+  line-height: 1.65;
+}
+
+#last-mile .lm-drawer-metrics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 20px 0;
+  padding: 15px 0;
+  border-top: 1px solid var(--lm-line);
+  border-bottom: 1px solid var(--lm-line);
+}
+
+#last-mile .lm-drawer-metrics span {
+  display: block;
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-bottom: 4px;
+}
+
+#last-mile .lm-drawer-metrics strong {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--lm-brand);
+}
+
+#last-mile .lm-drawer .lm-button {
+  margin-top: 20px;
+  width: 100%;
+  background: var(--lm-white);
+  color: var(--lm-brand);
+  border-color: rgba(0, 117, 82, 0.2);
+}
+
+#last-mile .lm-drawer .lm-button.ghost {
+  width: auto;
+  margin-top: 0;
+  background: transparent;
+  color: var(--lm-muted);
+  border-color: transparent;
+}
+
+#last-mile .lm-toast {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 18px;
+  background: var(--lm-white);
+  color: var(--lm-brand);
+  border-radius: 8px;
+  z-index: 25;
+  box-shadow: 0 4px 24px rgba(0, 40, 28, 0.2);
+  font-size: 12px;
+  font-weight: 600;
+  max-width: 85%;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+  #last-mile .lm-overview-main,
+  #last-mile .lm-community-bottom {
+    grid-template-columns: minmax(0, 1fr) 307px;
+  }
+
+  #last-mile .lm-map-panel {
+    min-height: 540px;
+  }
+
+  #last-mile .lm-sim-map {
+    height: 315px;
+    min-height: 315px;
+  }
+
+  #last-mile .lm-simulation-layout {
+    grid-template-columns: 255px minmax(0, 1fr);
+  }
+
+  #last-mile .lm-stat-spark {
+    width: 60px;
+  }
+
+  #last-mile .lm-stat-spark i {
+    width: 4px;
+    margin-right: 4px;
+  }
+}
+
+@media (max-width: 900px) {
+  #last-mile .lm-screen {
+    padding: 20px;
+  }
+
+  #last-mile .lm-topbar {
+    padding: 0 20px;
+  }
+
+  #last-mile .lm-overview-main,
+  #last-mile .lm-community-bottom {
+    grid-template-columns: minmax(0, 1fr) 250px;
+  }
+
+  #last-mile .lm-title-actions .lm-secondary-action {
+    display: none;
+  }
+
+  #last-mile .lm-stat {
+    padding: 0 12px;
+  }
+
+  #last-mile .lm-stat-num {
+    font-size: 24px;
+  }
+
+  #last-mile .lm-stat-spark {
+    display: none;
+  }
+
+  #last-mile .lm-simulation-layout {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  #last-mile .lm-results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #last-mile .lm-sim-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  #last-mile .lm-sim-map .lm-map-heading {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  #last-mile .lm-recommendation {
+    min-height: 155px;
+  }
+
+  #last-mile .lm-breadcrumb .lm-region-crumb {
+    display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  #last-mile .lm-topbar {
+    display: flex;
+    min-height: 0;
+    padding: 12px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  #last-mile .lm-screen-switch {
+    order: 3;
+    width: 100%;
+  }
+
+  #last-mile .lm-screen-switch button {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 12px;
+  }
+
+  #last-mile .lm-topbar-end {
+    margin-left: auto;
+  }
+
+  #last-mile .lm-topbar .lm-tag {
+    font-size: 11px;
+    padding: 6px;
+  }
+
+  #last-mile .lm-screen {
+    padding: 20px 16px;
+  }
+
+  #last-mile h1 {
+    font-size: 26px;
+  }
+
+  #last-mile .lm-titlebar {
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+
+  #last-mile .lm-titlebar p {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-title-actions {
+    gap: 6px;
+  }
+
+  #last-mile .lm-stat-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 17px 0;
+  }
+
+  #last-mile .lm-stat:nth-child(3) {
+    border: 0;
+    padding-left: 0;
+  }
+
+  #last-mile .lm-stat-note {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-overview-main,
+  #last-mile .lm-overview-bottom,
+  #last-mile .lm-community-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  #last-mile .lm-overview-main > .lm-map-panel {
+    min-height: 430px;
+  }
+
+  #last-mile .lm-action-panel {
+    padding: 18px;
+  }
+
+  #last-mile .lm-action {
+    padding: 14px 0;
+  }
+
+  #last-mile .lm-action-name {
+    font-size: 13px;
+  }
+
+  #last-mile .lm-action-detail strong {
+    font-size: 14px;
+  }
+
+  #last-mile .lm-action-place,
+  #last-mile .lm-action-detail small,
+  #last-mile .lm-action-footer {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-simulation-layout {
+    grid-template-columns: 1fr;
+  }
+
+  #last-mile .lm-input-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px 20px;
+  }
+
+  #last-mile .lm-input-panel > .lm-row,
+  #last-mile .lm-input-project,
+  #last-mile .lm-mitigation,
+  #last-mile .lm-run,
+  #last-mile .lm-input-foot,
+  #last-mile .lm-status {
+    grid-column: 1 / -1;
+  }
+
+  #last-mile .lm-input-project {
+    margin: 0 0 8px;
+  }
+
+  #last-mile .lm-field {
+    margin: 0 0 8px;
+  }
+
+  #last-mile .lm-field-head {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+
+  #last-mile .lm-mitigation {
+    margin: 0;
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+  }
+
+  #last-mile .lm-mitigation-head {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+  }
+
+  #last-mile .lm-toggle {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-run {
+    margin-top: 0;
+  }
+
+  #last-mile .lm-input-foot,
+  #last-mile .lm-status {
+    margin: 0;
+  }
+
+  #last-mile .lm-sim-map {
+    min-height: 315px;
+    height: 315px;
+  }
+
+  #last-mile .lm-sim-map .lm-map-heading {
+    flex-direction: row;
+  }
+
+  #last-mile .lm-sim-map .lm-map-heading h2 {
+    font-size: 12px;
+  }
+
+  #last-mile .lm-results {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #last-mile .lm-result {
+    padding: 14px;
+  }
+
+  #last-mile .lm-result-label {
+    font-size: 12px;
+  }
+
+  #last-mile .lm-result-range {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-sim-bottom {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #last-mile .lm-app-footer {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-drawer-overlay {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  #last-mile .lm-screen {
+    padding: 18px 13px;
+  }
+
+  #last-mile .lm-title-actions .lm-secondary-action {
+    display: none;
+  }
+
+  #last-mile .lm-titlebar p {
+    max-width: 240px;
+  }
+
+  #last-mile .lm-sim-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  #last-mile .lm-sim-map .lm-map-heading {
+    flex-direction: column;
+  }
+
+  #last-mile .lm-map-foot {
+    font-size: 11px;
+    left: 12px;
+    right: 12px;
+  }
+
+  #last-mile .lm-map-legend {
+    gap: 8px;
+  }
+
+  #last-mile .lm-input-panel {
+    gap: 12px;
+  }
+
+  #last-mile .lm-field-value {
+    font-size: 11px;
+  }
+
+  #last-mile .lm-map-info {
+    left: 12px;
+  }
+
+  #last-mile .lm-map-heading {
+    left: 13px;
+    right: 13px;
+  }
+
+  #last-mile .lm-demo-note {
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #last-mile * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+#last-mile .lm-map-canvas .mapboxgl-map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#last-mile .lm-map-canvas .mapboxgl-canvas-container {
+  z-index: 0;
+}
+
+#last-mile .mapboxgl-scroll-zoom-blocker,
+#last-mile .mapboxgl-touch-pan-blocker {
+  display: none;
+}
+
+#last-mile .mapboxgl-marker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+}
+
+#last-mile .mapboxgl-marker.lm-map-pin {
+  visibility: visible;
+}
+
+#last-mile .lm-map-missing {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-content: center;
+  gap: 8px;
+  padding: 24px;
+  text-align: center;
+  background: #0d4a38;
+  color: var(--lm-white);
+}
+
+#last-mile .lm-map-missing strong {
+  font-weight: 600;
+  color: var(--lm-white);
+}
+
+#last-mile .lm-map-missing span,
+#last-mile .lm-map-missing code {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+#last-mile .lm-proposed-site {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
+#last-mile .lm-proposed-site i {
+  width: 12px;
+  height: 12px;
+  background: #c9842a;
+  border: 1.5px solid #f0c07a;
+  box-shadow: 0 0 0 6px rgba(201, 132, 42, 0.22);
+  transform: rotate(45deg);
+}
+
+#last-mile .lm-proposed-site span {
+  color: #fff6e8;
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#last-mile .mapboxgl-ctrl-logo {
+  margin: 0 0 36px 10px;
+  opacity: 0.72;
+}
+
+#last-mile .mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+
+#last-mile .lm-layer-wrap {
+  position: relative;
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#last-mile .lm-overlay-select {
+  appearance: none;
+  background: rgba(255, 255, 255, 0.94) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23007552' d='M1 1l5 5 5-5'/%3E%3C/svg%3E") no-repeat right 10px center;
+  color: var(--lm-brand);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 7px;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 28px 8px 11px;
+  min-width: 124px;
+  cursor: pointer;
+}
+
+#last-mile .lm-overlay-select:focus {
+  outline: 1px solid var(--lm-brand);
+  outline-offset: 1px;
+}
+
+#last-mile .lm-overlay-select option {
+  background: var(--lm-white);
+  color: var(--lm-text);
+}
+
+#last-mile .lm-layer-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 8;
+  width: 198px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid var(--lm-line);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0, 40, 28, 0.18);
+}
+
+#last-mile .lm-layer-title {
+  font-size: 11px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: var(--lm-brand);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#last-mile .lm-layer-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--lm-text);
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+#last-mile .lm-layer-item input {
+  accent-color: var(--lm-brand);
+}
+
+#last-mile .lm-map-legend i.wind {
+  background: #bfefff;
+}
+
+#last-mile .lm-map-legend i.gold {
+  background: #f2d07a;
+}
+
+#last-mile .lm-map-legend i.cable {
+  background: #8ee0c8;
+}
+
+#last-mile .lm-map-legend i.solar {
+  background: #c9e36a;
+}
+
+#last-mile .mapboxgl-popup {
+  z-index: 6;
+}
+
+#last-mile .lm-map-popup .mapboxgl-popup-content {
+  --lm-text: #123d32;
+  --lm-muted: #5a7a70;
+  --lm-green: #007552;
+  background: rgba(255, 255, 255, 0.96);
+  color: var(--lm-text);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  padding: 12px 14px 10px;
+  box-shadow: 0 10px 28px rgba(0, 40, 28, 0.2);
+  font-family: var(--lm-sans);
+}
+
+#last-mile .lm-map-popup .mapboxgl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.96);
+}
+
+#last-mile .lm-map-popup .mapboxgl-popup-close-button {
+  color: var(--lm-muted);
+  font-size: 18px;
+  padding: 4px 8px;
+}
+
+#last-mile .lm-popup-kicker {
+  font-size: 11px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+  color: var(--lm-brand);
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+#last-mile .lm-popup-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#last-mile .lm-popup-meta {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 3px;
+}
+
+#last-mile .lm-popup p {
+  margin: 8px 0 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #3f6559;
+}
+
+#last-mile .lm-gate .lm-eyebrow {
+  font-family: var(--lm-mono);
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+#last-mile .lm-boot {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  padding: 32px 24px;
+  background: #071410;
+  color: #e7fff4;
+  transition: opacity 0.55s ease;
+}
+
+#last-mile .lm-boot.is-done {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#last-mile .lm-boot-stage {
+  width: min(560px, 100%);
+}
+
+#last-mile .lm-boot-term {
+  margin: 0;
+  font-family: var(--lm-mono);
+  font-size: 13px;
+  line-height: 1.7;
+  font-weight: 400;
+  color: rgba(231, 255, 244, 0.62);
+  white-space: pre-wrap;
+}
+
+#last-mile .lm-boot-prompt {
+  color: rgba(231, 255, 244, 0.42);
+}
+
+#last-mile .lm-boot-gt {
+  color: var(--lm-emerald);
+}
+
+#last-mile .lm-boot-caret {
+  display: inline-block;
+  width: 7px;
+  height: 1em;
+  margin-left: 1px;
+  background: #e7fff4;
+  vertical-align: -2px;
+  animation: lm-caret 1s steps(1) infinite;
+}
+
+#last-mile .lm-boot-wordmark {
+  margin: 28px 0 0;
+  font-size: clamp(42px, 8vw, 72px);
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  color: #e7fff4;
+}
+
+#last-mile.lm-has-cursor,
+#last-mile.lm-has-cursor * {
+  cursor: none !important;
+}
+
+#last-mile .lm-cursor {
+  display: contents;
+}
+
+#last-mile .lm-cursor-dot,
+#last-mile .lm-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform;
+  mix-blend-mode: multiply;
+}
+
+#last-mile .lm-cursor.is-on .lm-cursor-dot,
+#last-mile .lm-cursor.is-on .lm-cursor-ring {
+  opacity: 1;
+}
+
+#last-mile .lm-cursor-dot {
+  width: 9px;
+  height: 9px;
+  margin: -4.5px 0 0 -4.5px;
+  border-radius: 50%;
+  background: var(--lm-brand);
+}
+
+#last-mile .lm-cursor-ring i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: -18px 0 0 -18px;
+  border: 1.5px solid var(--lm-brand);
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: transform 0.22s ease, background-color 0.22s ease, opacity 0.22s ease;
+}
+
+#last-mile .lm-cursor.is-hover .lm-cursor-ring i {
+  transform: scale(1.55);
+  background: rgba(0, 117, 82, 0.1);
+  opacity: 1;
+}
+
+#last-mile .lm-cursor.is-down .lm-cursor-ring i {
+  transform: scale(0.68);
+}
+
+@keyframes lm-caret {
+  0%,
+  45% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #last-mile .lm-boot-caret {
+    animation: none;
+  }
+}
+
+#last-mile .lm-signup-form {
+  display: grid;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+#last-mile #lm-signup h1 {
+  font-size: 29px;
+}
+
+#last-mile #lm-signup .lm-gate-copy {
+  font-size: 16px;
+}
+
+#last-mile #lm-signup .lm-eyebrow {
+  font-size: 12px;
+}
+
+#last-mile .lm-signup-form .lm-field-head {
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+#last-mile .lm-signup-form input,
+#last-mile .lm-signup-form select {
+  font-size: 15px;
+}
+
+#last-mile .lm-signup-form input,
+#last-mile .lm-signup-form select,
+#last-mile .lm-report-form input,
+#last-mile .lm-report-form textarea {
+  width: 100%;
+  border: 1px solid var(--lm-line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--lm-white);
+  color: var(--lm-text);
+}
+
+#last-mile .lm-signup-submit {
+  width: 100%;
+  justify-content: center;
+  margin-top: 4px;
+  font-size: 14px;
+  padding: 12px 14px;
+}
+
+#last-mile .lm-signup-form textarea,
+#last-mile .lm-report-form textarea {
+  resize: vertical;
+  min-height: 72px;
+}
+
+#last-mile #lm-signup-back {
+  background: none;
+  border: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+#last-mile .lm-list-panel {
+  padding: 18px;
+}
+
+#last-mile .lm-list-panel h2,
+#last-mile .lm-list-panel .lm-panel-sub {
+  margin: 0;
+}
+
+#last-mile .lm-list-panel .lm-panel-sub {
+  margin: 6px 0 12px;
+  color: var(--lm-muted);
+  font-size: 12px;
+}
+
+#last-mile .lm-list {
+  display: grid;
+}
+
+#last-mile .lm-list-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 1px solid var(--lm-line);
+}
+
+#last-mile .lm-list-row:first-child {
+  border-top: 0;
+}
+
+#last-mile .lm-list-row.compact {
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 8px 0;
+}
+
+#last-mile .lm-list-row > div:first-child {
+  min-width: 0;
+}
+
+#last-mile .lm-list-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#last-mile .lm-list-meta,
+#last-mile .lm-list-time {
+  font-size: 11px;
+  color: var(--lm-muted);
+  margin-top: 3px;
+}
+
+#last-mile .lm-list-time {
+  margin-top: 0;
+  white-space: nowrap;
+}
+
+#last-mile .lm-list-row .lm-button {
+  justify-self: end;
+}
+
+#last-mile .lm-empty {
+  font-size: 13px;
+  color: var(--lm-muted);
+  padding: 8px 0 4px;
+}
+
+#last-mile .lm-report-form {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 4px;
+}
+
+#last-mile .lm-report-form .lm-button {
+  justify-content: center;
+}
+
+#last-mile .lm-drawer-list {
+  margin: 16px 0 8px;
+}
+
+#last-mile .lm-drawer-list-title {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--lm-muted);
+  margin-bottom: 4px;
+}
+
+#last-mile .lm-community-grid {
+  align-items: stretch;
+}
+
+@media (max-width: 900px) {
+  #last-mile .lm-list-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+}
+
+/* Connected reports, calls for help, and government workflows. */
+body.lm-modal-open { overflow: hidden; }
+#last-mile .lm-drawer-overlay { position: fixed; overflow: hidden; }
+#last-mile .lm-drawer { width: 540px; max-height: calc(100dvh - 40px); overflow-y: auto; overscroll-behavior: contain; }
+#last-mile .lm-drawer-title { position: sticky; top: -24px; background: #fff; z-index: 1; padding: 16px 0; margin-top: -16px; }
+#last-mile .lm-drawer-title h2 { overflow-wrap: anywhere; }
+#last-mile .lm-operations-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 18px; align-items: start; }
+#last-mile .lm-operations-grid > *, #last-mile .lm-community-grid > * { min-width: 0; }
+#last-mile .lm-record-title { font: inherit; font-size: 13px; font-weight: 600; color: var(--lm-text); background: transparent; border: 0; padding: 0; text-align: left; line-height: 1.5; cursor: pointer; overflow-wrap: anywhere; }
+#last-mile .lm-record-title:hover { color: var(--lm-green); text-decoration: underline; }
+#last-mile .lm-record-row { padding: 15px 0; }
+#last-mile .lm-call-row { grid-template-columns: minmax(0, 1fr) auto; }
+#last-mile .lm-record-row .lm-list-meta { line-height: 1.65; overflow-wrap: anywhere; }
+#last-mile .lm-record-row .lm-pill { white-space: normal; text-align: center; }
+#last-mile .lm-action-panel .lm-record-row { grid-template-columns: 1fr; gap: 8px; }
+#last-mile .lm-action-panel .lm-pill { justify-self: start; }
+#last-mile .lm-action-panel > .lm-link { margin-top: 14px; }
+#last-mile .lm-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 8px; }
+#last-mile .lm-filter-bar input { flex: 1 1 150px; min-width: 0; }
+#last-mile .lm-filter-bar select { flex: 1 1 130px; min-width: 0; }
+#last-mile .lm-filter-bar input, #last-mile .lm-filter-bar select, #last-mile .lm-workflow-form input, #last-mile .lm-workflow-form select, #last-mile .lm-workflow-form textarea { font: inherit; font-size: 12px; border: 1px solid var(--lm-line); border-radius: 8px; padding: 11px 12px; background: #fff; color: var(--lm-text); }
+#last-mile .lm-workflow-form { display: grid; gap: 16px; margin-top: 20px; }
+#last-mile .lm-workflow-form .lm-field { margin: 0; min-width: 0; }
+#last-mile .lm-workflow-form .lm-field-head { display: block; margin-bottom: 7px; }
+#last-mile .lm-workflow-form input, #last-mile .lm-workflow-form select, #last-mile .lm-workflow-form textarea { width: 100%; box-sizing: border-box; }
+#last-mile .lm-workflow-form textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+#last-mile .lm-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+#last-mile .lm-drawer .lm-workflow-form .lm-button { margin-top: 0; }
+#last-mile .lm-drawer .lm-list-row .lm-button { width: auto; margin-top: 0; }
+#last-mile .lm-form-error { color: #a52c22; background: #fff2ec; padding: 12px; border-radius: 8px; font-size: 12px; line-height: 1.6; }
+#last-mile .lm-storage-error { margin: 16px 24px; }
+#last-mile .lm-sync-note { background: #fff7e9; padding: 10px; border-radius: 8px; }
+#last-mile .lm-preserve-lines { white-space: pre-wrap; overflow-wrap: anywhere; }
+#last-mile .lm-detail-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+#last-mile .lm-detail-meta { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 10px; margin: 22px 0; font-size: 12px; line-height: 1.6; }
+#last-mile .lm-detail-meta dt { color: var(--lm-muted); }
+#last-mile .lm-detail-meta dd { margin: 0; overflow-wrap: anywhere; }
+#last-mile .lm-detail-heading { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--lm-line); font-size: 14px; }
+#last-mile .lm-timeline-item { margin-top: 14px; padding-left: 12px; border-left: 2px solid var(--lm-green); }
+#last-mile .lm-timeline-item p { margin: 6px 0 0; }
+#last-mile .lm-capacity { padding: 16px; border-radius: 10px; background: var(--lm-panel2); margin: 20px 0; font-size: 12px; }
+#last-mile .lm-capacity progress { width: 100%; height: 8px; accent-color: var(--lm-green); margin-top: 12px; }
+#last-mile .lm-urgency { color: #a35d16; }
+#last-mile button:disabled { cursor: not-allowed; opacity: 0.55; }
+#last-mile .lm-toast { position: fixed; z-index: 40; max-width: min(90vw, 600px); }
+@media (max-width: 1150px) {
+  #last-mile .lm-operations-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  #last-mile .lm-drawer-overlay { padding: 8px; }
+  #last-mile .lm-drawer { width: 100%; padding: 20px; max-height: calc(100dvh - 16px); }
+  #last-mile .lm-drawer-title { top: -20px; }
+  #last-mile .lm-form-grid { grid-template-columns: 1fr; }
+  #last-mile .lm-record-row { grid-template-columns: minmax(0, 1fr) auto; }
+  #last-mile .lm-record-row > .lm-button { grid-column: 1 / -1; justify-self: start; }
+  #last-mile .lm-feed-time { font-size: 9px; }
+}
