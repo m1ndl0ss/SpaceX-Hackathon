@@ -1,0 +1,3510 @@
+{
+  "computed_at": "2026-09-21T11:41:03.070794+00:00",
+  "scores": {
+    "species": "Ursus arctos",
+    "region": "Abruzzo / central Apennines",
+    "weights": {
+      "occupancy": 0.35,
+      "protection": 0.3,
+      "road_safety": 0.2,
+      "season": 0.15
+    },
+    "computed_at": "2026-09-21T11:41:03.070794+00:00",
+    "cell_count": 15,
+    "cells": [
+      {
+        "cell_id": "13.7_41.85",
+        "bbox": [
+          13.7,
+          41.85,
+          13.75,
+          41.9
+        ],
+        "centroid": [
+          13.725,
+          41.875
+        ],
+        "composite": 91.97,
+        "sub_scores": {
+          "occupancy": 100.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 27,
+          "year_span": [
+            2001,
+            2002,
+            2005,
+            2026
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 8.85,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.75_41.85",
+        "bbox": [
+          13.75,
+          41.85,
+          13.8,
+          41.9
+        ],
+        "centroid": [
+          13.775,
+          41.875
+        ],
+        "composite": 79.37,
+        "sub_scores": {
+          "occupancy": 64.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 4,
+          "year_span": [
+            2002,
+            2005,
+            2025
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 6.85,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.7_41.8",
+        "bbox": [
+          13.7,
+          41.8,
+          13.75,
+          41.85
+        ],
+        "centroid": [
+          13.725,
+          41.825
+        ],
+        "composite": 71.17,
+        "sub_scores": {
+          "occupancy": 52.0,
+          "protection": 90.0,
+          "road_safety": 70.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 3,
+          "year_span": [
+            2002,
+            2018
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 3.67,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.8_41.85",
+        "bbox": [
+          13.8,
+          41.85,
+          13.85,
+          41.9
+        ],
+        "centroid": [
+          13.825,
+          41.875
+        ],
+        "composite": 70.97,
+        "sub_scores": {
+          "occupancy": 40.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 2,
+          "year_span": [
+            2002
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 5.03,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.65_41.8",
+        "bbox": [
+          13.65,
+          41.8,
+          13.7,
+          41.85
+        ],
+        "centroid": [
+          13.675,
+          41.825
+        ],
+        "composite": 68.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2026
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 5.71,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.8_41.75",
+        "bbox": [
+          13.8,
+          41.75,
+          13.85,
+          41.8
+        ],
+        "centroid": [
+          13.825,
+          41.775
+        ],
+        "composite": 68.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2025
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 5.5,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.95_41.7",
+        "bbox": [
+          13.95,
+          41.7,
+          14.0,
+          41.75
+        ],
+        "centroid": [
+          13.975,
+          41.725
+        ],
+        "composite": 68.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2013
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 19.87,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.9_41.7",
+        "bbox": [
+          13.9,
+          41.7,
+          13.95,
+          41.75
+        ],
+        "centroid": [
+          13.925,
+          41.725
+        ],
+        "composite": 68.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2005
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 15.72,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.9_41.75",
+        "bbox": [
+          13.9,
+          41.75,
+          13.95,
+          41.8
+        ],
+        "centroid": [
+          13.925,
+          41.775
+        ],
+        "composite": 68.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            1997
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 12.18,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.8_41.8",
+        "bbox": [
+          13.8,
+          41.8,
+          13.85,
+          41.85
+        ],
+        "centroid": [
+          13.825,
+          41.825
+        ],
+        "composite": 59.17,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 90.0,
+          "road_safety": 45.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2001
+          ],
+          "protected_area": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+          "road_distance_km": 0.32,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.1_42.35",
+        "bbox": [
+          13.1,
+          42.35,
+          13.15,
+          42.4
+        ],
+        "centroid": [
+          13.125,
+          42.375
+        ],
+        "composite": 48.67,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 25.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2026
+          ],
+          "protected_area": null,
+          "road_distance_km": 63.89,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.75_41.95",
+        "bbox": [
+          13.75,
+          41.95,
+          13.8,
+          42.0
+        ],
+        "centroid": [
+          13.775,
+          41.975
+        ],
+        "composite": 48.67,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 25.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2026
+          ],
+          "protected_area": null,
+          "road_distance_km": 11.41,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.95_41.6",
+        "bbox": [
+          13.95,
+          41.6,
+          14.0,
+          41.65
+        ],
+        "centroid": [
+          13.975,
+          41.625
+        ],
+        "composite": 48.67,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 25.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2025
+          ],
+          "protected_area": null,
+          "road_distance_km": 27.87,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.5_41.95",
+        "bbox": [
+          13.5,
+          41.95,
+          13.55,
+          42.0
+        ],
+        "centroid": [
+          13.525,
+          41.975
+        ],
+        "composite": 48.67,
+        "sub_scores": {
+          "occupancy": 32.0,
+          "protection": 25.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [
+            2025
+          ],
+          "protected_area": null,
+          "road_distance_km": 11.77,
+          "road_data_gap": false
+        }
+      },
+      {
+        "cell_id": "13.6_42.5",
+        "bbox": [
+          13.6,
+          42.5,
+          13.65,
+          42.55
+        ],
+        "centroid": [
+          13.625,
+          42.525
+        ],
+        "composite": 47.27,
+        "sub_scores": {
+          "occupancy": 28.0,
+          "protection": 25.0,
+          "road_safety": 90.0,
+          "season": 79.79
+        },
+        "signals": {
+          "occurrence_count": 1,
+          "year_span": [],
+          "protected_area": null,
+          "road_distance_km": 51.55,
+          "road_data_gap": false
+        }
+      }
+    ]
+  },
+  "occurrences": [
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6274223774",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6274223774,
+        "eventDate": "2026-04-04T11:21:22",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.133169,
+        "decimalLatitude": 42.35707
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.133169,
+          42.35707
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6334827030",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6334827030,
+        "eventDate": "2026-05-17T19:50:13",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.78855,
+        "decimalLatitude": 41.958411
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.78855,
+          41.958411
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6480519539",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6480519539,
+        "eventDate": "2026-05-25T13:23:47",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 12.184912,
+        "decimalLatitude": 46.564682
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.184912,
+          46.564682
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6518345857",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6518345857,
+        "eventDate": "2026-08-18T19:17:29",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.748471,
+        "decimalLatitude": 41.861832
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.748471,
+          41.861832
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6520145438",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6520145438,
+        "eventDate": "2026-08-25T19:39:21",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.720582,
+        "decimalLatitude": 41.889849
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.720582,
+          41.889849
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6520378362",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6520378362,
+        "eventDate": "2026-08-25T19:33:48",
+        "year": 2026,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.684542,
+        "decimalLatitude": 41.805703
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.684542,
+          41.805703
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5177020621",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5177020621,
+        "eventDate": "2025-05-24T14:28:37",
+        "year": 2025,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.940481,
+        "decimalLatitude": 46.107892
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.940481,
+          46.107892
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5292015055",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5292015055,
+        "eventDate": "2025-08-07T12:21:50",
+        "year": 2025,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.963178,
+        "decimalLatitude": 41.647496
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.963178,
+          41.647496
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6352627646",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6352627646,
+        "eventDate": "2025-08-28T15:37:40",
+        "year": 2025,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.819934,
+        "decimalLatitude": 41.757076
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.819934,
+          41.757076
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6352999465",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6352999465,
+        "eventDate": "2025-08-29T19:37:40",
+        "year": 2025,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.777037,
+        "decimalLatitude": 41.891078
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.777037,
+          41.891078
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5893009714",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5893009714,
+        "eventDate": "2025-10-15T07:36:12",
+        "year": 2025,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos marsicanus Altobello, 1921",
+        "decimalLongitude": 13.520048,
+        "decimalLatitude": 41.96691
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.520048,
+          41.96691
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5830590397",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5830590397,
+        "eventDate": "2023-08-14T11:28:18",
+        "year": 2023,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.028775,
+        "decimalLatitude": 46.208725
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.028775,
+          46.208725
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5084753056",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5084753056,
+        "eventDate": "2023-10-05",
+        "year": 2023,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "GBIF MammalNet",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.92175,
+        "decimalLatitude": 46.09976
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.92175,
+          46.09976
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6184788046",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6184788046,
+        "eventDate": "2022-08-08T11:37:34",
+        "year": 2022,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.034661,
+        "decimalLatitude": 46.208558
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.034661,
+          46.208558
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6184846229",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 6184846229,
+        "eventDate": "2022-09-24T12:27:08",
+        "year": 2022,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.029439,
+        "decimalLatitude": 46.207167
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.029439,
+          46.207167
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4936400502",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 4936400502,
+        "eventDate": "2021-04-25T14:04:19",
+        "year": 2021,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.108431,
+        "decimalLatitude": 46.531463
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.108431,
+          46.531463
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4936890737",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 4936890737,
+        "eventDate": "2021-07-31T00:36",
+        "year": 2021,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos arctos Linnaeus, 1758",
+        "decimalLongitude": 11.176049,
+        "decimalLatitude": 46.203591
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.176049,
+          46.203591
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4936452321",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 4936452321,
+        "eventDate": "2021-08-02T11:56:37",
+        "year": 2021,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.035539,
+        "decimalLatitude": 46.208042
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.035539,
+          46.208042
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5134914646",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 5134914646,
+        "eventDate": "2018-06-09T19:57",
+        "year": 2018,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos arctos Linnaeus, 1758",
+        "decimalLongitude": 10.910942,
+        "decimalLatitude": 46.18452
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.910942,
+          46.18452
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4171373314",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 4171373314,
+        "eventDate": "2018-07-01T20:47:26",
+        "year": 2018,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.720666,
+        "decimalLatitude": 41.80282
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.720666,
+          41.80282
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3963535307",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3963535307,
+        "eventDate": "2017-11-04T10:57:14",
+        "year": 2017,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "iNaturalist research-grade observations",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.099528,
+        "decimalLatitude": 46.057419
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.099528,
+          46.057419
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348315",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3321348315,
+        "eventDate": "2016-01-19",
+        "year": 2016,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.41744,
+        "decimalLatitude": 46.28161
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.41744,
+          46.28161
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348363",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3321348363,
+        "eventDate": "2016-03-29",
+        "year": 2016,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.47726,
+        "decimalLatitude": 46.66321
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.47726,
+          46.66321
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348323",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3321348323,
+        "eventDate": "2016-04-29",
+        "year": 2016,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.29387,
+        "decimalLatitude": 46.46367
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.29387,
+          46.46367
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348372",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3321348372,
+        "eventDate": "2015-09-06",
+        "year": 2015,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.48741,
+        "decimalLatitude": 46.84298
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48741,
+          46.84298
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348358",
+      "collected_at": "2026-09-21T11:41:00.228294+00:00",
+      "raw": {
+        "gbifId": 3321348358,
+        "eventDate": "2014-01-01",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348359",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348359,
+        "eventDate": "2014-01-15",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.38013,
+        "decimalLatitude": 46.08063
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.38013,
+          46.08063
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348381",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348381,
+        "eventDate": "2014-01-04",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348385",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348385,
+        "eventDate": "2014-01-08",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13508,
+        "decimalLatitude": 46.35679
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13508,
+          46.35679
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348386",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348386,
+        "eventDate": "2014-01-14",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348382",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348382,
+        "eventDate": "2014-08-02",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348491",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348491,
+        "eventDate": "2014-08-02",
+        "year": 2014,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128845",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128845,
+        "eventDate": "2013-06-06",
+        "year": 2013,
+        "locality": "Lago Vivo",
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.9602,
+        "decimalLatitude": 41.72414
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9602,
+          41.72414
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348500",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348500,
+        "eventDate": "2012-07-10",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13508,
+        "decimalLatitude": 46.35679
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13508,
+          46.35679
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348511",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348511,
+        "eventDate": "2012-07-12",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13508,
+        "decimalLatitude": 46.35679
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13508,
+          46.35679
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348522",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348522,
+        "eventDate": "2012-08-09",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348523",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348523,
+        "eventDate": "2012-08-09",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348538",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348538,
+        "eventDate": "2012-08-06",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348541",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348541,
+        "eventDate": "2012-08-04",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348520",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348520,
+        "eventDate": "2012-09-07",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321348526",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321348526,
+        "eventDate": "2012-09-07",
+        "year": 2012,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "Swiss National Mammal Databank: Larger Carnivores Monitoring Program (KORA)",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099483",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099483,
+        "eventDate": "2005-05-20",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.7455,
+        "decimalLatitude": 41.8625
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7455,
+          41.8625
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099492",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099492,
+        "eventDate": "2005-05-20",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.7455,
+        "decimalLatitude": 41.8655
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7455,
+          41.8655
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099715",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099715,
+        "eventDate": "2005-05-09",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.725,
+        "decimalLatitude": 41.895
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.725,
+          41.895
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099995",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099995,
+        "eventDate": "2005-05-10",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.715,
+        "decimalLatitude": 41.885
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.715,
+          41.885
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149120791",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149120791,
+        "eventDate": "2005-05-14",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.75415,
+        "decimalLatitude": 41.87735
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.75415,
+          41.87735
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149120972",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149120972,
+        "eventDate": "2005-05-08",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72825,
+        "decimalLatitude": 41.86325
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72825,
+          41.86325
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149121242",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149121242,
+        "eventDate": "2005-05-08",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72795,
+        "decimalLatitude": 41.85725
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72795,
+          41.85725
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128460",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128460,
+        "eventDate": "2005-05-19",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.93185,
+        "decimalLatitude": 41.74225
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.93185,
+          41.74225
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128694",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128694,
+        "eventDate": "2005-05-09",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.74235,
+        "decimalLatitude": 41.86195
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74235,
+          41.86195
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149138645",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149138645,
+        "eventDate": "2005-05-08",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.73465,
+        "decimalLatitude": 41.86045
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73465,
+          41.86045
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149138661",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149138661,
+        "eventDate": "2005-05-16",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72255,
+        "decimalLatitude": 41.86295
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72255,
+          41.86295
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149139058",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149139058,
+        "eventDate": "2005-05-13",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.7445,
+        "decimalLatitude": 41.8655
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7445,
+          41.8655
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149139199",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149139199,
+        "eventDate": "2005-05-08",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72915,
+        "decimalLatitude": 41.86365
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72915,
+          41.86365
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149139255",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149139255,
+        "eventDate": "2005-05-08",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.725,
+        "decimalLatitude": 41.895
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.725,
+          41.895
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3121145829",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3121145829,
+        "eventDate": "2005-07-22",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.33944,
+        "decimalLatitude": 46.53177
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.33944,
+          46.53177
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6278144601",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6278144601,
+        "eventDate": "2005-07-22",
+        "year": 2005,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.33944,
+        "decimalLatitude": 46.53177
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.33944,
+          46.53177
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149100108",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149100108,
+        "eventDate": "2002-04-28",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.73208,
+        "decimalLatitude": 41.86292
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73208,
+          41.86292
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149100138",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149100138,
+        "eventDate": "2002-04-29",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.79042,
+        "decimalLatitude": 41.86597
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.79042,
+          41.86597
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149100231",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149100231,
+        "eventDate": "2002-04-29",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.79653,
+        "decimalLatitude": 41.86653
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.79653,
+          41.86653
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149121037",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149121037,
+        "eventDate": "2002-04-28",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.71792,
+        "decimalLatitude": 41.86708
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.71792,
+          41.86708
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128406",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128406,
+        "eventDate": "2002-04-28",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72431,
+        "decimalLatitude": 41.8557
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72431,
+          41.8557
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128644",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128644,
+        "eventDate": "2002-04-29",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.82458,
+        "decimalLatitude": 41.87903
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.82458,
+          41.87903
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149138689",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149138689,
+        "eventDate": "2002-04-28",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72736,
+        "decimalLatitude": 41.86403
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72736,
+          41.86403
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149144355",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149144355,
+        "eventDate": "2002-04-29",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.8232,
+        "decimalLatitude": 41.87681
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8232,
+          41.87681
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099327",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099327,
+        "eventDate": "2002-05-01",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.73625,
+        "decimalLatitude": 41.84931
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73625,
+          41.84931
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149099655",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149099655,
+        "eventDate": "2002-05-10",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.70736,
+        "decimalLatitude": 41.85708
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.70736,
+          41.85708
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149121106",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149121106,
+        "eventDate": "2002-05-01",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.71681,
+        "decimalLatitude": 41.83347
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.71681,
+          41.83347
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128538",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128538,
+        "eventDate": "2002-05-01",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.74597,
+        "decimalLatitude": 41.86153
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74597,
+          41.86153
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128725",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128725,
+        "eventDate": "2002-05-10",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.72931,
+        "decimalLatitude": 41.85514
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72931,
+          41.85514
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128934",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128934,
+        "eventDate": "2002-05-01",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.73625,
+        "decimalLatitude": 41.85181
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.73625,
+          41.85181
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149138480",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149138480,
+        "eventDate": "2002-05-01",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.71875,
+        "decimalLatitude": 41.85097
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.71875,
+          41.85097
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149138874",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149138874,
+        "eventDate": "2002-05-02",
+        "year": 2002,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.74486,
+        "decimalLatitude": 41.8632
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74486,
+          41.8632
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149100292",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149100292,
+        "eventDate": "2001-06-08",
+        "year": 2001,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.74166,
+        "decimalLatitude": 41.875
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74166,
+          41.875
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149128959",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149128959,
+        "eventDate": "2001-06-12",
+        "year": 2001,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.84166,
+        "decimalLatitude": 41.825
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.84166,
+          41.825
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149129230",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149129230,
+        "eventDate": "2001-06-08",
+        "year": 2001,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.725,
+        "decimalLatitude": 41.85833
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.725,
+          41.85833
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/4149139245",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 4149139245,
+        "eventDate": "2001-06-08",
+        "year": 2001,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.74166,
+        "decimalLatitude": 41.85833
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74166,
+          41.85833
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/5020824686",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 5020824686,
+        "eventDate": "1997-05-20T00:00",
+        "year": 1997,
+        "locality": "Camiscaro",
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.907472,
+        "decimalLatitude": 41.765083
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.907472,
+          41.765083
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3885825000",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3885825000,
+        "eventDate": "1904-12-20",
+        "year": 1904,
+        "locality": "Meran = Merano",
+        "basisOfRecord": "OCCURRENCE",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 11.17,
+        "decimalLatitude": 46.669998
+      },
+      "license": "CC0_1_0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.17,
+          46.669998
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321364335",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321364335,
+        "eventDate": "1889-12",
+        "year": 1889,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6278168465",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6278168465,
+        "eventDate": "1889-12",
+        "year": 1889,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321353355",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321353355,
+        "eventDate": "1875-08",
+        "year": 1875,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6284346862",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6284346862,
+        "eventDate": "1875-08",
+        "year": 1875,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.13285,
+        "decimalLatitude": 46.31184
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.13285,
+          46.31184
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321360353",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321360353,
+        "eventDate": "1868-09-11",
+        "year": 1868,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.48741,
+        "decimalLatitude": 46.84298
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48741,
+          46.84298
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6287804010",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6287804010,
+        "eventDate": "1868-09-11",
+        "year": 1868,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 10.48741,
+        "decimalLatitude": 46.84298
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48741,
+          46.84298
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321349304",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321349304,
+        "eventDate": "1800",
+        "year": 1800,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/3321354305",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 3321354305,
+        "eventDate": "1800",
+        "year": 1800,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6287205143",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6287205143,
+        "eventDate": "1800",
+        "year": 1800,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/6287743639",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 6287743639,
+        "eventDate": "1800",
+        "year": 1800,
+        "locality": null,
+        "basisOfRecord": "HUMAN_OBSERVATION",
+        "datasetName": "https://doi.org/10.15468/sbszsz",
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 9.15376,
+        "decimalLatitude": 46.15095
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.15376,
+          46.15095
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/865749334",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 865749334,
+        "eventDate": null,
+        "year": null,
+        "locality": "Aquilano, Monte Turchio",
+        "basisOfRecord": "PRESERVED_SPECIMEN",
+        "datasetName": null,
+        "scientificName": "Ursus arctos Linnaeus, 1758",
+        "decimalLongitude": 13.6167,
+        "decimalLatitude": 42.55
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6167,
+          42.55
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249806702",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249806702,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249806795",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249806795,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249806843",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249806843,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807168",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807168,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807267",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807267,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807291",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807291,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807300",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807300,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807309",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807309,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807434",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807434,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807560",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807560,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249807661",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249807661,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249808258",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249808258,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    },
+    {
+      "source_id": "C001",
+      "source_name": "GBIF",
+      "source_url": "https://www.gbif.org/occurrence/2249808882",
+      "collected_at": "2026-09-21T11:41:00.229296+00:00",
+      "raw": {
+        "gbifId": 2249808882,
+        "eventDate": null,
+        "year": null,
+        "locality": null,
+        "basisOfRecord": "MATERIAL_SAMPLE",
+        "datasetName": null,
+        "scientificName": "BOLD:AAC3976",
+        "decimalLongitude": 12.763658,
+        "decimalLatitude": 42.98201
+      },
+      "license": "CC_BY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763658,
+          42.98201
+        ]
+      }
+    }
+  ],
+  "protected_areas": [
+    {
+      "source_id": "S001",
+      "source_name": "Protected area fixtures (Natura 2000 stand-in)",
+      "source_url": "https://www.eea.europa.eu/en/datahub/datahubitem-view/6fc8ad2d-195d-40f4-bdec-576e7d1268e4",
+      "collected_at": "2026-09-21T11:41:02.475968+00:00",
+      "raw": {
+        "id": "PNALM",
+        "name": "Parco Nazionale d'Abruzzo, Lazio e Molise",
+        "kind": "national_park",
+        "bbox": [
+          13.55,
+          41.68,
+          14.05,
+          41.95
+        ]
+      },
+      "license": "fixture",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.55,
+              41.68
+            ],
+            [
+              14.05,
+              41.68
+            ],
+            [
+              14.05,
+              41.95
+            ],
+            [
+              13.55,
+              41.95
+            ],
+            [
+              13.55,
+              41.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "S001",
+      "source_name": "Protected area fixtures (Natura 2000 stand-in)",
+      "source_url": "https://www.eea.europa.eu/en/datahub/datahubitem-view/6fc8ad2d-195d-40f4-bdec-576e7d1268e4",
+      "collected_at": "2026-09-21T11:41:02.475968+00:00",
+      "raw": {
+        "id": "MAIELLA",
+        "name": "Parco Nazionale della Maiella",
+        "kind": "national_park",
+        "bbox": [
+          13.9,
+          41.95,
+          14.35,
+          42.25
+        ]
+      },
+      "license": "fixture",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.9,
+              41.95
+            ],
+            [
+              14.35,
+              41.95
+            ],
+            [
+              14.35,
+              42.25
+            ],
+            [
+              13.9,
+              42.25
+            ],
+            [
+              13.9,
+              41.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "S001",
+      "source_name": "Protected area fixtures (Natura 2000 stand-in)",
+      "source_url": "https://www.eea.europa.eu/en/datahub/datahubitem-view/6fc8ad2d-195d-40f4-bdec-576e7d1268e4",
+      "collected_at": "2026-09-21T11:41:02.475968+00:00",
+      "raw": {
+        "id": "SIRENTE",
+        "name": "Parco Naturale Regionale Sirente-Velino",
+        "kind": "regional_park",
+        "bbox": [
+          13.35,
+          42.05,
+          13.8,
+          42.3
+        ]
+      },
+      "license": "fixture",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              13.35,
+              42.05
+            ],
+            [
+              13.8,
+              42.05
+            ],
+            [
+              13.8,
+              42.3
+            ],
+            [
+              13.35,
+              42.3
+            ],
+            [
+              13.35,
+              42.05
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "roads": [
+    {
+      "source_id": "S005",
+      "source_name": "OSM roads (Overpass)",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "collected_at": "2026-09-21T11:41:03.015207+00:00",
+      "raw": {
+        "osm_id": 1,
+        "tags": {
+          "name": "A25",
+          "highway": "motorway"
+        }
+      },
+      "license": "ODbL",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.6,
+            42.05
+          ],
+          [
+            13.9,
+            42.1
+          ],
+          [
+            14.2,
+            42.16
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "S005",
+      "source_name": "OSM roads (Overpass)",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "collected_at": "2026-09-21T11:41:03.015207+00:00",
+      "raw": {
+        "osm_id": 2,
+        "tags": {
+          "name": "SS83",
+          "highway": "primary"
+        }
+      },
+      "license": "ODbL",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.7,
+            41.78
+          ],
+          [
+            13.83,
+            41.83
+          ]
+        ]
+      }
+    }
+  ],
+  "weather": [
+    {
+      "source_id": "S004",
+      "source_name": "Open-Meteo",
+      "source_url": "https://open-meteo.com/",
+      "collected_at": "2026-09-21T11:41:02.399227+00:00",
+      "raw": {
+        "site": {
+          "id": "abruzzo_np",
+          "lat": 41.81,
+          "lon": 13.78,
+          "name": "Parco Nazionale d'Abruzzo"
+        },
+        "daily": {
+          "time": [
+            "2026-09-21",
+            "2026-09-22",
+            "2026-09-23",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27"
+          ],
+          "temperature_2m_max": [
+            21.4,
+            18.1,
+            17.4,
+            18.4,
+            14.4,
+            20.4,
+            21.7
+          ],
+          "temperature_2m_min": [
+            13.1,
+            9.4,
+            7.4,
+            9.2,
+            9.5,
+            10.0,
+            10.8
+          ],
+          "precipitation_sum": [
+            0.0,
+            0.0,
+            0.0,
+            2.1,
+            0.6,
+            0.0,
+            0.0
+          ],
+          "snowfall_sum": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "wind_speed_10m_max": [
+            7.9,
+            14.3,
+            12.7,
+            11.6,
+            24.5,
+            14.0,
+            9.2
+          ]
+        }
+      },
+      "license": "CC BY 4.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.78,
+          41.81
+        ]
+      }
+    },
+    {
+      "source_id": "S004",
+      "source_name": "Open-Meteo",
+      "source_url": "https://open-meteo.com/",
+      "collected_at": "2026-09-21T11:41:02.433436+00:00",
+      "raw": {
+        "site": {
+          "id": "maiella",
+          "lat": 42.09,
+          "lon": 14.11,
+          "name": "Maiella"
+        },
+        "daily": {
+          "time": [
+            "2026-09-21",
+            "2026-09-22",
+            "2026-09-23",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27"
+          ],
+          "temperature_2m_max": [
+            11.2,
+            7.1,
+            6.9,
+            10.9,
+            4.5,
+            9.3,
+            12.6
+          ],
+          "temperature_2m_min": [
+            7.2,
+            0.9,
+            -0.7,
+            4.1,
+            1.1,
+            2.1,
+            4.3
+          ],
+          "precipitation_sum": [
+            0.0,
+            0.7,
+            0.0,
+            3.0,
+            1.5,
+            0.0,
+            0.0
+          ],
+          "snowfall_sum": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "wind_speed_10m_max": [
+            8.9,
+            16.3,
+            16.3,
+            12.1,
+            18.1,
+            15.9,
+            8.5
+          ]
+        }
+      },
+      "license": "CC BY 4.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.11,
+          42.09
+        ]
+      }
+    },
+    {
+      "source_id": "S004",
+      "source_name": "Open-Meteo",
+      "source_url": "https://open-meteo.com/",
+      "collected_at": "2026-09-21T11:41:02.470972+00:00",
+      "raw": {
+        "site": {
+          "id": "sirente",
+          "lat": 42.16,
+          "lon": 13.58,
+          "name": "Sirente-Velino"
+        },
+        "daily": {
+          "time": [
+            "2026-09-21",
+            "2026-09-22",
+            "2026-09-23",
+            "2026-09-24",
+            "2026-09-25",
+            "2026-09-26",
+            "2026-09-27"
+          ],
+          "temperature_2m_max": [
+            17.4,
+            12.7,
+            12.6,
+            15.4,
+            9.8,
+            15.6,
+            18.4
+          ],
+          "temperature_2m_min": [
+            9.7,
+            6.1,
+            4.1,
+            6.1,
+            5.7,
+            6.5,
+            7.1
+          ],
+          "precipitation_sum": [
+            0.0,
+            0.0,
+            0.0,
+            0.3,
+            0.6,
+            0.0,
+            0.0
+          ],
+          "snowfall_sum": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "wind_speed_10m_max": [
+            8.5,
+            13.6,
+            13.6,
+            18.4,
+            22.9,
+            14.4,
+            8.7
+          ]
+        }
+      },
+      "license": "CC BY 4.0",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.58,
+          42.16
+        ]
+      }
+    }
+  ],
+  "news": [
+    {
+      "source_id": "C005",
+      "source_name": "News fixtures (GDELT/RSS stand-in)",
+      "source_url": "https://example.local/fixture/pescasseroli-sighting",
+      "collected_at": "2026-09-21T11:41:03.018213+00:00",
+      "raw": {
+        "title": "Orso marsicano avvistato nei pressi di Pescasseroli",
+        "url": "https://example.local/fixture/pescasseroli-sighting",
+        "summary": "Avvistamento confermato di Ursus arctos marsicanus vicino all'abitato.",
+        "lat": 41.81,
+        "lon": 13.79
+      },
+      "license": "fixture",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.79,
+          41.81
+        ]
+      }
+    },
+    {
+      "source_id": "C005",
+      "source_name": "News fixtures (GDELT/RSS stand-in)",
+      "source_url": "https://example.local/fixture/ss83-collision",
+      "collected_at": "2026-09-21T11:41:03.018213+00:00",
+      "raw": {
+        "title": "Incidente stradale con fauna selvatica sulla SS83",
+        "url": "https://example.local/fixture/ss83-collision",
+        "summary": "Veicolo coinvolto in collisione notturna; specie da verificare.",
+        "lat": 41.84,
+        "lon": 13.82
+      },
+      "license": "fixture",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.82,
+          41.84
+        ]
+      }
+    }
+  ]
+}
