@@ -1,0 +1,5938 @@
+[
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/6400131582",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes crucigera (Bechstein, 1789)",
+      "species": "Vulpes vulpes crucigera (Bechstein, 1789)",
+      "taxonKey": 5219243,
+      "gbifId": 6400131582,
+      "lng": 3.812722,
+      "lat": 51.145245,
+      "year": 2024,
+      "license": "CC_BY",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC_BY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.812722,
+        51.145245
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/5104658014",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 5104658014,
+      "lng": 5.637,
+      "lat": 50.3054,
+      "year": 2025,
+      "license": "CC_BY",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC_BY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.637,
+        50.3054
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/5069983587",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 5069983587,
+      "lng": 4.404038,
+      "lat": 50.846548,
+      "year": 2025,
+      "license": "CC_BY",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC_BY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.404038,
+        50.846548
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/5206235476",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 5206235476,
+      "lng": 4.796603,
+      "lat": 50.970383,
+      "year": 2025,
+      "license": "CC_BY",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC_BY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.796603,
+        50.970383
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/5237795286",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 5237795286,
+      "lng": 3.635444,
+      "lat": 51.020419,
+      "year": 2025,
+      "license": "CC_BY",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC_BY",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.635444,
+        51.020419
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3355207081",
+    "collected_at": "2026-09-21T12:22:42.250790+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3355207081,
+      "lng": 5.351897,
+      "lat": 50.157958,
+      "year": 2021,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "iNaturalist research-grade observations",
+      "datasetKey": "50c9509d-22c7-4a22-a47d-8c48425ef4a7"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.351897,
+        50.157958
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898080",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898080,
+      "lng": 6.34878,
+      "lat": 49.4677,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.34878,
+        49.4677
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896963",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896963,
+      "lng": 6.45661,
+      "lat": 49.7535,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.45661,
+        49.7535
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897812",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897812,
+      "lng": 6.41233,
+      "lat": 49.6733,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.41233,
+        49.6733
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897498",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897498,
+      "lng": 6.31183,
+      "lat": 49.6788,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.31183,
+        49.6788
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896911",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896911,
+      "lng": 5.99735,
+      "lat": 49.8337,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.99735,
+        49.8337
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897164",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897164,
+      "lng": 5.99006,
+      "lat": 49.5974,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.99006,
+        49.5974
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896912",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896912,
+      "lng": 6.43668,
+      "lat": 49.7545,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.43668,
+        49.7545
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898099",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898099,
+      "lng": 5.90105,
+      "lat": 49.8395,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.90105,
+        49.8395
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898146",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898146,
+      "lng": 6.19394,
+      "lat": 49.6278,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.19394,
+        49.6278
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897702",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897702,
+      "lng": 6.01386,
+      "lat": 49.7774,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.01386,
+        49.7774
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898249",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898249,
+      "lng": 6.03167,
+      "lat": 49.5716,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.03167,
+        49.5716
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897815",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897815,
+      "lng": 6.16533,
+      "lat": 49.6452,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16533,
+        49.6452
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897856",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897856,
+      "lng": 6.17423,
+      "lat": 49.648,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17423,
+        49.648
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898065",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898065,
+      "lng": 6.34337,
+      "lat": 49.8001,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.34337,
+        49.8001
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896943",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896943,
+      "lng": 6.50379,
+      "lat": 49.7554,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.50379,
+        49.7554
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897000",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897000,
+      "lng": 6.39692,
+      "lat": 49.8198,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.39692,
+        49.8198
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897309",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897309,
+      "lng": 6.21195,
+      "lat": 49.7232,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21195,
+        49.7232
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897528",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897528,
+      "lng": 5.97872,
+      "lat": 49.7435,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97872,
+        49.7435
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896827",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896827,
+      "lng": 6.02033,
+      "lat": 49.5634,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.02033,
+        49.5634
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896916",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896916,
+      "lng": 6.18059,
+      "lat": 49.7806,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18059,
+        49.7806
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897030",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897030,
+      "lng": 5.97421,
+      "lat": 49.5884,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97421,
+        49.5884
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897291",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897291,
+      "lng": 5.89732,
+      "lat": 49.5774,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89732,
+        49.5774
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896521",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896521,
+      "lng": 6.47245,
+      "lat": 49.7785,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.47245,
+        49.7785
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897418",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897418,
+      "lng": 5.9779,
+      "lat": 49.7763,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9779,
+        49.7763
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897616",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897616,
+      "lng": 6.03598,
+      "lat": 49.7417,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.03598,
+        49.7417
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896645",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896645,
+      "lng": 6.22993,
+      "lat": 49.6232,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.22993,
+        49.6232
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897406",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897406,
+      "lng": 5.98974,
+      "lat": 49.6116,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98974,
+        49.6116
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897820",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897820,
+      "lng": 5.97734,
+      "lat": 49.5836,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97734,
+        49.5836
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897843",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897843,
+      "lng": 6.17102,
+      "lat": 49.6468,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17102,
+        49.6468
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897989",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897989,
+      "lng": 6.173,
+      "lat": 49.6475,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.173,
+        49.6475
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897256",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897256,
+      "lng": 5.88957,
+      "lat": 49.566,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88957,
+        49.566
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897381",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897381,
+      "lng": 5.88024,
+      "lat": 50.0079,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88024,
+        50.0079
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896568",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896568,
+      "lng": 6.07605,
+      "lat": 50.146,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.07605,
+        50.146
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898238",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898238,
+      "lng": 6.19296,
+      "lat": 49.6583,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.19296,
+        49.6583
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896534",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896534,
+      "lng": 5.85851,
+      "lat": 49.7923,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.85851,
+        49.7923
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897906",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897906,
+      "lng": 6.18071,
+      "lat": 49.6804,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18071,
+        49.6804
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897985",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897985,
+      "lng": 5.98151,
+      "lat": 49.8301,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98151,
+        49.8301
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898209",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898209,
+      "lng": 6.22679,
+      "lat": 49.6589,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.22679,
+        49.6589
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896344",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896344,
+      "lng": 5.89108,
+      "lat": 49.6002,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89108,
+        49.6002
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896559",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896559,
+      "lng": 6.37977,
+      "lat": 49.698,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.37977,
+        49.698
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896710",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896710,
+      "lng": 5.88316,
+      "lat": 50.0637,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88316,
+        50.0637
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898176",
+    "collected_at": "2026-09-21T12:22:42.588598+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898176,
+      "lng": 6.21684,
+      "lat": 49.676,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21684,
+        49.676
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896888",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896888,
+      "lng": 6.34878,
+      "lat": 49.4677,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.34878,
+        49.4677
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897007",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897007,
+      "lng": 6.02981,
+      "lat": 49.569,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.02981,
+        49.569
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897867",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897867,
+      "lng": 6.18124,
+      "lat": 49.6659,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18124,
+        49.6659
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897994",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897994,
+      "lng": 6.22756,
+      "lat": 49.7653,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.22756,
+        49.7653
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897346",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897346,
+      "lng": 5.92463,
+      "lat": 49.7004,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.92463,
+        49.7004
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897393",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897393,
+      "lng": 6.30583,
+      "lat": 49.7566,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.30583,
+        49.7566
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896605",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896605,
+      "lng": 6.17172,
+      "lat": 49.6547,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17172,
+        49.6547
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896666",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896666,
+      "lng": 6.35684,
+      "lat": 49.5749,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.35684,
+        49.5749
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897390",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897390,
+      "lng": 5.94155,
+      "lat": 49.669,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94155,
+        49.669
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898134",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898134,
+      "lng": 6.20946,
+      "lat": 49.7367,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.20946,
+        49.7367
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897235",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897235,
+      "lng": 5.88487,
+      "lat": 49.5619,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88487,
+        49.5619
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896654",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896654,
+      "lng": 5.92688,
+      "lat": 49.5134,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.92688,
+        49.5134
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897804",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897804,
+      "lng": 5.83942,
+      "lat": 49.7969,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.83942,
+        49.7969
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897312",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897312,
+      "lng": 6.19345,
+      "lat": 49.7491,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.19345,
+        49.7491
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897810",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897810,
+      "lng": 6.16695,
+      "lat": 49.6461,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16695,
+        49.6461
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897858",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897858,
+      "lng": 6.1745,
+      "lat": 49.6618,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.1745,
+        49.6618
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897873",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897873,
+      "lng": 6.18583,
+      "lat": 49.7412,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18583,
+        49.7412
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896455",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896455,
+      "lng": 5.88768,
+      "lat": 49.854,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88768,
+        49.854
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896470",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896470,
+      "lng": 6.49982,
+      "lat": 49.7462,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.49982,
+        49.7462
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897997",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897997,
+      "lng": 5.97968,
+      "lat": 49.5516,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97968,
+        49.5516
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896683",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896683,
+      "lng": 5.98757,
+      "lat": 49.8295,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98757,
+        49.8295
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897469",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897469,
+      "lng": 6.41472,
+      "lat": 49.7427,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.41472,
+        49.7427
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897644",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897644,
+      "lng": 6.05508,
+      "lat": 49.7484,
+      "year": 2012,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.05508,
+        49.7484
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897723",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897723,
+      "lng": 6.01776,
+      "lat": 49.7353,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.01776,
+        49.7353
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897823",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897823,
+      "lng": 6.16775,
+      "lat": 49.6461,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16775,
+        49.6461
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896872",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896872,
+      "lng": 5.94129,
+      "lat": 49.5991,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94129,
+        49.5991
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897973",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897973,
+      "lng": 6.11349,
+      "lat": 49.5299,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.11349,
+        49.5299
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898029",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898029,
+      "lng": 6.27588,
+      "lat": 49.8359,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.27588,
+        49.8359
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897173",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897173,
+      "lng": 5.98772,
+      "lat": 49.8374,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98772,
+        49.8374
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896444",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896444,
+      "lng": 6.05806,
+      "lat": 49.5595,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.05806,
+        49.5595
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896517",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896517,
+      "lng": 5.98099,
+      "lat": 49.5375,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98099,
+        49.5375
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896691",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896691,
+      "lng": 6.5105,
+      "lat": 49.7717,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.5105,
+        49.7717
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898218",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898218,
+      "lng": 6.21818,
+      "lat": 49.6776,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21818,
+        49.6776
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896342",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896342,
+      "lng": 5.92655,
+      "lat": 49.529,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.92655,
+        49.529
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896493",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896493,
+      "lng": 6.43166,
+      "lat": 49.7348,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.43166,
+        49.7348
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896679",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896679,
+      "lng": 5.95089,
+      "lat": 49.5895,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95089,
+        49.5895
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897218",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897218,
+      "lng": 6.50678,
+      "lat": 49.8013,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.50678,
+        49.8013
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897510",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897510,
+      "lng": 6.30521,
+      "lat": 49.8293,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.30521,
+        49.8293
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897552",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897552,
+      "lng": 6.16661,
+      "lat": 49.6453,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16661,
+        49.6453
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897582",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897582,
+      "lng": 6.31139,
+      "lat": 49.8275,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.31139,
+        49.8275
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897333",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897333,
+      "lng": 5.94857,
+      "lat": 49.5794,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94857,
+        49.5794
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896695",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896695,
+      "lng": 5.9138,
+      "lat": 49.8525,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9138,
+        49.8525
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896825",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896825,
+      "lng": 5.98979,
+      "lat": 49.5779,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98979,
+        49.5779
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896844",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896844,
+      "lng": 5.9234,
+      "lat": 49.5354,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9234,
+        49.5354
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897231",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897231,
+      "lng": 5.88436,
+      "lat": 49.5827,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88436,
+        49.5827
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896956",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896956,
+      "lng": 6.499,
+      "lat": 49.8014,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.499,
+        49.8014
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896438",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896438,
+      "lng": 5.90925,
+      "lat": 49.581,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.90925,
+        49.581
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896509",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896509,
+      "lng": 5.98519,
+      "lat": 50.1155,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98519,
+        50.1155
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896649",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896649,
+      "lng": 5.98016,
+      "lat": 49.5985,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98016,
+        49.5985
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897571",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897571,
+      "lng": 6.17261,
+      "lat": 49.7639,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17261,
+        49.7639
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897750",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897750,
+      "lng": 6.15767,
+      "lat": 49.7601,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.15767,
+        49.7601
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897822",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897822,
+      "lng": 5.89605,
+      "lat": 49.7566,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89605,
+        49.7566
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898053",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898053,
+      "lng": 6.35483,
+      "lat": 49.469,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.35483,
+        49.469
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898168",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898168,
+      "lng": 6.20525,
+      "lat": 49.6512,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.20525,
+        49.6512
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898204",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898204,
+      "lng": 6.22624,
+      "lat": 49.6845,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.22624,
+        49.6845
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896364",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896364,
+      "lng": 6.39702,
+      "lat": 49.7486,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.39702,
+        49.7486
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897145",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897145,
+      "lng": 5.95058,
+      "lat": 49.5898,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95058,
+        49.5898
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896809",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896809,
+      "lng": 5.97731,
+      "lat": 49.8299,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97731,
+        49.8299
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896891",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896891,
+      "lng": 5.93639,
+      "lat": 49.574,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.93639,
+        49.574
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896897",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896897,
+      "lng": 6.0678,
+      "lat": 49.9086,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.0678,
+        49.9086
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897459",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897459,
+      "lng": 6.43587,
+      "lat": 49.7541,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.43587,
+        49.7541
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898062",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898062,
+      "lng": 6.35617,
+      "lat": 49.6792,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.35617,
+        49.6792
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896841",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896841,
+      "lng": 5.95058,
+      "lat": 49.5898,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95058,
+        49.5898
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897009",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897009,
+      "lng": 5.88676,
+      "lat": 49.5945,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88676,
+        49.5945
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898010",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898010,
+      "lng": 6.29105,
+      "lat": 49.6171,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.29105,
+        49.6171
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896766",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896766,
+      "lng": 6.16164,
+      "lat": 49.6422,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16164,
+        49.6422
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898159",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898159,
+      "lng": 5.95308,
+      "lat": 49.8317,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95308,
+        49.8317
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897121",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897121,
+      "lng": 5.91403,
+      "lat": 49.7307,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.91403,
+        49.7307
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897241",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897241,
+      "lng": 5.88654,
+      "lat": 49.6159,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88654,
+        49.6159
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897389",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897389,
+      "lng": 6.26129,
+      "lat": 49.5123,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.26129,
+        49.5123
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897417",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897417,
+      "lng": 6.22848,
+      "lat": 49.7821,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.22848,
+        49.7821
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897705",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897705,
+      "lng": 6.01019,
+      "lat": 49.716,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.01019,
+        49.716
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896673",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896673,
+      "lng": 5.9778,
+      "lat": 49.5767,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9778,
+        49.5767
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897327",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897327,
+      "lng": 6.20065,
+      "lat": 49.7502,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.20065,
+        49.7502
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896929",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896929,
+      "lng": 6.45737,
+      "lat": 49.7602,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.45737,
+        49.7602
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897859",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897859,
+      "lng": 6.18097,
+      "lat": 49.6839,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18097,
+        49.6839
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898222",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898222,
+      "lng": 6.21953,
+      "lat": 49.6788,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21953,
+        49.6788
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898244",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898244,
+      "lng": 6.18061,
+      "lat": 49.6809,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18061,
+        49.6809
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897496",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897496,
+      "lng": 5.91279,
+      "lat": 49.5734,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.91279,
+        49.5734
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897363",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897363,
+      "lng": 6.19525,
+      "lat": 49.7492,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.19525,
+        49.7492
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897371",
+    "collected_at": "2026-09-21T12:22:42.589600+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897371,
+      "lng": 5.97383,
+      "lat": 49.588,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97383,
+        49.588
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897255",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897255,
+      "lng": 5.8887,
+      "lat": 49.5665,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.8887,
+        49.5665
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896603",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896603,
+      "lng": 6.00713,
+      "lat": 49.836,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.00713,
+        49.836
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897760",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897760,
+      "lng": 6.49678,
+      "lat": 49.8116,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.49678,
+        49.8116
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897874",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897874,
+      "lng": 6.18851,
+      "lat": 49.6603,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18851,
+        49.6603
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897882",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897882,
+      "lng": 6.18905,
+      "lat": 49.6589,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18905,
+        49.6589
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897887",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897887,
+      "lng": 6.18097,
+      "lat": 49.6844,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18097,
+        49.6844
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896549",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896549,
+      "lng": 5.91763,
+      "lat": 49.6035,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.91763,
+        49.6035
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896682",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896682,
+      "lng": 5.89084,
+      "lat": 49.5665,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89084,
+        49.5665
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896965",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896965,
+      "lng": 6.35142,
+      "lat": 49.6791,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.35142,
+        49.6791
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897263",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897263,
+      "lng": 5.93311,
+      "lat": 49.574,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.93311,
+        49.574
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897529",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897529,
+      "lng": 5.94127,
+      "lat": 49.5991,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94127,
+        49.5991
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897676",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897676,
+      "lng": 6.00327,
+      "lat": 49.7729,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.00327,
+        49.7729
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896394",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896394,
+      "lng": 6.09786,
+      "lat": 49.6617,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.09786,
+        49.6617
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896902",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896902,
+      "lng": 6.17517,
+      "lat": 49.7501,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17517,
+        49.7501
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896952",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896952,
+      "lng": 6.16731,
+      "lat": 49.646,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16731,
+        49.646
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897219",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897219,
+      "lng": 6.47996,
+      "lat": 49.8177,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.47996,
+        49.8177
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897246",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897246,
+      "lng": 6.49708,
+      "lat": 49.7744,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.49708,
+        49.7744
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896367",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896367,
+      "lng": 6.28369,
+      "lat": 49.8331,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.28369,
+        49.8331
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896592",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896592,
+      "lng": 6.04079,
+      "lat": 49.6109,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.04079,
+        49.6109
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896656",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896656,
+      "lng": 6.07326,
+      "lat": 49.5597,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.07326,
+        49.5597
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896662",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896662,
+      "lng": 6.08923,
+      "lat": 49.9006,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.08923,
+        49.9006
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896711",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896711,
+      "lng": 6.50122,
+      "lat": 49.7366,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.50122,
+        49.7366
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897476",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897476,
+      "lng": 5.89206,
+      "lat": 49.6003,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89206,
+        49.6003
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897840",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897840,
+      "lng": 6.17287,
+      "lat": 49.7763,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.17287,
+        49.7763
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898123",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898123,
+      "lng": 5.92558,
+      "lat": 49.5778,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.92558,
+        49.5778
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898018",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898018,
+      "lng": 5.96604,
+      "lat": 49.5718,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.96604,
+        49.5718
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897066",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897066,
+      "lng": 5.88283,
+      "lat": 49.5641,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.88283,
+        49.5641
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897474",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897474,
+      "lng": 5.90905,
+      "lat": 49.5823,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.90905,
+        49.5823
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896324",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896324,
+      "lng": 6.0564,
+      "lat": 49.9079,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.0564,
+        49.9079
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896393",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896393,
+      "lng": 6.23132,
+      "lat": 49.7822,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.23132,
+        49.7822
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896511",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896511,
+      "lng": 6.51113,
+      "lat": 49.7781,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.51113,
+        49.7781
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896564",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896564,
+      "lng": 6.09292,
+      "lat": 49.6201,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.09292,
+        49.6201
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896849",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896849,
+      "lng": 6.00924,
+      "lat": 49.5924,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.00924,
+        49.5924
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896934",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896934,
+      "lng": 6.13554,
+      "lat": 49.8659,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.13554,
+        49.8659
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897213",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897213,
+      "lng": 5.85096,
+      "lat": 50.0101,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.85096,
+        50.0101
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896779",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896779,
+      "lng": 6.18342,
+      "lat": 49.7751,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.18342,
+        49.7751
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897157",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897157,
+      "lng": 5.98979,
+      "lat": 49.5779,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.98979,
+        49.5779
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896477",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896477,
+      "lng": 6.1689,
+      "lat": 49.7017,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.1689,
+        49.7017
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897403",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897403,
+      "lng": 5.9041,
+      "lat": 49.6871,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9041,
+        49.6871
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897758",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897758,
+      "lng": 6.14502,
+      "lat": 49.6347,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.14502,
+        49.6347
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897762",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897762,
+      "lng": 6.08989,
+      "lat": 49.8562,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.08989,
+        49.8562
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897855",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897855,
+      "lng": 6.16973,
+      "lat": 49.6468,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16973,
+        49.6468
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898091",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898091,
+      "lng": 5.86715,
+      "lat": 49.7667,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.86715,
+        49.7667
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897292",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897292,
+      "lng": 5.90432,
+      "lat": 49.5764,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.90432,
+        49.5764
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896839",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896839,
+      "lng": 5.92919,
+      "lat": 49.5215,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.92919,
+        49.5215
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897060",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897060,
+      "lng": 6.16316,
+      "lat": 49.6843,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.16316,
+        49.6843
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896580",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896580,
+      "lng": 5.96097,
+      "lat": 49.5449,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.96097,
+        49.5449
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897660",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897660,
+      "lng": 6.07314,
+      "lat": 49.7501,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.07314,
+        49.7501
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898199",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898199,
+      "lng": 6.24139,
+      "lat": 49.6332,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.24139,
+        49.6332
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897008",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897008,
+      "lng": 5.94226,
+      "lat": 49.7458,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94226,
+        49.7458
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897020",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897020,
+      "lng": 6.32556,
+      "lat": 49.8184,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.32556,
+        49.8184
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897495",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897495,
+      "lng": 6.3294,
+      "lat": 49.8306,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.3294,
+        49.8306
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897563",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897563,
+      "lng": 6.21839,
+      "lat": 49.8091,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21839,
+        49.8091
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897768",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897768,
+      "lng": 5.97574,
+      "lat": 49.5618,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.97574,
+        49.5618
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898170",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898170,
+      "lng": 6.30461,
+      "lat": 49.8296,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.30461,
+        49.8296
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897071",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897071,
+      "lng": 6.03906,
+      "lat": 49.7158,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.03906,
+        49.7158
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897161",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897161,
+      "lng": 5.99848,
+      "lat": 49.7522,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.99848,
+        49.7522
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897513",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897513,
+      "lng": 6.05129,
+      "lat": 49.7482,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.05129,
+        49.7482
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897559",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897559,
+      "lng": 6.37225,
+      "lat": 49.8421,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.37225,
+        49.8421
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896553",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896553,
+      "lng": 5.95293,
+      "lat": 50.0879,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95293,
+        50.0879
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897981",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897981,
+      "lng": 6.25069,
+      "lat": 49.7842,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.25069,
+        49.7842
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896440",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896440,
+      "lng": 6.39911,
+      "lat": 49.6028,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.39911,
+        49.6028
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896993",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896993,
+      "lng": 5.9125,
+      "lat": 49.7391,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.9125,
+        49.7391
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897021",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897021,
+      "lng": 5.87285,
+      "lat": 50.062,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.87285,
+        50.062
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695898231",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695898231,
+      "lng": 6.44407,
+      "lat": 49.7857,
+      "year": 2015,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.44407,
+        49.7857
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897761",
+    "collected_at": "2026-09-21T12:22:42.590604+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897761,
+      "lng": 5.94896,
+      "lat": 49.9986,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.94896,
+        49.9986
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896855",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896855,
+      "lng": 6.06259,
+      "lat": 49.7174,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.06259,
+        49.7174
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896472",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896472,
+      "lng": 5.95129,
+      "lat": 49.5895,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.95129,
+        49.5895
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896730",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896730,
+      "lng": 5.89002,
+      "lat": 49.5662,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.89002,
+        49.5662
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896740",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896740,
+      "lng": 6.49945,
+      "lat": 49.7476,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.49945,
+        49.7476
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897486",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897486,
+      "lng": 6.20572,
+      "lat": 49.6703,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.20572,
+        49.6703
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897507",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897507,
+      "lng": 5.91447,
+      "lat": 49.6357,
+      "year": 2016,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.91447,
+        49.6357
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897523",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897523,
+      "lng": 5.87783,
+      "lat": 49.74,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.87783,
+        49.74
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896857",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896857,
+      "lng": 5.99471,
+      "lat": 49.5716,
+      "year": 2017,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.99471,
+        49.5716
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695897064",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695897064,
+      "lng": 6.21706,
+      "lat": 49.6608,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.21706,
+        49.6608
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896503",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896503,
+      "lng": 6.45127,
+      "lat": 49.772,
+      "year": 2018,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.45127,
+        49.772
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/3695896681",
+    "collected_at": "2026-09-21T12:22:42.591597+00:00",
+    "raw": {
+      "species_slug": "meles_meles",
+      "scientificName": "Vulpes vulpes (Linnaeus, 1758)",
+      "species": "Vulpes vulpes (Linnaeus, 1758)",
+      "taxonKey": 5219243,
+      "gbifId": 3695896681,
+      "lng": 6.02514,
+      "lat": 49.7677,
+      "year": 2019,
+      "license": "CC0",
+      "country": "LU",
+      "datasetName": "Roadkill data - MNHNL Data Portal",
+      "datasetKey": "32651421-c517-48a3-a80c-cb2d866ea1f6"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        6.02514,
+        49.7677
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/2013095501",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 2013095501,
+      "lng": 4.94202,
+      "lat": 51.24325,
+      "year": 2005,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.94202,
+        51.24325
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/2013095499",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 2013095499,
+      "lng": 5.22313,
+      "lat": 51.0457,
+      "year": 2005,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.22313,
+        51.0457
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/4501675307",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 4501675307,
+      "lng": 3.22715,
+      "lat": 51.33887,
+      "year": 2022,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.22715,
+        51.33887
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/2013095492",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 2013095492,
+      "lng": 5.68327,
+      "lat": 51.04185,
+      "year": 2016,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        5.68327,
+        51.04185
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/4501675304",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 4501675304,
+      "lng": 3.03888,
+      "lat": 51.05904,
+      "year": 2021,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        3.03888,
+        51.05904
+      ]
+    }
+  },
+  {
+    "source_id": "C006",
+    "source_name": "GBIF Global Roadkill Data (Grilo 2025)",
+    "source_url": "https://www.gbif.org/occurrence/2013095500",
+    "collected_at": "2026-09-21T12:22:44.050311+00:00",
+    "raw": {
+      "species_slug": "capreolus_capreolus",
+      "scientificName": "Muntiacus reevesi (Ogilby, 1839)",
+      "species": "Muntiacus reevesi (Ogilby, 1839)",
+      "taxonKey": 2440946,
+      "gbifId": 2013095500,
+      "lng": 4.78568,
+      "lat": 50.99503,
+      "year": 2004,
+      "license": "CC0",
+      "country": "BE",
+      "datasetName": "Invasive species - Chinese muntjac (Muntiacus reevesi) in Flanders, Belgium",
+      "datasetKey": "3c7768dd-8101-4318-8de3-f848878eeea0"
+    },
+    "license": "CC0",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        4.78568,
+        50.99503
+      ]
+    }
+  }
+]

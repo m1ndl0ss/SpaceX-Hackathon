@@ -1,4 +1,4 @@
-"""Cached Italian bear-incident headlines for the text demo. Not a live GDELT pull."""
+"""Leftover Italy briefing fixtures. Not in COLLECTORS — news is not training labels."""
 from collectors.base import CollectedRecord, now_iso
 
 SOURCE_ID = 'C005'
