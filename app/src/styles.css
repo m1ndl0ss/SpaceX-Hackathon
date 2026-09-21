@@ -497,6 +497,7 @@ body {
   align-items: center;
   gap: 10px;
   padding-left: 3px;
+  justify-self: start;
 }
 
 #last-mile .lm-brand-symbol {
@@ -559,6 +560,7 @@ body {
   background: var(--lm-panel2);
   border: 1px solid var(--lm-line);
   border-radius: 6px;
+  justify-self: center;
 }
 
 #last-mile .lm-screen-switch button {
@@ -586,6 +588,28 @@ body {
   align-items: center;
   justify-content: flex-end;
   gap: 12px;
+  grid-column: 3;
+  justify-self: end;
+}
+
+#last-mile .lm-topbar-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#last-mile .lm-workspace:has(#lm-people:not([hidden])) .lm-topbar-end {
+  display: contents;
+}
+
+#last-mile .lm-workspace:has(#lm-people:not([hidden])) .lm-topbar-meta {
+  grid-column: 2;
+  justify-self: center;
+}
+
+#last-mile .lm-workspace:has(#lm-people:not([hidden])) #lm-sign-out {
+  grid-column: 3;
+  justify-self: end;
 }
 
 #last-mile .lm-breadcrumb {
@@ -1823,6 +1847,16 @@ body {
     flex-wrap: wrap;
     max-width: 100%;
     gap: 8px;
+  }
+
+  #last-mile .lm-workspace:has(#lm-people:not([hidden])) .lm-topbar-end {
+    display: contents;
+  }
+
+  #last-mile .lm-workspace:has(#lm-people:not([hidden])) .lm-topbar-meta {
+    flex: 1;
+    justify-content: center;
+    min-width: 0;
   }
 
   #last-mile .lm-topbar .lm-tag {
