@@ -1,0 +1,12 @@
+data/cached/**
+data/seed/**
+data/app.db
+ai/collectors/**
+ai/api/**
+ai/scoring/**
+ai/config/**
+ai/narrate/**
+**/.venv/**
+**/.model-venv/**
+app/node_modules/**
+app/dist/**

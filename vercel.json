@@ -1,0 +1,16 @@
+{
+  "installCommand": "npm --prefix app ci",
+  "buildCommand": "npm --prefix app run build",
+  "outputDirectory": "app/dist",
+  "rewrites": [
+    { "source": "/api/impact/infer", "destination": "/api/impact" },
+    { "source": "/api/impact/health", "destination": "/api/impact" }
+  ],
+  "functions": {
+    "api/impact.py": {
+      "maxDuration": 30,
+      "memory": 1024,
+      "includeFiles": "{ai/models/**,data/*_latest.json}"
+    }
+  }
+}
